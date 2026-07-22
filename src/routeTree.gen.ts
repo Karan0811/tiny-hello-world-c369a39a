@@ -9,50 +9,361 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as IndexRouteImport } from './routes/index'
+import { Route as AppRouteImport } from './routes/_app'
+import { Route as AppIndexRouteImport } from './routes/_app.index'
+import { Route as AppSettingsRouteImport } from './routes/_app.settings'
+import { Route as AppRoadmapRouteImport } from './routes/_app.roadmap'
+import { Route as AppResourcesRouteImport } from './routes/_app.resources'
+import { Route as AppProjectsRouteImport } from './routes/_app.projects'
+import { Route as AppProgressRouteImport } from './routes/_app.progress'
+import { Route as AppNotesRouteImport } from './routes/_app.notes'
+import { Route as AppLearningRouteImport } from './routes/_app.learning'
+import { Route as AppInterviewRouteImport } from './routes/_app.interview'
+import { Route as AppLearningIndexRouteImport } from './routes/_app.learning.index'
+import { Route as AppLearningCategoryRouteImport } from './routes/_app.learning.$category'
+import { Route as AppLearningCategoryModuleRouteImport } from './routes/_app.learning.$category.$module'
+import { Route as AppLearningCategoryModuleLessonRouteImport } from './routes/_app.learning.$category.$module.$lesson'
 
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const AppRoute = AppRouteImport.update({
+  id: '/_app',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AppIndexRoute = AppIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppSettingsRoute = AppSettingsRouteImport.update({
+  id: '/settings',
+  path: '/settings',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppRoadmapRoute = AppRoadmapRouteImport.update({
+  id: '/roadmap',
+  path: '/roadmap',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppResourcesRoute = AppResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppProjectsRoute = AppProjectsRouteImport.update({
+  id: '/projects',
+  path: '/projects',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppProgressRoute = AppProgressRouteImport.update({
+  id: '/progress',
+  path: '/progress',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppNotesRoute = AppNotesRouteImport.update({
+  id: '/notes',
+  path: '/notes',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppLearningRoute = AppLearningRouteImport.update({
+  id: '/learning',
+  path: '/learning',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppInterviewRoute = AppInterviewRouteImport.update({
+  id: '/interview',
+  path: '/interview',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppLearningIndexRoute = AppLearningIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AppLearningRoute,
+} as any)
+const AppLearningCategoryRoute = AppLearningCategoryRouteImport.update({
+  id: '/$category',
+  path: '/$category',
+  getParentRoute: () => AppLearningRoute,
+} as any)
+const AppLearningCategoryModuleRoute =
+  AppLearningCategoryModuleRouteImport.update({
+    id: '/$module',
+    path: '/$module',
+    getParentRoute: () => AppLearningCategoryRoute,
+  } as any)
+const AppLearningCategoryModuleLessonRoute =
+  AppLearningCategoryModuleLessonRouteImport.update({
+    id: '/$lesson',
+    path: '/$lesson',
+    getParentRoute: () => AppLearningCategoryModuleRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
-  '/': typeof IndexRoute
+  '/': typeof AppIndexRoute
+  '/interview': typeof AppInterviewRoute
+  '/learning': typeof AppLearningRouteWithChildren
+  '/notes': typeof AppNotesRoute
+  '/progress': typeof AppProgressRoute
+  '/projects': typeof AppProjectsRoute
+  '/resources': typeof AppResourcesRoute
+  '/roadmap': typeof AppRoadmapRoute
+  '/settings': typeof AppSettingsRoute
+  '/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/learning/': typeof AppLearningIndexRoute
+  '/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
 }
 export interface FileRoutesByTo {
-  '/': typeof IndexRoute
+  '/interview': typeof AppInterviewRoute
+  '/notes': typeof AppNotesRoute
+  '/progress': typeof AppProgressRoute
+  '/projects': typeof AppProjectsRoute
+  '/resources': typeof AppResourcesRoute
+  '/roadmap': typeof AppRoadmapRoute
+  '/settings': typeof AppSettingsRoute
+  '/': typeof AppIndexRoute
+  '/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/learning': typeof AppLearningIndexRoute
+  '/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
-  '/': typeof IndexRoute
+  '/_app': typeof AppRouteWithChildren
+  '/_app/interview': typeof AppInterviewRoute
+  '/_app/learning': typeof AppLearningRouteWithChildren
+  '/_app/notes': typeof AppNotesRoute
+  '/_app/progress': typeof AppProgressRoute
+  '/_app/projects': typeof AppProjectsRoute
+  '/_app/resources': typeof AppResourcesRoute
+  '/_app/roadmap': typeof AppRoadmapRoute
+  '/_app/settings': typeof AppSettingsRoute
+  '/_app/': typeof AppIndexRoute
+  '/_app/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/_app/learning/': typeof AppLearningIndexRoute
+  '/_app/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/_app/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/interview'
+    | '/learning'
+    | '/notes'
+    | '/progress'
+    | '/projects'
+    | '/resources'
+    | '/roadmap'
+    | '/settings'
+    | '/learning/$category'
+    | '/learning/'
+    | '/learning/$category/$module'
+    | '/learning/$category/$module/$lesson'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/interview'
+    | '/notes'
+    | '/progress'
+    | '/projects'
+    | '/resources'
+    | '/roadmap'
+    | '/settings'
+    | '/'
+    | '/learning/$category'
+    | '/learning'
+    | '/learning/$category/$module'
+    | '/learning/$category/$module/$lesson'
+  id:
+    | '__root__'
+    | '/_app'
+    | '/_app/interview'
+    | '/_app/learning'
+    | '/_app/notes'
+    | '/_app/progress'
+    | '/_app/projects'
+    | '/_app/resources'
+    | '/_app/roadmap'
+    | '/_app/settings'
+    | '/_app/'
+    | '/_app/learning/$category'
+    | '/_app/learning/'
+    | '/_app/learning/$category/$module'
+    | '/_app/learning/$category/$module/$lesson'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
-  IndexRoute: typeof IndexRoute
+  AppRoute: typeof AppRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/': {
-      id: '/'
+    '/_app': {
+      id: '/_app'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof AppRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_app/': {
+      id: '/_app/'
       path: '/'
       fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
+      preLoaderRoute: typeof AppIndexRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/settings': {
+      id: '/_app/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof AppSettingsRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/roadmap': {
+      id: '/_app/roadmap'
+      path: '/roadmap'
+      fullPath: '/roadmap'
+      preLoaderRoute: typeof AppRoadmapRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/resources': {
+      id: '/_app/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof AppResourcesRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/projects': {
+      id: '/_app/projects'
+      path: '/projects'
+      fullPath: '/projects'
+      preLoaderRoute: typeof AppProjectsRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/progress': {
+      id: '/_app/progress'
+      path: '/progress'
+      fullPath: '/progress'
+      preLoaderRoute: typeof AppProgressRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/notes': {
+      id: '/_app/notes'
+      path: '/notes'
+      fullPath: '/notes'
+      preLoaderRoute: typeof AppNotesRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/learning': {
+      id: '/_app/learning'
+      path: '/learning'
+      fullPath: '/learning'
+      preLoaderRoute: typeof AppLearningRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/interview': {
+      id: '/_app/interview'
+      path: '/interview'
+      fullPath: '/interview'
+      preLoaderRoute: typeof AppInterviewRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/learning/': {
+      id: '/_app/learning/'
+      path: '/'
+      fullPath: '/learning/'
+      preLoaderRoute: typeof AppLearningIndexRouteImport
+      parentRoute: typeof AppLearningRoute
+    }
+    '/_app/learning/$category': {
+      id: '/_app/learning/$category'
+      path: '/$category'
+      fullPath: '/learning/$category'
+      preLoaderRoute: typeof AppLearningCategoryRouteImport
+      parentRoute: typeof AppLearningRoute
+    }
+    '/_app/learning/$category/$module': {
+      id: '/_app/learning/$category/$module'
+      path: '/$module'
+      fullPath: '/learning/$category/$module'
+      preLoaderRoute: typeof AppLearningCategoryModuleRouteImport
+      parentRoute: typeof AppLearningCategoryRoute
+    }
+    '/_app/learning/$category/$module/$lesson': {
+      id: '/_app/learning/$category/$module/$lesson'
+      path: '/$lesson'
+      fullPath: '/learning/$category/$module/$lesson'
+      preLoaderRoute: typeof AppLearningCategoryModuleLessonRouteImport
+      parentRoute: typeof AppLearningCategoryModuleRoute
     }
   }
 }
 
+interface AppLearningCategoryModuleRouteChildren {
+  AppLearningCategoryModuleLessonRoute: typeof AppLearningCategoryModuleLessonRoute
+}
+
+const AppLearningCategoryModuleRouteChildren: AppLearningCategoryModuleRouteChildren =
+  {
+    AppLearningCategoryModuleLessonRoute: AppLearningCategoryModuleLessonRoute,
+  }
+
+const AppLearningCategoryModuleRouteWithChildren =
+  AppLearningCategoryModuleRoute._addFileChildren(
+    AppLearningCategoryModuleRouteChildren,
+  )
+
+interface AppLearningCategoryRouteChildren {
+  AppLearningCategoryModuleRoute: typeof AppLearningCategoryModuleRouteWithChildren
+}
+
+const AppLearningCategoryRouteChildren: AppLearningCategoryRouteChildren = {
+  AppLearningCategoryModuleRoute: AppLearningCategoryModuleRouteWithChildren,
+}
+
+const AppLearningCategoryRouteWithChildren =
+  AppLearningCategoryRoute._addFileChildren(AppLearningCategoryRouteChildren)
+
+interface AppLearningRouteChildren {
+  AppLearningCategoryRoute: typeof AppLearningCategoryRouteWithChildren
+  AppLearningIndexRoute: typeof AppLearningIndexRoute
+}
+
+const AppLearningRouteChildren: AppLearningRouteChildren = {
+  AppLearningCategoryRoute: AppLearningCategoryRouteWithChildren,
+  AppLearningIndexRoute: AppLearningIndexRoute,
+}
+
+const AppLearningRouteWithChildren = AppLearningRoute._addFileChildren(
+  AppLearningRouteChildren,
+)
+
+interface AppRouteChildren {
+  AppInterviewRoute: typeof AppInterviewRoute
+  AppLearningRoute: typeof AppLearningRouteWithChildren
+  AppNotesRoute: typeof AppNotesRoute
+  AppProgressRoute: typeof AppProgressRoute
+  AppProjectsRoute: typeof AppProjectsRoute
+  AppResourcesRoute: typeof AppResourcesRoute
+  AppRoadmapRoute: typeof AppRoadmapRoute
+  AppSettingsRoute: typeof AppSettingsRoute
+  AppIndexRoute: typeof AppIndexRoute
+}
+
+const AppRouteChildren: AppRouteChildren = {
+  AppInterviewRoute: AppInterviewRoute,
+  AppLearningRoute: AppLearningRouteWithChildren,
+  AppNotesRoute: AppNotesRoute,
+  AppProgressRoute: AppProgressRoute,
+  AppProjectsRoute: AppProjectsRoute,
+  AppResourcesRoute: AppResourcesRoute,
+  AppRoadmapRoute: AppRoadmapRoute,
+  AppSettingsRoute: AppSettingsRoute,
+  AppIndexRoute: AppIndexRoute,
+}
+
+const AppRouteWithChildren = AppRoute._addFileChildren(AppRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
-  IndexRoute: IndexRoute,
+  AppRoute: AppRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
