@@ -49,7 +49,7 @@ export const Route = createFileRoute("/_app/roadmap/$track")({
 function TrackPage() {
   const { track } = Route.useLoaderData();
   const [selected, setSelected] = useState<RoadmapNode | null>(null);
-  const milestones = track.nodes.filter((n) => n.kind === "milestone");
+  const milestones = track.nodes.filter((n: RoadmapNode) => n.kind === "milestone");
 
   return (
     <PageContainer>
@@ -92,7 +92,7 @@ function TrackPage() {
           {milestones.length > 0 && (
             <PageSection title="Milestones" description="Key checkpoints along this track.">
               <div className="grid gap-3 md:grid-cols-2">
-                {milestones.map((m) => (
+                {milestones.map((m: RoadmapNode) => (
                   <MilestoneCard key={m.id} node={m} />
                 ))}
               </div>
