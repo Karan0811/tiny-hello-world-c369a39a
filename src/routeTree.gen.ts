@@ -11,16 +11,18 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as AppRouteImport } from './routes/_app'
 import { Route as AppIndexRouteImport } from './routes/_app.index'
-import { Route as AppSettingsRouteImport } from './routes/_app.settings'
-import { Route as AppRoadmapRouteImport } from './routes/_app.roadmap'
-import { Route as AppResourcesRouteImport } from './routes/_app.resources'
-import { Route as AppProjectsRouteImport } from './routes/_app.projects'
-import { Route as AppProgressRouteImport } from './routes/_app.progress'
-import { Route as AppNotesRouteImport } from './routes/_app.notes'
-import { Route as AppLearningRouteImport } from './routes/_app.learning'
 import { Route as AppInterviewRouteImport } from './routes/_app.interview'
+import { Route as AppLearningRouteImport } from './routes/_app.learning'
+import { Route as AppNotesRouteImport } from './routes/_app.notes'
+import { Route as AppProgressRouteImport } from './routes/_app.progress'
+import { Route as AppProjectsRouteImport } from './routes/_app.projects'
+import { Route as AppResourcesRouteImport } from './routes/_app.resources'
+import { Route as AppRoadmapRouteImport } from './routes/_app.roadmap'
+import { Route as AppSettingsRouteImport } from './routes/_app.settings'
 import { Route as AppLearningIndexRouteImport } from './routes/_app.learning.index'
 import { Route as AppLearningCategoryRouteImport } from './routes/_app.learning.$category'
+import { Route as AppRoadmapIndexRouteImport } from './routes/_app.roadmap.index'
+import { Route as AppRoadmapTrackRouteImport } from './routes/_app.roadmap.$track'
 import { Route as AppLearningCategoryModuleRouteImport } from './routes/_app.learning.$category.$module'
 import { Route as AppLearningCategoryModuleLessonRouteImport } from './routes/_app.learning.$category.$module.$lesson'
 
@@ -33,34 +35,9 @@ const AppIndexRoute = AppIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AppRoute,
 } as any)
-const AppSettingsRoute = AppSettingsRouteImport.update({
-  id: '/settings',
-  path: '/settings',
-  getParentRoute: () => AppRoute,
-} as any)
-const AppRoadmapRoute = AppRoadmapRouteImport.update({
-  id: '/roadmap',
-  path: '/roadmap',
-  getParentRoute: () => AppRoute,
-} as any)
-const AppResourcesRoute = AppResourcesRouteImport.update({
-  id: '/resources',
-  path: '/resources',
-  getParentRoute: () => AppRoute,
-} as any)
-const AppProjectsRoute = AppProjectsRouteImport.update({
-  id: '/projects',
-  path: '/projects',
-  getParentRoute: () => AppRoute,
-} as any)
-const AppProgressRoute = AppProgressRouteImport.update({
-  id: '/progress',
-  path: '/progress',
-  getParentRoute: () => AppRoute,
-} as any)
-const AppNotesRoute = AppNotesRouteImport.update({
-  id: '/notes',
-  path: '/notes',
+const AppInterviewRoute = AppInterviewRouteImport.update({
+  id: '/interview',
+  path: '/interview',
   getParentRoute: () => AppRoute,
 } as any)
 const AppLearningRoute = AppLearningRouteImport.update({
@@ -68,9 +45,34 @@ const AppLearningRoute = AppLearningRouteImport.update({
   path: '/learning',
   getParentRoute: () => AppRoute,
 } as any)
-const AppInterviewRoute = AppInterviewRouteImport.update({
-  id: '/interview',
-  path: '/interview',
+const AppNotesRoute = AppNotesRouteImport.update({
+  id: '/notes',
+  path: '/notes',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppProgressRoute = AppProgressRouteImport.update({
+  id: '/progress',
+  path: '/progress',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppProjectsRoute = AppProjectsRouteImport.update({
+  id: '/projects',
+  path: '/projects',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppResourcesRoute = AppResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppRoadmapRoute = AppRoadmapRouteImport.update({
+  id: '/roadmap',
+  path: '/roadmap',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppSettingsRoute = AppSettingsRouteImport.update({
+  id: '/settings',
+  path: '/settings',
   getParentRoute: () => AppRoute,
 } as any)
 const AppLearningIndexRoute = AppLearningIndexRouteImport.update({
@@ -82,6 +84,16 @@ const AppLearningCategoryRoute = AppLearningCategoryRouteImport.update({
   id: '/$category',
   path: '/$category',
   getParentRoute: () => AppLearningRoute,
+} as any)
+const AppRoadmapIndexRoute = AppRoadmapIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AppRoadmapRoute,
+} as any)
+const AppRoadmapTrackRoute = AppRoadmapTrackRouteImport.update({
+  id: '/$track',
+  path: '/$track',
+  getParentRoute: () => AppRoadmapRoute,
 } as any)
 const AppLearningCategoryModuleRoute =
   AppLearningCategoryModuleRouteImport.update({
@@ -104,10 +116,12 @@ export interface FileRoutesByFullPath {
   '/progress': typeof AppProgressRoute
   '/projects': typeof AppProjectsRoute
   '/resources': typeof AppResourcesRoute
-  '/roadmap': typeof AppRoadmapRoute
+  '/roadmap': typeof AppRoadmapRouteWithChildren
   '/settings': typeof AppSettingsRoute
   '/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/roadmap/$track': typeof AppRoadmapTrackRoute
   '/learning/': typeof AppLearningIndexRoute
+  '/roadmap/': typeof AppRoadmapIndexRoute
   '/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
   '/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
 }
@@ -117,11 +131,12 @@ export interface FileRoutesByTo {
   '/progress': typeof AppProgressRoute
   '/projects': typeof AppProjectsRoute
   '/resources': typeof AppResourcesRoute
-  '/roadmap': typeof AppRoadmapRoute
   '/settings': typeof AppSettingsRoute
   '/': typeof AppIndexRoute
   '/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/roadmap/$track': typeof AppRoadmapTrackRoute
   '/learning': typeof AppLearningIndexRoute
+  '/roadmap': typeof AppRoadmapIndexRoute
   '/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
   '/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
 }
@@ -134,11 +149,13 @@ export interface FileRoutesById {
   '/_app/progress': typeof AppProgressRoute
   '/_app/projects': typeof AppProjectsRoute
   '/_app/resources': typeof AppResourcesRoute
-  '/_app/roadmap': typeof AppRoadmapRoute
+  '/_app/roadmap': typeof AppRoadmapRouteWithChildren
   '/_app/settings': typeof AppSettingsRoute
   '/_app/': typeof AppIndexRoute
   '/_app/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/_app/roadmap/$track': typeof AppRoadmapTrackRoute
   '/_app/learning/': typeof AppLearningIndexRoute
+  '/_app/roadmap/': typeof AppRoadmapIndexRoute
   '/_app/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
   '/_app/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
 }
@@ -155,7 +172,9 @@ export interface FileRouteTypes {
     | '/roadmap'
     | '/settings'
     | '/learning/$category'
+    | '/roadmap/$track'
     | '/learning/'
+    | '/roadmap/'
     | '/learning/$category/$module'
     | '/learning/$category/$module/$lesson'
   fileRoutesByTo: FileRoutesByTo
@@ -165,11 +184,12 @@ export interface FileRouteTypes {
     | '/progress'
     | '/projects'
     | '/resources'
-    | '/roadmap'
     | '/settings'
     | '/'
     | '/learning/$category'
+    | '/roadmap/$track'
     | '/learning'
+    | '/roadmap'
     | '/learning/$category/$module'
     | '/learning/$category/$module/$lesson'
   id:
@@ -185,7 +205,9 @@ export interface FileRouteTypes {
     | '/_app/settings'
     | '/_app/'
     | '/_app/learning/$category'
+    | '/_app/roadmap/$track'
     | '/_app/learning/'
+    | '/_app/roadmap/'
     | '/_app/learning/$category/$module'
     | '/_app/learning/$category/$module/$lesson'
   fileRoutesById: FileRoutesById
@@ -210,46 +232,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppIndexRouteImport
       parentRoute: typeof AppRoute
     }
-    '/_app/settings': {
-      id: '/_app/settings'
-      path: '/settings'
-      fullPath: '/settings'
-      preLoaderRoute: typeof AppSettingsRouteImport
-      parentRoute: typeof AppRoute
-    }
-    '/_app/roadmap': {
-      id: '/_app/roadmap'
-      path: '/roadmap'
-      fullPath: '/roadmap'
-      preLoaderRoute: typeof AppRoadmapRouteImport
-      parentRoute: typeof AppRoute
-    }
-    '/_app/resources': {
-      id: '/_app/resources'
-      path: '/resources'
-      fullPath: '/resources'
-      preLoaderRoute: typeof AppResourcesRouteImport
-      parentRoute: typeof AppRoute
-    }
-    '/_app/projects': {
-      id: '/_app/projects'
-      path: '/projects'
-      fullPath: '/projects'
-      preLoaderRoute: typeof AppProjectsRouteImport
-      parentRoute: typeof AppRoute
-    }
-    '/_app/progress': {
-      id: '/_app/progress'
-      path: '/progress'
-      fullPath: '/progress'
-      preLoaderRoute: typeof AppProgressRouteImport
-      parentRoute: typeof AppRoute
-    }
-    '/_app/notes': {
-      id: '/_app/notes'
-      path: '/notes'
-      fullPath: '/notes'
-      preLoaderRoute: typeof AppNotesRouteImport
+    '/_app/interview': {
+      id: '/_app/interview'
+      path: '/interview'
+      fullPath: '/interview'
+      preLoaderRoute: typeof AppInterviewRouteImport
       parentRoute: typeof AppRoute
     }
     '/_app/learning': {
@@ -259,11 +246,46 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppLearningRouteImport
       parentRoute: typeof AppRoute
     }
-    '/_app/interview': {
-      id: '/_app/interview'
-      path: '/interview'
-      fullPath: '/interview'
-      preLoaderRoute: typeof AppInterviewRouteImport
+    '/_app/notes': {
+      id: '/_app/notes'
+      path: '/notes'
+      fullPath: '/notes'
+      preLoaderRoute: typeof AppNotesRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/progress': {
+      id: '/_app/progress'
+      path: '/progress'
+      fullPath: '/progress'
+      preLoaderRoute: typeof AppProgressRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/projects': {
+      id: '/_app/projects'
+      path: '/projects'
+      fullPath: '/projects'
+      preLoaderRoute: typeof AppProjectsRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/resources': {
+      id: '/_app/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof AppResourcesRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/roadmap': {
+      id: '/_app/roadmap'
+      path: '/roadmap'
+      fullPath: '/roadmap'
+      preLoaderRoute: typeof AppRoadmapRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/settings': {
+      id: '/_app/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof AppSettingsRouteImport
       parentRoute: typeof AppRoute
     }
     '/_app/learning/': {
@@ -279,6 +301,20 @@ declare module '@tanstack/react-router' {
       fullPath: '/learning/$category'
       preLoaderRoute: typeof AppLearningCategoryRouteImport
       parentRoute: typeof AppLearningRoute
+    }
+    '/_app/roadmap/': {
+      id: '/_app/roadmap/'
+      path: '/'
+      fullPath: '/roadmap/'
+      preLoaderRoute: typeof AppRoadmapIndexRouteImport
+      parentRoute: typeof AppRoadmapRoute
+    }
+    '/_app/roadmap/$track': {
+      id: '/_app/roadmap/$track'
+      path: '/$track'
+      fullPath: '/roadmap/$track'
+      preLoaderRoute: typeof AppRoadmapTrackRouteImport
+      parentRoute: typeof AppRoadmapRoute
     }
     '/_app/learning/$category/$module': {
       id: '/_app/learning/$category/$module'
@@ -336,6 +372,20 @@ const AppLearningRouteWithChildren = AppLearningRoute._addFileChildren(
   AppLearningRouteChildren,
 )
 
+interface AppRoadmapRouteChildren {
+  AppRoadmapTrackRoute: typeof AppRoadmapTrackRoute
+  AppRoadmapIndexRoute: typeof AppRoadmapIndexRoute
+}
+
+const AppRoadmapRouteChildren: AppRoadmapRouteChildren = {
+  AppRoadmapTrackRoute: AppRoadmapTrackRoute,
+  AppRoadmapIndexRoute: AppRoadmapIndexRoute,
+}
+
+const AppRoadmapRouteWithChildren = AppRoadmapRoute._addFileChildren(
+  AppRoadmapRouteChildren,
+)
+
 interface AppRouteChildren {
   AppInterviewRoute: typeof AppInterviewRoute
   AppLearningRoute: typeof AppLearningRouteWithChildren
@@ -343,7 +393,7 @@ interface AppRouteChildren {
   AppProgressRoute: typeof AppProgressRoute
   AppProjectsRoute: typeof AppProjectsRoute
   AppResourcesRoute: typeof AppResourcesRoute
-  AppRoadmapRoute: typeof AppRoadmapRoute
+  AppRoadmapRoute: typeof AppRoadmapRouteWithChildren
   AppSettingsRoute: typeof AppSettingsRoute
   AppIndexRoute: typeof AppIndexRoute
 }
@@ -355,7 +405,7 @@ const AppRouteChildren: AppRouteChildren = {
   AppProgressRoute: AppProgressRoute,
   AppProjectsRoute: AppProjectsRoute,
   AppResourcesRoute: AppResourcesRoute,
-  AppRoadmapRoute: AppRoadmapRoute,
+  AppRoadmapRoute: AppRoadmapRouteWithChildren,
   AppSettingsRoute: AppSettingsRoute,
   AppIndexRoute: AppIndexRoute,
 }
