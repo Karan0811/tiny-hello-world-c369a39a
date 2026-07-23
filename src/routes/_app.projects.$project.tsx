@@ -52,7 +52,7 @@ export const Route = createFileRoute("/_app/projects/$project")({
 });
 
 function ProjectDetailPage() {
-  const { project } = Route.useLoaderData();
+  const { project } = Route.useLoaderData() as { project: import("@/features/projects/types").ProjectDefinition };
   const [tab, setTab] = useState<ProjectTabKey>("overview");
 
   return (
