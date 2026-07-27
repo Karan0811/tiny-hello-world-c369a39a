@@ -1,29 +1,31 @@
-# Welcome to your Lovable project
+# AI University
 
-This project was built with [Lovable](https://lovable.dev).
+**Learn. Build. Deploy. Master AI.**
 
-## Build with Lovable
+A production-grade, config-driven learning platform for the full AI engineering stack.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## Documentation
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+All architecture, design, and contribution docs live in [`/docs`](./docs).
 
-## Development
+- [Overview](./docs/README.md)
+- [Architecture](./docs/ARCHITECTURE.md)
+- [System design](./docs/SYSTEM_DESIGN.md)
+- [Features](./docs/FEATURES.md)
+- [Folder structure](./docs/FOLDER_STRUCTURE.md)
+- [Data models](./docs/DATA_MODELS.md)
+- [Decisions](./docs/DECISIONS.md)
+- [Changelog](./docs/CHANGELOG.md)
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Stack
+
+TanStack Start · React 19 · TypeScript · Tailwind v4 · shadcn/ui · Framer Motion · Lucide.
+
+## Develop
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
 npm i
 npm run dev
 ```
 
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+Built with [Lovable](https://lovable.dev). Every change made in the editor commits straight to this repo.

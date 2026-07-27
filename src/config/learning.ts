@@ -6,6 +6,7 @@ import type {
   DependencyNode,
   LearningCategoryDefinition,
 } from "@/features/learning/types";
+import { pythonModules } from "./python";
 
 export const learningCategoryList: LearningCategoryDefinition[] = [
   {
@@ -14,7 +15,7 @@ export const learningCategoryList: LearningCategoryDefinition[] = [
     description: "The lingua franca of AI engineering.",
     difficulty: "beginner",
     iconKey: "code",
-    modules: [],
+    modules: pythonModules,
   },
   {
     slug: "mathematics",

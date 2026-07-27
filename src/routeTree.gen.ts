@@ -24,6 +24,7 @@ import { Route as AppProjectsIndexRouteImport } from './routes/_app.projects.ind
 import { Route as AppLearningIndexRouteImport } from './routes/_app.learning.index'
 import { Route as AppRoadmapTrackRouteImport } from './routes/_app.roadmap.$track'
 import { Route as AppProjectsProjectRouteImport } from './routes/_app.projects.$project'
+import { Route as AppLearningPythonRouteImport } from './routes/_app.learning.python'
 import { Route as AppLearningCategoryRouteImport } from './routes/_app.learning.$category'
 import { Route as AppLearningCategoryModuleRouteImport } from './routes/_app.learning.$category.$module'
 import { Route as AppLearningCategoryModuleLessonRouteImport } from './routes/_app.learning.$category.$module.$lesson'
@@ -102,6 +103,11 @@ const AppProjectsProjectRoute = AppProjectsProjectRouteImport.update({
   path: '/$project',
   getParentRoute: () => AppProjectsRoute,
 } as any)
+const AppLearningPythonRoute = AppLearningPythonRouteImport.update({
+  id: '/python',
+  path: '/python',
+  getParentRoute: () => AppLearningRoute,
+} as any)
 const AppLearningCategoryRoute = AppLearningCategoryRouteImport.update({
   id: '/$category',
   path: '/$category',
@@ -131,6 +137,7 @@ export interface FileRoutesByFullPath {
   '/roadmap': typeof AppRoadmapRouteWithChildren
   '/settings': typeof AppSettingsRoute
   '/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/learning/python': typeof AppLearningPythonRoute
   '/projects/$project': typeof AppProjectsProjectRoute
   '/roadmap/$track': typeof AppRoadmapTrackRoute
   '/learning/': typeof AppLearningIndexRoute
@@ -147,6 +154,7 @@ export interface FileRoutesByTo {
   '/settings': typeof AppSettingsRoute
   '/': typeof AppIndexRoute
   '/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/learning/python': typeof AppLearningPythonRoute
   '/projects/$project': typeof AppProjectsProjectRoute
   '/roadmap/$track': typeof AppRoadmapTrackRoute
   '/learning': typeof AppLearningIndexRoute
@@ -168,6 +176,7 @@ export interface FileRoutesById {
   '/_app/settings': typeof AppSettingsRoute
   '/_app/': typeof AppIndexRoute
   '/_app/learning/$category': typeof AppLearningCategoryRouteWithChildren
+  '/_app/learning/python': typeof AppLearningPythonRoute
   '/_app/projects/$project': typeof AppProjectsProjectRoute
   '/_app/roadmap/$track': typeof AppRoadmapTrackRoute
   '/_app/learning/': typeof AppLearningIndexRoute
@@ -189,6 +198,7 @@ export interface FileRouteTypes {
     | '/roadmap'
     | '/settings'
     | '/learning/$category'
+    | '/learning/python'
     | '/projects/$project'
     | '/roadmap/$track'
     | '/learning/'
@@ -205,6 +215,7 @@ export interface FileRouteTypes {
     | '/settings'
     | '/'
     | '/learning/$category'
+    | '/learning/python'
     | '/projects/$project'
     | '/roadmap/$track'
     | '/learning'
@@ -225,6 +236,7 @@ export interface FileRouteTypes {
     | '/_app/settings'
     | '/_app/'
     | '/_app/learning/$category'
+    | '/_app/learning/python'
     | '/_app/projects/$project'
     | '/_app/roadmap/$track'
     | '/_app/learning/'
@@ -345,6 +357,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppProjectsProjectRouteImport
       parentRoute: typeof AppProjectsRoute
     }
+    '/_app/learning/python': {
+      id: '/_app/learning/python'
+      path: '/python'
+      fullPath: '/learning/python'
+      preLoaderRoute: typeof AppLearningPythonRouteImport
+      parentRoute: typeof AppLearningRoute
+    }
     '/_app/learning/$category': {
       id: '/_app/learning/$category'
       path: '/$category'
@@ -396,11 +415,13 @@ const AppLearningCategoryRouteWithChildren =
 
 interface AppLearningRouteChildren {
   AppLearningCategoryRoute: typeof AppLearningCategoryRouteWithChildren
+  AppLearningPythonRoute: typeof AppLearningPythonRoute
   AppLearningIndexRoute: typeof AppLearningIndexRoute
 }
 
 const AppLearningRouteChildren: AppLearningRouteChildren = {
   AppLearningCategoryRoute: AppLearningCategoryRouteWithChildren,
+  AppLearningPythonRoute: AppLearningPythonRoute,
   AppLearningIndexRoute: AppLearningIndexRoute,
 }
 
