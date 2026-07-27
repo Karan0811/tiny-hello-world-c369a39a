@@ -26,6 +26,7 @@ import { Route as AppRoadmapTrackRouteImport } from './routes/_app.roadmap.$trac
 import { Route as AppProjectsProjectRouteImport } from './routes/_app.projects.$project'
 import { Route as AppLearningPythonRouteImport } from './routes/_app.learning.python'
 import { Route as AppLearningCategoryRouteImport } from './routes/_app.learning.$category'
+import { Route as AppLearningPythonIndexRouteImport } from './routes/_app.learning.python.index'
 import { Route as AppLearningCategoryModuleRouteImport } from './routes/_app.learning.$category.$module'
 import { Route as AppLearningPythonModule1IndexRouteImport } from './routes/_app.learning.python.module-1.index'
 import { Route as AppLearningPythonModule1CompleteRouteImport } from './routes/_app.learning.python.module-1.complete'
@@ -116,6 +117,11 @@ const AppLearningCategoryRoute = AppLearningCategoryRouteImport.update({
   path: '/$category',
   getParentRoute: () => AppLearningRoute,
 } as any)
+const AppLearningPythonIndexRoute = AppLearningPythonIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AppLearningPythonRoute,
+} as any)
 const AppLearningCategoryModuleRoute =
   AppLearningCategoryModuleRouteImport.update({
     id: '/$module',
@@ -165,6 +171,7 @@ export interface FileRoutesByFullPath {
   '/projects/': typeof AppProjectsIndexRoute
   '/roadmap/': typeof AppRoadmapIndexRoute
   '/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/learning/python/': typeof AppLearningPythonIndexRoute
   '/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
   '/learning/python/module-1/$lesson': typeof AppLearningPythonModule1LessonRoute
   '/learning/python/module-1/complete': typeof AppLearningPythonModule1CompleteRoute
@@ -178,13 +185,13 @@ export interface FileRoutesByTo {
   '/settings': typeof AppSettingsRoute
   '/': typeof AppIndexRoute
   '/learning/$category': typeof AppLearningCategoryRouteWithChildren
-  '/learning/python': typeof AppLearningPythonRouteWithChildren
   '/projects/$project': typeof AppProjectsProjectRoute
   '/roadmap/$track': typeof AppRoadmapTrackRoute
   '/learning': typeof AppLearningIndexRoute
   '/projects': typeof AppProjectsIndexRoute
   '/roadmap': typeof AppRoadmapIndexRoute
   '/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/learning/python': typeof AppLearningPythonIndexRoute
   '/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
   '/learning/python/module-1/$lesson': typeof AppLearningPythonModule1LessonRoute
   '/learning/python/module-1/complete': typeof AppLearningPythonModule1CompleteRoute
@@ -210,6 +217,7 @@ export interface FileRoutesById {
   '/_app/projects/': typeof AppProjectsIndexRoute
   '/_app/roadmap/': typeof AppRoadmapIndexRoute
   '/_app/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/_app/learning/python/': typeof AppLearningPythonIndexRoute
   '/_app/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
   '/_app/learning/python/module-1/$lesson': typeof AppLearningPythonModule1LessonRoute
   '/_app/learning/python/module-1/complete': typeof AppLearningPythonModule1CompleteRoute
@@ -235,6 +243,7 @@ export interface FileRouteTypes {
     | '/projects/'
     | '/roadmap/'
     | '/learning/$category/$module'
+    | '/learning/python/'
     | '/learning/$category/$module/$lesson'
     | '/learning/python/module-1/$lesson'
     | '/learning/python/module-1/complete'
@@ -248,13 +257,13 @@ export interface FileRouteTypes {
     | '/settings'
     | '/'
     | '/learning/$category'
-    | '/learning/python'
     | '/projects/$project'
     | '/roadmap/$track'
     | '/learning'
     | '/projects'
     | '/roadmap'
     | '/learning/$category/$module'
+    | '/learning/python'
     | '/learning/$category/$module/$lesson'
     | '/learning/python/module-1/$lesson'
     | '/learning/python/module-1/complete'
@@ -279,6 +288,7 @@ export interface FileRouteTypes {
     | '/_app/projects/'
     | '/_app/roadmap/'
     | '/_app/learning/$category/$module'
+    | '/_app/learning/python/'
     | '/_app/learning/$category/$module/$lesson'
     | '/_app/learning/python/module-1/$lesson'
     | '/_app/learning/python/module-1/complete'
@@ -410,6 +420,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppLearningCategoryRouteImport
       parentRoute: typeof AppLearningRoute
     }
+    '/_app/learning/python/': {
+      id: '/_app/learning/python/'
+      path: '/'
+      fullPath: '/learning/python/'
+      preLoaderRoute: typeof AppLearningPythonIndexRouteImport
+      parentRoute: typeof AppLearningPythonRoute
+    }
     '/_app/learning/$category/$module': {
       id: '/_app/learning/$category/$module'
       path: '/$module'
@@ -474,12 +491,14 @@ const AppLearningCategoryRouteWithChildren =
   AppLearningCategoryRoute._addFileChildren(AppLearningCategoryRouteChildren)
 
 interface AppLearningPythonRouteChildren {
+  AppLearningPythonIndexRoute: typeof AppLearningPythonIndexRoute
   AppLearningPythonModule1LessonRoute: typeof AppLearningPythonModule1LessonRoute
   AppLearningPythonModule1CompleteRoute: typeof AppLearningPythonModule1CompleteRoute
   AppLearningPythonModule1IndexRoute: typeof AppLearningPythonModule1IndexRoute
 }
 
 const AppLearningPythonRouteChildren: AppLearningPythonRouteChildren = {
+  AppLearningPythonIndexRoute: AppLearningPythonIndexRoute,
   AppLearningPythonModule1LessonRoute: AppLearningPythonModule1LessonRoute,
   AppLearningPythonModule1CompleteRoute: AppLearningPythonModule1CompleteRoute,
   AppLearningPythonModule1IndexRoute: AppLearningPythonModule1IndexRoute,
@@ -564,3 +583,13 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}

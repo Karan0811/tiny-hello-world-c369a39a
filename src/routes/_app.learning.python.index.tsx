@@ -80,6 +80,26 @@ function PythonHome() {
         <PythonProgressPanel />
       </PageSection>
 
+      <PageSection
+        title="Start here"
+        description="Module 1 — the guided entry point into the Python track"
+      >
+        <Link
+          to="/learning/python/module-1"
+          className="block rounded-xl border border-border/60 bg-card/60 p-5 backdrop-blur transition-colors hover:border-border hover:bg-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        >
+          <div className="text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground">
+            Module 1 · Beginner · 10 lessons
+          </div>
+          <div className="mt-1 text-sm font-medium tracking-tight text-foreground">
+            Introduction &amp; Environment Setup
+          </div>
+          <p className="mt-1 text-xs text-muted-foreground">
+            Install Python, set up VS Code, run your first script, and learn to read errors.
+          </p>
+        </Link>
+      </PageSection>
+
       <PageSection title="Learning journey" description="Where you are and what's next">
         <PythonJourney />
       </PageSection>
