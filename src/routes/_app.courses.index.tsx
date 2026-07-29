@@ -6,6 +6,16 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { listCourses } from "@/lib/content/loader";
 
+type CourseCardData = {
+  id: string;
+  title: string;
+  description: string;
+  status: "available" | "coming-soon";
+  lessonCount: number;
+  moduleCount: number;
+  hours: number;
+};
+
 export const Route = createFileRoute("/_app/courses/")({
   head: () => ({
     meta: [
