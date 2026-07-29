@@ -70,7 +70,7 @@ function CoursesIndexPage() {
         description="Every course below is generated from markdown and JSON in the content directory. Update the files, and the platform updates itself."
       />
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {courses.map((course) => (
+        {(courses as CourseCardData[]).map((course) => (
           <div
             key={course.id}
             className="flex flex-col rounded-xl border border-border/60 bg-card p-5"
