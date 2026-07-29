@@ -19,6 +19,7 @@ import { Route as AppProgressRouteImport } from './routes/_app.progress'
 import { Route as AppNotesRouteImport } from './routes/_app.notes'
 import { Route as AppLearningRouteImport } from './routes/_app.learning'
 import { Route as AppInterviewRouteImport } from './routes/_app.interview'
+import { Route as AppCoursesRouteImport } from './routes/_app.courses'
 import { Route as AppRoadmapIndexRouteImport } from './routes/_app.roadmap.index'
 import { Route as AppProjectsIndexRouteImport } from './routes/_app.projects.index'
 import { Route as AppLearningIndexRouteImport } from './routes/_app.learning.index'
@@ -80,6 +81,11 @@ const AppLearningRoute = AppLearningRouteImport.update({
 const AppInterviewRoute = AppInterviewRouteImport.update({
   id: '/interview',
   path: '/interview',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppCoursesRoute = AppCoursesRouteImport.update({
+  id: '/courses',
+  path: '/courses',
   getParentRoute: () => AppRoute,
 } as any)
 const AppRoadmapIndexRoute = AppRoadmapIndexRouteImport.update({
@@ -155,6 +161,7 @@ const AppLearningCategoryModuleLessonRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof AppIndexRoute
+  '/courses': typeof AppCoursesRoute
   '/interview': typeof AppInterviewRoute
   '/learning': typeof AppLearningRouteWithChildren
   '/notes': typeof AppNotesRoute
@@ -178,6 +185,7 @@ export interface FileRoutesByFullPath {
   '/learning/python/module-1/': typeof AppLearningPythonModule1IndexRoute
 }
 export interface FileRoutesByTo {
+  '/courses': typeof AppCoursesRoute
   '/interview': typeof AppInterviewRoute
   '/notes': typeof AppNotesRoute
   '/progress': typeof AppProgressRoute
@@ -200,6 +208,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_app': typeof AppRouteWithChildren
+  '/_app/courses': typeof AppCoursesRoute
   '/_app/interview': typeof AppInterviewRoute
   '/_app/learning': typeof AppLearningRouteWithChildren
   '/_app/notes': typeof AppNotesRoute
@@ -227,6 +236,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/courses'
     | '/interview'
     | '/learning'
     | '/notes'
@@ -250,6 +260,7 @@ export interface FileRouteTypes {
     | '/learning/python/module-1/'
   fileRoutesByTo: FileRoutesByTo
   to:
+    | '/courses'
     | '/interview'
     | '/notes'
     | '/progress'
@@ -271,6 +282,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/_app'
+    | '/_app/courses'
     | '/_app/interview'
     | '/_app/learning'
     | '/_app/notes'
@@ -369,6 +381,13 @@ declare module '@tanstack/react-router' {
       path: '/interview'
       fullPath: '/interview'
       preLoaderRoute: typeof AppInterviewRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/_app/courses': {
+      id: '/_app/courses'
+      path: '/courses'
+      fullPath: '/courses'
+      preLoaderRoute: typeof AppCoursesRouteImport
       parentRoute: typeof AppRoute
     }
     '/_app/roadmap/': {
@@ -552,6 +571,7 @@ const AppRoadmapRouteWithChildren = AppRoadmapRoute._addFileChildren(
 )
 
 interface AppRouteChildren {
+  AppCoursesRoute: typeof AppCoursesRoute
   AppInterviewRoute: typeof AppInterviewRoute
   AppLearningRoute: typeof AppLearningRouteWithChildren
   AppNotesRoute: typeof AppNotesRoute
@@ -564,6 +584,7 @@ interface AppRouteChildren {
 }
 
 const AppRouteChildren: AppRouteChildren = {
+  AppCoursesRoute: AppCoursesRoute,
   AppInterviewRoute: AppInterviewRoute,
   AppLearningRoute: AppLearningRouteWithChildren,
   AppNotesRoute: AppNotesRoute,
