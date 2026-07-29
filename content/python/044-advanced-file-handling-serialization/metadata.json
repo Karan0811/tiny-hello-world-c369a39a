@@ -1,19 +1,28 @@
 {
+  "id": "python-044-advanced-file-handling-serialization",
   "lessonNumber": 44,
-  "title": "Advanced File Handling & Serialization",
+  "title": "Advanced File Handling and Serialization",
   "slug": "advanced-file-handling-serialization",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "160 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-043"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Advanced File Handling and Serialization.",
+    "Apply Advanced File Handling and Serialization with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "file-handling",
-    "serialization",
-    "json",
-    "pickle",
-    "csv",
-    "gzip",
-    "zipfile"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-043",
+  "nextLesson": "python-045"
 }

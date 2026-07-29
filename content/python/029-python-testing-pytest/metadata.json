@@ -1,17 +1,28 @@
 {
+  "id": "python-029-python-testing-pytest",
   "lessonNumber": 29,
   "title": "Python Testing with Pytest",
   "slug": "python-testing-pytest",
-  "module": "Python Fundamentals",
-  "difficulty": "Intermediate",
-  "estimatedTime": "90 Minutes",
-  "status": "draft",
+  "module": "Python Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-028"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Testing with Pytest.",
+    "Apply Python Testing with Pytest with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "testing",
-    "pytest",
-    "unit-testing",
-    "automation",
-    "quality-assurance"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-028",
+  "nextLesson": "python-030"
 }

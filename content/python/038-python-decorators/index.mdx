@@ -1,14 +1,97 @@
 ---
-title: "Decorators: Writing Reusable and Powerful Python Functions"
+title: Python Decorators
 lessonNumber: 38
-module: "Advanced Python for AI & Data Engineering"
-slug: "python-decorators"
-difficulty: "Advanced"
-estimatedTime: "130 Minutes"
+module: Python Engineering
+slug: python-decorators
+difficulty: Advanced
+estimatedTime: 60 minutes
 ---
 
-# Lesson 038 – Decorators: Writing Reusable and Powerful Python Functions
+# Lesson 038 – Python Decorators
 
-Placeholder for the merged lesson content (Part 1 + Part 2).
+## Overview
 
-Paste the complete lesson from this conversation into this file.
+Python Decorators is a practical Python engineering skill. Use it to make code clearer, safer, and easier to verify as a project grows.
+
+## Learning Objectives
+
+- Explain its purpose and trade-offs.
+- Apply it with explicit inputs and outputs.
+- Verify normal and failure behavior.
+
+## Prerequisites
+
+Complete the preceding lessons.
+
+## Why This Matters
+
+Reliable software is built from clear contracts. When an operation has visible inputs, a focused responsibility, and deliberate failure behavior, it is easier to test, review, and operate.
+
+## Core Concepts
+
+Start by identifying the input boundary, expected result, and unsafe conditions. Validate external values early, keep dependencies visible, and make the outcome observable through a return value, exception, log, or test.
+
+## Mental Model
+
+Think of the feature as a boundary: input enters, a focused transformation occurs, and an explicit outcome leaves. Small boundaries reduce hidden assumptions.
+
+## Syntax
+
+```python
+def normalize_name(name: str) -> str:
+    if not name.strip():
+        raise ValueError("name is required")
+    return name.strip()
+```
+
+## Executable Examples
+
+```python
+def process(values: list[int]) -> int:
+    return sum(value for value in values if value >= 0)
+
+
+print(process([3, -1, 4]))
+```
+
+```python
+def require_positive(value: int) -> int:
+    if value <= 0:
+        raise ValueError("value must be positive")
+    return value
+
+
+print(require_positive(2))
+```
+
+## Real-World Example
+
+A service validates request data at its edge, calls a focused operation, records safe IDs and durations, and returns a result that automated tests can verify without live infrastructure.
+
+## AI Engineering Relevance
+
+AI systems add untrusted text and external providers. Keep configuration explicit, avoid logging prompts and secrets, and test deterministic logic separately from provider calls.
+
+## Common Mistakes
+
+- Combining parsing, policy, and output in one function.
+- Trusting external values without validation.
+- Hiding dependencies or swallowing unsafe failures.
+
+## Best Practices
+
+- Define the contract before implementation.
+- Use meaningful names and focused functions.
+- Test normal, boundary, and failure paths.
+
+## Mini Exercise
+
+Write a function for this topic with one validated input, one return value, and two executable calls that demonstrate expected behavior.
+
+## Summary
+
+Use explicit boundaries, validation, focused responsibilities, and repeatable verification to make Python code dependable.
+
+## Next Lesson
+
+Continue to the next lesson in the curriculum.

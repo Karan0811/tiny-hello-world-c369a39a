@@ -1,26 +1,77 @@
 [
   {
-    "q": "Concurrency",
-    "a": "Multiple tasks making progress together."
+    "front": "Purpose: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Parallelism",
-    "a": "Tasks executing simultaneously."
+    "front": "Input boundary: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "GIL",
-    "a": "Global Interpreter Lock."
+    "front": "Safe default: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Thread",
-    "a": "Lightweight execution unit sharing memory."
+    "front": "Validation: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Process",
-    "a": "Independent program with its own memory."
+    "front": "Small example: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Lock",
-    "a": "Synchronization mechanism."
+    "front": "Testable behavior: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Error handling: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Observability: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Maintainability: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Documentation: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Configuration: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Dependencies: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Trade-off: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Production check: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Key takeaway: Python Concurrency: Threading and Multiprocessing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   }
 ]

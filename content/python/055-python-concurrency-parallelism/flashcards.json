@@ -1,22 +1,77 @@
 [
   {
-    "front": "CPU-bound tasks",
-    "back": "multiprocessing"
+    "front": "Python Concurrency and Parallelism: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "I/O-bound thread pool",
-    "back": "ThreadPoolExecutor"
+    "front": "Python Concurrency and Parallelism: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Coroutine definition",
-    "back": "async def"
+    "front": "Python Concurrency and Parallelism: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Runs coroutines",
-    "back": "Event Loop"
+    "front": "Python Concurrency and Parallelism: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Protect shared data",
-    "back": "threading.Lock"
+    "front": "Python Concurrency and Parallelism: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Concurrency and Parallelism: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

@@ -1,42 +1,112 @@
 [
   {
-    "id": 1,
-    "question": "What is Python's primary memory management mechanism?",
-    "answer": "Reference counting."
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 1?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "id": 2,
-    "question": "Why is the Garbage Collector needed?",
-    "answer": "To clean unreachable circular references."
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 2?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "id": 3,
-    "question": "Which module controls garbage collection?",
-    "answer": "gc"
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 3?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
   },
   {
-    "id": 4,
-    "question": "What does gc.collect() do?",
-    "answer": "Triggers garbage collection manually."
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 4?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
   },
   {
-    "id": 5,
-    "question": "What is a weak reference?",
-    "answer": "A reference that doesn't increase reference count."
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 5?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   },
   {
-    "id": 6,
-    "question": "Which module provides weak references?",
-    "answer": "weakref"
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 6?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "id": 7,
-    "question": "What is __slots__ used for?",
-    "answer": "Reducing per-object memory usage."
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 7?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "id": 8,
-    "question": "Name one memory profiling tool.",
-    "answer": "tracemalloc"
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 8?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
+  },
+  {
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 9?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
+  },
+  {
+    "question": "Python Memory Management and Garbage Collection: which practice is most reliable for case 10?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   }
 ]

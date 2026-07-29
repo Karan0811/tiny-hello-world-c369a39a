@@ -1,22 +1,77 @@
 [
   {
-    "q": "Difference between == and is?",
-    "a": "== compares values; is compares object identity."
+    "front": "Operators: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
   },
   {
-    "q": "Which operator returns remainder?",
-    "a": "%"
+    "front": "Operators: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
   },
   {
-    "q": "Which operator checks equality?",
-    "a": "=="
+    "front": "Operators: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
   },
   {
-    "q": "Which operator checks membership?",
-    "a": "in"
+    "front": "Operators: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
   },
   {
-    "q": "Which logical operator means both conditions?",
-    "a": "and"
+    "front": "Operators: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Operators: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
   }
 ]

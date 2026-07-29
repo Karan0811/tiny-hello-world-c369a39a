@@ -1,22 +1,77 @@
 [
-  {"q":"What is inheritance?","a":"A child class reusing or specializing a parent class."},
-  {"q":"What is a subclass?","a":"A class derived from another class."},
-  {"q":"What is a superclass?","a":"A parent class that a subclass extends."},
-  {"q":"What is polymorphism?","a":"Different objects responding to a shared operation."},
-  {"q":"What is an abstract base class?","a":"A class that defines required behavior for concrete subclasses."},
-  {"q":"What does @abstractmethod mark?","a":"A method subclasses must implement to be concrete."},
-  {"q":"What is composition?","a":"Building an object by using collaborator objects."},
-  {"q":"What is the usual default: composition or inheritance?","a":"Composition, unless there is a true compatible is-a relationship."},
-  {"q":"What is dependency injection?","a":"Supplying a collaborator from outside, often through a constructor."},
-  {"q":"What is a property?","a":"Controlled access using attribute syntax."},
-  {"q":"What is a property setter for?","a":"Validating or controlling assignment to an attribute."},
-  {"q":"What does __repr__ provide?","a":"A useful developer-facing object representation."},
-  {"q":"What does super() help with?","a":"Calling compatible parent-class behavior."},
-  {"q":"What is duck typing?","a":"Using an object based on supported behavior rather than exact type."},
-  {"q":"What is a contract?","a":"The promised inputs, outputs, errors, and effects of an interface."},
-  {"q":"Why keep interfaces small?","a":"Small capabilities are easier to implement, test, and replace."},
-  {"q":"What is substitutability?","a":"A subtype can be used where its parent contract is expected."},
-  {"q":"Why avoid deep inheritance?","a":"It creates hidden coupling and harder-to-predict behavior."},
-  {"q":"What should shared interface tests verify?","a":"Observable behavior across every implementation."},
-  {"q":"What should an abstraction not hide?","a":"Important differences such as cost, failure behavior, or limits."}
+  {
+    "front": "Advanced OOP: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced OOP: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  }
 ]

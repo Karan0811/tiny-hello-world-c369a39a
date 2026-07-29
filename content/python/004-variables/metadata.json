@@ -1,3 +1,28 @@
 {
-  "status":"draft"
+  "id": "python-004-variables",
+  "lessonNumber": 4,
+  "title": "Variables",
+  "slug": "variables",
+  "module": "Python Fundamentals",
+  "difficulty": "Beginner",
+  "estimatedTime": "45 minutes",
+  "prerequisites": [
+    "python-003"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Variables.",
+    "Apply Variables with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-003",
+  "nextLesson": "python-005"
 }

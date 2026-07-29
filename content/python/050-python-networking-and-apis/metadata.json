@@ -1,19 +1,28 @@
 {
+  "id": "python-049-python-networking-and-apis",
   "lessonNumber": 49,
-  "title": "Python Networking & APIs",
+  "title": "Python Networking and APIs",
   "slug": "python-networking-and-apis",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "180 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-048"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Networking and APIs.",
+    "Apply Python Networking and APIs with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "networking",
-    "api",
-    "http",
-    "requests",
-    "rest",
-    "json",
-    "authentication"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-048",
+  "nextLesson": "python-050"
 }

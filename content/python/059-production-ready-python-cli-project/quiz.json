@@ -1,22 +1,112 @@
 [
   {
-    "question": "Which layer contains business logic?",
-    "answer": "Service Layer"
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 1?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "question": "Which pattern isolates data access?",
-    "answer": "Repository Pattern"
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 2?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "question": "Which file format is used for persistence in the initial project?",
-    "answer": "JSON"
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 3?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
   },
   {
-    "question": "Which pyproject.toml section defines CLI commands?",
-    "answer": "[project.scripts]"
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 4?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
   },
   {
-    "question": "Which SOLID principle promotes one responsibility per class?",
-    "answer": "Single Responsibility Principle (SRP)"
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 5?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
+  },
+  {
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 6?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
+  },
+  {
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 7?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
+  },
+  {
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 8?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
+  },
+  {
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 9?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
+  },
+  {
+    "question": "Production-Ready Python CLI Project: which practice is most reliable for case 10?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   }
 ]

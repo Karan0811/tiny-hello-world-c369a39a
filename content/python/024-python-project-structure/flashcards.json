@@ -1,3 +1,77 @@
 [
-{"q":"src layout?","a":"Application package stored below src/."},{"q":"tests directory?","a":"Automated behavior checks."},{"q":"pyproject.toml?","a":"Project build and tool configuration."},{"q":"README?","a":"Setup, usage, and project guidance."},{"q":".gitignore?","a":"Excludes local and generated files."},{"q":"Entry point?","a":"Thin application startup code."},{"q":"Domain layer?","a":"Core concepts and business rules."},{"q":"Adapter layer?","a":"Implementation for external systems."},{"q":"Service?","a":"Application operation coordinating domain and dependencies."},{"q":"Why src layout?","a":"Avoid accidental imports from repository root."},{"q":"Why separate tests?","a":"Keep verification independent from source."},{"q":"Why use fake client?","a":"Test without live external services."},{"q":"Generated artifact?","a":"Output produced by a program run."},{"q":"Where outputs belong?","a":"Dedicated artifact or output folder."},{"q":"Configuration?","a":"Settings outside core domain code."},{"q":"Dependency injection?","a":"Supplying collaborators from application assembly."},{"q":"Thin main?","a":"Startup code without business logic."},{"q":"Installable package?","a":"Project code importable through declared packaging."},{"q":"CI check?","a":"Automated install and test verification."},{"q":"Structure goal?","a":"Safe change, testing, and deployment."}
+  {
+    "front": "Python Project Structure: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Project Structure: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  }
 ]

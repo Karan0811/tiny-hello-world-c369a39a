@@ -1,22 +1,77 @@
 [
   {
-    "front": "Official Python package repository",
-    "back": "PyPI"
+    "front": "Packaging and Distributing Python Applications: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Upload tool",
-    "back": "Twine"
+    "front": "Packaging and Distributing Python Applications: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Modern package config",
-    "back": "pyproject.toml"
+    "front": "Packaging and Distributing Python Applications: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Build command",
-    "back": "python -m build"
+    "front": "Packaging and Distributing Python Applications: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Editable install",
-    "back": "pip install -e ."
+    "front": "Packaging and Distributing Python Applications: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Packaging and Distributing Python Applications: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

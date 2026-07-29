@@ -1,27 +1,112 @@
 [
   {
-    "id": 1,
-    "question": "Which operator checks equality?",
-    "answer": "=="
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
   },
   {
-    "id": 2,
-    "question": "Which operator returns the remainder?",
-    "answer": "%"
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
   },
   {
-    "id": 3,
-    "question": "Which logical operator requires both conditions?",
-    "answer": "and"
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
   },
   {
-    "id": 4,
-    "question": "Which operator checks membership?",
-    "answer": "in"
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
   },
   {
-    "id": 5,
-    "question": "Which operator compares object identity?",
-    "answer": "is"
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  },
+  {
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Operators: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
   }
 ]

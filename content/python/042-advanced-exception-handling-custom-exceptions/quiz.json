@@ -1,42 +1,112 @@
 [
   {
-    "id": 1,
-    "question": "What does raise do?",
-    "answer": "Explicitly raises an exception."
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
   },
   {
-    "id": 2,
-    "question": "Why create custom exceptions?",
-    "answer": "To represent meaningful domain-specific errors."
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
   },
   {
-    "id": 3,
-    "question": "What is re-raising?",
-    "answer": "Raising the same exception again after handling."
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
   },
   {
-    "id": 4,
-    "question": "What is exception chaining?",
-    "answer": "Linking exceptions using raise ... from ..."
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
   },
   {
-    "id": 5,
-    "question": "What is an assertion?",
-    "answer": "A debugging check that raises AssertionError when false."
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
   },
   {
-    "id": 6,
-    "question": "Which logging function records a traceback?",
-    "answer": "logging.exception()"
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
   },
   {
-    "id": 7,
-    "question": "Why avoid bare except blocks?",
-    "answer": "They hide unexpected errors and complicate debugging."
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
   },
   {
-    "id": 8,
-    "question": "Why is exception handling important in AI pipelines?",
-    "answer": "It improves reliability and graceful recovery."
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Advanced Exception Handling and Custom Exceptions: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
   }
 ]

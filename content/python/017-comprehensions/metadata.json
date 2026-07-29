@@ -1,1 +1,28 @@
-{"lessonNumber":17,"title":"Comprehensions","slug":"comprehensions","module":"Python Fundamentals","difficulty":"Advanced","duration":"75 minutes","status":"draft"}
+{
+  "id": "python-017-comprehensions",
+  "lessonNumber": 17,
+  "title": "Comprehensions",
+  "slug": "comprehensions",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-016"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Comprehensions.",
+    "Apply Comprehensions with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-016",
+  "nextLesson": "python-018"
+}

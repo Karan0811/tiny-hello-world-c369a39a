@@ -1,26 +1,77 @@
 [
   {
-    "q": "Virtual Environment",
-    "a": "An isolated Python environment."
+    "front": "Purpose: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "pip",
-    "a": "Python's package manager."
+    "front": "Input boundary: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "requirements.txt",
-    "a": "Dependency list for a project."
+    "front": "Safe default: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "pyproject.toml",
-    "a": "Modern Python project configuration."
+    "front": "Validation: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "pip freeze",
-    "a": "Lists installed packages with versions."
+    "front": "Small example: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Version Pinning",
-    "a": "Locking dependency versions."
+    "front": "Testable behavior: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Error handling: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Observability: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Maintainability: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Documentation: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Configuration: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Dependencies: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Trade-off: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Production check: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Key takeaway: Virtual Environments and Dependency Management",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   }
 ]

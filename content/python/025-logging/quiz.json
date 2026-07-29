@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Which component sends a log record to standard error, a file, or another destination?",
+    "options": ["Formatter", "Handler", "Logger name", "Traceback"],
+    "answer": "Handler",
+    "explanation": "A handler routes records to an output destination. A formatter controls how they look."
+  },
+  {
+    "question": "Which level best describes an unexpected condition that the program can safely continue past?",
+    "options": ["DEBUG", "INFO", "WARNING", "CRITICAL"],
+    "answer": "WARNING",
+    "explanation": "Use WARNING for recoverable or unexpected conditions that deserve attention."
+  },
+  {
+    "question": "What is printed when the configured level is INFO?\n\nlogger.debug(\"cache key=%s\", \"abc\")\nlogger.info(\"job started\")",
+    "options": ["Both messages", "Only 'job started'", "Only the debug message", "Nothing"],
+    "answer": "Only 'job started'",
+    "explanation": "DEBUG is below the INFO threshold, so the debug record is filtered out."
+  },
+  {
+    "question": "Where should an application usually call logging.basicConfig()?",
+    "options": ["Inside every helper function", "In a reusable library module", "Once at the application entry point", "Only inside tests"],
+    "answer": "Once at the application entry point",
+    "explanation": "The executable application owns logging policy; imported modules should not configure the root logger."
+  },
+  {
+    "question": "What does logger.exception(\"import failed\") add when called inside except?",
+    "options": ["A traceback", "A retry loop", "A handler", "A new exception type"],
+    "answer": "A traceback",
+    "explanation": "logger.exception logs at ERROR level and includes the active exception traceback."
+  },
+  {
+    "question": "Which change fixes this performance issue for a disabled DEBUG log?\n\nlogger.debug(f\"processed {record_count} records\")",
+    "options": ["logger.debug('processed %s records', record_count)", "print(record_count)", "logger.error(record_count)", "str(record_count)"],
+    "answer": "logger.debug('processed %s records', record_count)",
+    "explanation": "Passing arguments lets logging defer string interpolation until the record is emitted."
+  },
+  {
+    "question": "Which item should not be placed in normal production logs?",
+    "options": ["Elapsed time", "A request ID", "An API key", "A retry count"],
+    "answer": "An API key",
+    "explanation": "Credentials are secrets and can spread through log storage and support systems."
+  },
+  {
+    "question": "Why is logging usually preferred over print() in an application?",
+    "options": ["It removes the need for exceptions", "It supports levels, routing, and formatting", "It always writes to a database", "It makes code run faster"],
+    "answer": "It supports levels, routing, and formatting",
+    "explanation": "Logging is configurable and can be routed differently by environment; it does not replace error handling."
+  },
+  {
+    "question": "A service needs an alert when p95 request latency rises. What is the best primary signal?",
+    "options": ["A metric", "A DEBUG log", "A print statement", "A traceback"],
+    "answer": "A metric",
+    "explanation": "Metrics aggregate numerical behavior over time; logs provide per-event investigation context."
+  },
+  {
+    "question": "A reusable module contains this line at import time: logging.basicConfig(level=logging.DEBUG). Why is this a bug?",
+    "options": ["It prevents type checking", "It forces the module's logging policy on its host application", "It disables all handlers", "It makes logger names invalid"],
+    "answer": "It forces the module's logging policy on its host application",
+    "explanation": "Libraries should emit named records and leave configuration to the application boundary."
+  }
+]

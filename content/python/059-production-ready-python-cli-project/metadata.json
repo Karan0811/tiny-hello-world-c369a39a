@@ -1,19 +1,28 @@
 {
+  "id": "python-059-production-ready-python-cli-project",
   "lessonNumber": 59,
-  "title": "Advanced Python Project: Building a Production-Ready CLI Application",
+  "title": "Production-Ready Python CLI Project",
   "slug": "production-ready-python-cli-project",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "300 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-058"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Production-Ready Python CLI Project.",
+    "Apply Production-Ready Python CLI Project with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "cli",
-    "argparse",
-    "repository pattern",
-    "service layer",
-    "logging",
-    "packaging",
-    "architecture"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-058",
+  "nextLesson": "python-060"
 }

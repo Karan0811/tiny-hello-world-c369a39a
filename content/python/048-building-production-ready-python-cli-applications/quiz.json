@@ -1,42 +1,112 @@
 [
   {
-    "id": 1,
-    "question": "Which module is commonly used to build CLI applications?",
-    "answer": "argparse"
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 1?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "id": 2,
-    "question": "What is the purpose of subcommands?",
-    "answer": "Organize multiple operations under one CLI."
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 2?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "id": 3,
-    "question": "Why use configuration files?",
-    "answer": "Avoid hardcoding values."
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 3?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
   },
   {
-    "id": 4,
-    "question": "Why use environment variables?",
-    "answer": "Securely store secrets."
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 4?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
   },
   {
-    "id": 5,
-    "question": "Why is logging important?",
-    "answer": "Monitoring and debugging."
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 5?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   },
   {
-    "id": 6,
-    "question": "What is an entry point?",
-    "answer": "Executable command defined in pyproject.toml."
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 6?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "id": 7,
-    "question": "Why separate CLI parsing from business logic?",
-    "answer": "Maintainability and testing."
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 7?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "id": 8,
-    "question": "What does --help provide?",
-    "answer": "Usage and argument documentation."
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 8?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
+  },
+  {
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 9?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
+  },
+  {
+    "question": "Production-Ready Python CLI Applications: which practice is most reliable for case 10?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   }
 ]

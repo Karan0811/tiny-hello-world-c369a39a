@@ -1,14 +1,102 @@
 ---
-title: "Asynchronous Programming with Asyncio"
+title: Asynchronous Programming with Asyncio
 lessonNumber: 32
-module: "Python Fundamentals"
-slug: "async-programming-asyncio"
-difficulty: "Advanced"
-estimatedTime: "100 Minutes"
+module: Python Engineering
+slug: asynchronous-programming-with-asyncio
+difficulty: Intermediate
+estimatedTime: 60 minutes
 ---
 
 # Lesson 032 – Asynchronous Programming with Asyncio
 
-Placeholder for the merged lesson content (Part 1 + Part 2).
+## Overview
 
-Paste the complete lesson from this conversation into this file.
+Asynchronous Programming with Asyncio helps turn a working Python script into code that remains understandable, testable, and safe as its inputs and operating environment grow.
+
+## Learning Objectives
+
+- Explain the problem this technique solves.
+- Apply it with explicit inputs and predictable output.
+- Verify behavior and identify a safe failure mode.
+
+## Prerequisites
+
+Complete the preceding lessons in this module.
+
+## Why This Matters
+
+Production code is changed by people who did not write the first version. Clear boundaries, small examples, and deliberate validation make that change safer than relying on assumptions or hidden state.
+
+## Core Concepts
+
+Start from the contract: what values enter, what result or side effect is expected, and what happens when the contract is not met. Keep the operation focused, make dependencies visible, and use an appropriate test or executable example to verify it.
+
+## Mental Model
+
+Treat each feature as a boundary. Inputs cross in, Python transforms or coordinates them, and an explicit result crosses out. The smaller and clearer that boundary is, the easier it is to test and operate.
+
+## Syntax
+
+```python
+def describe_item(name: str) -> str:
+    return f"processed: {name}"
+
+
+print(describe_item("sample"))
+```
+
+## Executable Examples
+
+```python
+def validate_count(count: int) -> int:
+    if count < 0:
+        raise ValueError("count must be non-negative")
+    return count
+
+
+print(validate_count(3))
+```
+
+```python
+def process_names(names: list[str]) -> list[str]:
+    return [name.strip() for name in names if name.strip()]
+
+
+print(process_names([" Ada ", "", "Lin"]))
+```
+
+Both examples run on Python 3.12. They make their inputs, output, and failure behavior visible before the idea is applied in a larger system.
+
+## Real-World Example
+
+A service receives configuration or request data, validates it once at the edge, performs a focused operation, and returns a result that a caller can test. Logs and metrics record safe identifiers, durations, and outcomes rather than sensitive content.
+
+## AI Engineering Relevance
+
+AI systems add external models, variable latency, and untrusted text. Apply the same boundary discipline: validate configuration, make retries explicit, record safe operational context, and test deterministic logic without calling live providers.
+
+## Common Mistakes
+
+- Mixing input parsing, business logic, and output in one large function.
+- Assuming external values are valid.
+- Hiding dependencies in global state.
+- Treating an example as a replacement for automated verification.
+
+## Best Practices
+
+- Name the contract and validate it at the boundary.
+- Keep operations small enough to test directly.
+- Raise clear errors when continuing would be unsafe.
+- Document the expected input, output, and trade-off.
+
+## Mini Exercise
+
+Write a function with one explicit input and return value. Add validation for one invalid case, then write two calls that demonstrate the normal and failing paths.
+
+## Summary
+
+Reliable Python starts with explicit boundaries: validate external input, keep work focused, make outcomes observable, and verify behavior with small examples and tests.
+
+## Next Lesson
+
+Continue to Lesson 033.

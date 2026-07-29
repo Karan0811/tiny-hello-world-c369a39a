@@ -1,3 +1,77 @@
 [
-{"q":"Path?","a":"An object representing a filesystem location."},{"q":"Path.cwd()?","a":"Current working directory."},{"q":"Relative path?","a":"Path resolved from current working directory."},{"q":"Absolute path?","a":"Path from filesystem root."},{"q":"Path join?","a":"Use path / child."},{"q":"exists()?","a":"Checks whether a path exists."},{"q":"is_file()?","a":"Checks for a regular file."},{"q":"is_dir()?","a":"Checks for a directory."},{"q":"mkdir parents=True?","a":"Creates missing parent directories."},{"q":"exist_ok=True?","a":"Does not fail when directory exists."},{"q":"glob?","a":"Matches direct child paths."},{"q":"rglob?","a":"Matches paths recursively."},{"q":"resolve()?","a":"Returns normalized absolute target path."},{"q":"suffix?","a":"File extension including dot."},{"q":"name?","a":"Final path component."},{"q":"stat().st_size?","a":"File size in bytes."},{"q":"Why validate paths?","a":"To prevent wrong location or unsafe traversal."},{"q":"Is suffix content validation?","a":"No."},{"q":"Why separate outputs?","a":"Avoid mixing generated artifacts with inputs."},{"q":"Why limit recursive scans?","a":"Large trees can consume time and resources."}
+  {
+    "front": "File System and pathlib: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "File System and pathlib: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  }
 ]

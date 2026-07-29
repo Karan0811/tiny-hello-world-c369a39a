@@ -1,34 +1,41 @@
 # asyncio and Concurrency Cheat Sheet
 
-```python
-import asyncio
+## Quick Reference
 
-async def fetch(item: str) -> str:
-    await asyncio.sleep(0.01)
-    return item.upper()
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
 
-async def main() -> None:
-    results = await asyncio.gather(*(fetch(x) for x in ["a", "b"]))
-    print(results)
-
-asyncio.run(main())
-```
+## Syntax
 
 ```python
-semaphore = asyncio.Semaphore(5)
-async with semaphore:
-    result = await asyncio.wait_for(fetch("a"), timeout=1)
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-## Best practices
+## Examples
 
-- Use async for awaitable I/O, not CPU-heavy computation.
-- Bound concurrency and set timeouts.
-- Define retry, cancellation, and partial-failure policy.
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
+```
 
-## Common mistakes
+## Best Practices
 
-- `time.sleep()` inside async code.
-- Unlimited concurrent provider calls.
-- Ignoring task exceptions.
-- Assuming async creates CPU parallelism.
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
+
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

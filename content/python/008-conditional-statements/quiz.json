@@ -1,27 +1,112 @@
 [
   {
-    "id": 1,
-    "question": "Which keyword checks another condition?",
-    "answer": "elif"
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
   },
   {
-    "id": 2,
-    "question": "Which block executes if no condition is true?",
-    "answer": "else"
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
   },
   {
-    "id": 3,
-    "question": "Which operator requires both conditions?",
-    "answer": "and"
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
   },
   {
-    "id": 4,
-    "question": "Which statement introduced in Python 3.10 supports pattern matching?",
-    "answer": "match"
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
   },
   {
-    "id": 5,
-    "question": "Which error occurs due to incorrect indentation?",
-    "answer": "IndentationError"
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  },
+  {
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Conditional Statements: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
   }
 ]

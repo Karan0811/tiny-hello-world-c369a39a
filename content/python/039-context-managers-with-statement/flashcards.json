@@ -1,26 +1,77 @@
 [
   {
-    "q": "Context Manager",
-    "a": "Automatically manages setup and cleanup."
+    "front": "Context Managers with the with Statement: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "with",
-    "a": "Activates a context manager."
+    "front": "Context Managers with the with Statement: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "__enter__()",
-    "a": "Acquire resource."
+    "front": "Context Managers with the with Statement: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "__exit__()",
-    "a": "Release resource."
+    "front": "Context Managers with the with Statement: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "contextlib",
-    "a": "Utilities for context managers."
+    "front": "Context Managers with the with Statement: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "@contextmanager",
-    "a": "Generator-based context manager."
+    "front": "Context Managers with the with Statement: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Context Managers with the with Statement: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

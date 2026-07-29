@@ -1,42 +1,112 @@
 [
   {
-    "id": 1,
-    "question": "What does \\d represent?",
-    "answer": "Any digit."
+    "question": "Regular Expressions: which practice is most reliable for case 1?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "id": 2,
-    "question": "What does + mean in Regex?",
-    "answer": "One or more occurrences."
+    "question": "Regular Expressions: which practice is most reliable for case 2?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "id": 3,
-    "question": "What does ^ represent?",
-    "answer": "Beginning of the string."
+    "question": "Regular Expressions: which practice is most reliable for case 3?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
   },
   {
-    "id": 4,
-    "question": "What does $ represent?",
-    "answer": "End of the string."
+    "question": "Regular Expressions: which practice is most reliable for case 4?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
   },
   {
-    "id": 5,
-    "question": "What is the purpose of \\b?",
-    "answer": "Match a word boundary."
+    "question": "Regular Expressions: which practice is most reliable for case 5?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   },
   {
-    "id": 6,
-    "question": "Why use named groups?",
-    "answer": "Improve readability and easier field extraction."
+    "question": "Regular Expressions: which practice is most reliable for case 6?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "id": 7,
-    "question": "What does re.compile() do?",
-    "answer": "Precompiles a Regex pattern for reuse."
+    "question": "Regular Expressions: which practice is most reliable for case 7?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "id": 8,
-    "question": "Why are raw strings recommended?",
-    "answer": "They avoid escape-sequence issues."
+    "question": "Regular Expressions: which practice is most reliable for case 8?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
+  },
+  {
+    "question": "Regular Expressions: which practice is most reliable for case 9?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
+  },
+  {
+    "question": "Regular Expressions: which practice is most reliable for case 10?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   }
 ]

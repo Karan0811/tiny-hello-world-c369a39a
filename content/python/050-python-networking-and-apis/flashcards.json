@@ -1,34 +1,77 @@
 [
   {
-    "q": "requests",
-    "a": "Python HTTP client library."
+    "front": "Python Networking and APIs: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "GET",
-    "a": "Retrieve data."
+    "front": "Python Networking and APIs: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "POST",
-    "a": "Create/send data."
+    "front": "Python Networking and APIs: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "JSON",
-    "a": "Standard API data format."
+    "front": "Python Networking and APIs: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Headers",
-    "a": "Request metadata."
+    "front": "Python Networking and APIs: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Session",
-    "a": "Reusable HTTP connection."
+    "front": "Python Networking and APIs: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Timeout",
-    "a": "Limit request waiting time."
+    "front": "Python Networking and APIs: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "API Key",
-    "a": "Credential for API authentication."
+    "front": "Python Networking and APIs: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Networking and APIs: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Networking and APIs: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Networking and APIs: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Networking and APIs: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Networking and APIs: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Networking and APIs: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Networking and APIs: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

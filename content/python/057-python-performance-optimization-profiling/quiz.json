@@ -1,22 +1,112 @@
 [
   {
-    "question": "Which module is best for benchmarking?",
-    "answer": "timeit"
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 1?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "question": "Which built-in profiler measures function execution?",
-    "answer": "cProfile"
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 2?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "question": "Which module tracks memory allocations?",
-    "answer": "tracemalloc"
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 3?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
   },
   {
-    "question": "Which keyword creates a generator?",
-    "answer": "yield"
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 4?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
   },
   {
-    "question": "Which decorator caches function results?",
-    "answer": "functools.lru_cache"
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 5?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
+  },
+  {
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 6?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
+  },
+  {
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 7?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
+  },
+  {
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 8?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
+  },
+  {
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 9?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
+  },
+  {
+    "question": "Performance Optimization and Profiling: which practice is most reliable for case 10?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   }
 ]

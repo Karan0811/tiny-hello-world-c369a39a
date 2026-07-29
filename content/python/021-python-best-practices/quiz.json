@@ -1,3 +1,112 @@
 [
-{"id":1,"question":"Which naming style suits a function?","options":["PascalCase","snake_case","UPPER-case","kebab-case"],"answer":"snake_case","explanation":"Python convention uses snake_case for functions."},{"id":2,"question":"What do type hints primarily provide?","options":["Runtime validation","Encryption","Interface documentation","Package installation"],"answer":"Interface documentation","explanation":"They aid tools and readers; validation is separate."},{"id":3,"question":"Where should a secret be stored?","options":["Secret management or environment config","Source code","requirements.txt","Logs"],"answer":"Secret management or environment config","explanation":"Secrets should not be committed."},{"id":4,"question":"What makes a function easier to test?","options":["Hidden globals","Focused behavior","Many side effects","Hard-coded URLs"],"answer":"Focused behavior","explanation":"Small focused functions have clear contracts."},{"id":5,"question":"What should external input receive?","options":["Trust","Runtime validation","Only type hints","No errors"],"answer":"Runtime validation","explanation":"External data can be malformed."},{"id":6,"question":"What should logs include?","options":["Safe operational context","Passwords","Raw customer documents","All headers"],"answer":"Safe operational context","explanation":"Logs should aid operations without exposing data."},{"id":7,"question":"What does reproducible setup require?","options":["Global installs","Declared dependencies","No tests","Random versions"],"answer":"Declared dependencies","explanation":"Others must be able to install the approved set."},{"id":8,"question":"What does CI automate?","options":["Only deployment","Checks such as tests and linting","Secrets storage","Manual review"],"answer":"Checks such as tests and linting","explanation":"CI verifies changes repeatedly."},{"id":9,"question":"What should a broad exception handler avoid?","options":["Actionable recovery","Silently continuing unsafely","Logging","Specific errors"],"answer":"Silently continuing unsafely","explanation":"Hidden errors produce unreliable behavior."},{"id":10,"question":"What is observability?","options":["Code formatting","Evidence about runtime behavior","A package manager","A class type"],"answer":"Evidence about runtime behavior","explanation":"Logs, metrics, and traces support diagnosis."}
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Python Best Practices: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  }
 ]

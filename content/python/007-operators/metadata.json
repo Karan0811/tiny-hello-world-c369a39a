@@ -1,9 +1,28 @@
 {
+  "id": "python-007-operators",
   "lessonNumber": 7,
   "title": "Operators",
   "slug": "operators",
-  "module": "Python",
+  "module": "Python Fundamentals",
   "difficulty": "Beginner",
-  "duration": "45 minutes",
-  "status": "draft"
+  "estimatedTime": "45 minutes",
+  "prerequisites": [
+    "python-006"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Operators.",
+    "Apply Operators with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-006",
+  "nextLesson": "python-008"
 }

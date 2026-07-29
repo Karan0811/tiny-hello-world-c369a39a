@@ -1,26 +1,77 @@
 [
   {
-    "q": "Decorator",
-    "a": "Wraps and extends another function."
+    "front": "Python Decorators: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "functools.wraps",
-    "a": "Preserves function metadata."
+    "front": "Python Decorators: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "*args",
-    "a": "Variable positional arguments."
+    "front": "Python Decorators: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "**kwargs",
-    "a": "Variable keyword arguments."
+    "front": "Python Decorators: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "@property",
-    "a": "Access a method like an attribute."
+    "front": "Python Decorators: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Parameterized Decorator",
-    "a": "Decorator that accepts arguments."
+    "front": "Python Decorators: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Decorators: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

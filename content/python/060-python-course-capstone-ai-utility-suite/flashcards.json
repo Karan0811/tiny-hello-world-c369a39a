@@ -1,22 +1,77 @@
 [
   {
-    "front": "Layer performing file operations",
-    "back": "Utility Layer"
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Pattern for multiple export formats",
-    "back": "Strategy Pattern"
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Extensible architecture component",
-    "back": "Plugin Architecture"
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "CI/CD automation tool",
-    "back": "GitHub Actions"
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "front": "Reason for independent utility modules",
-    "back": "Modularity, reusability, maintainability"
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Course Capstone: Production AI Utility Suite: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

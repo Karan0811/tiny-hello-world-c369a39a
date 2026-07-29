@@ -1,19 +1,28 @@
 {
+  "id": "python-041-advanced-exception-handling-custom-exceptions",
   "lessonNumber": 41,
-  "title": "Advanced Exception Handling & Custom Exceptions",
+  "title": "Advanced Exception Handling and Custom Exceptions",
   "slug": "advanced-exception-handling-custom-exceptions",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "140 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-040"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Advanced Exception Handling and Custom Exceptions.",
+    "Apply Advanced Exception Handling and Custom Exceptions with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "exceptions",
-    "error-handling",
-    "custom-exceptions",
-    "logging",
-    "debugging",
-    "production",
-    "ai"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-040",
+  "nextLesson": "python-042"
 }

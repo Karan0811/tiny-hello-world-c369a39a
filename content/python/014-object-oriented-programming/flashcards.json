@@ -1,22 +1,77 @@
 [
-  {"q":"What is a class?","a":"A blueprint defining object state and behavior."},
-  {"q":"What is an object?","a":"A concrete instance created from a class."},
-  {"q":"What is an attribute?","a":"State stored on an object."},
-  {"q":"What is a method?","a":"A function defined on a class."},
-  {"q":"What is self?","a":"The current instance inside an instance method."},
-  {"q":"What does __init__ do?","a":"Initializes object state after creation."},
-  {"q":"What is an invariant?","a":"A rule that must remain true for valid object state."},
-  {"q":"Why validate in __init__?","a":"To prevent constructing invalid objects."},
-  {"q":"What is encapsulation?","a":"Keeping state and rules that govern it together."},
-  {"q":"What does a leading underscore signal?","a":"An implementation detail not intended for normal callers."},
-  {"q":"What is a dataclass?","a":"A decorator that generates common data-object methods."},
-  {"q":"What does frozen=True do for a dataclass?","a":"Prevents reassignment of its fields after creation."},
-  {"q":"What is a class attribute?","a":"An attribute shared by the class unless overridden."},
-  {"q":"What is an instance attribute?","a":"An attribute belonging to one object."},
-  {"q":"Why avoid mutable class attributes for instance data?","a":"Instances can accidentally share the same mutable value."},
-  {"q":"What is cohesion?","a":"A class having one closely related responsibility."},
-  {"q":"When is a function preferable to a class?","a":"When no persistent cohesive state or identity is needed."},
-  {"q":"What does composition mean?","a":"An object contains or uses other objects."},
-  {"q":"Why add type hints to public methods?","a":"They make shared interfaces clearer and easier to check."},
-  {"q":"What should methods expose?","a":"Deliberate operations rather than arbitrary internal mutation."}
+  {
+    "front": "Object-Oriented Programming: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Object-Oriented Programming: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  }
 ]

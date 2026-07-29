@@ -1,0 +1,28 @@
+{
+  "id": "python-025-logging",
+  "lessonNumber": 25,
+  "title": "Logging",
+  "slug": "logging",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-024"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Logging.",
+    "Apply Logging with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-024",
+  "nextLesson": "python-026"
+}

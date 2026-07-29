@@ -23,7 +23,7 @@ Complete Lessons 001–024, especially Testing and Debugging and Python Best Pra
 
 Logs are evidence of what a system did. When a scheduled ingestion job fails at 2 a.m. or an AI request becomes slow, an operator needs safe context: what operation ran, which request it belonged to, what outcome occurred, and why. `print()` is useful during exploration; logging is configurable, routable, and suitable for applications.
 
-## Theory
+## Core Concepts
 
 Python's `logging` package sends records from a logger to handlers. A handler chooses a destination such as standard error or a file; a formatter controls representation. Levels communicate severity: `DEBUG` for detailed development diagnostics, `INFO` for normal lifecycle events, `WARNING` for unexpected recoverable conditions, `ERROR` for failed operations, and `CRITICAL` for severe service failure.
 
@@ -53,7 +53,23 @@ flowchart LR
 | Formatter | controls record representation |
 | Exception logging | retains traceback with context |
 
-## Practical Examples
+## Syntax
+
+```python
+import logging
+
+logger = logging.getLogger(__name__)
+logger.debug("diagnostic detail")
+logger.info("normal lifecycle event")
+logger.warning("recoverable problem")
+logger.error("operation failed")
+```
+
+The application configures logging once; modules obtain a named logger with
+`getLogger(__name__)`. Use the logging methods with `%s` placeholders so a
+disabled message does not need to be formatted.
+
+## Executable Examples
 
 ```python
 import logging
@@ -68,7 +84,9 @@ logger.info("ingestion_started dataset_id=%s", "dataset-2026-07")
 logger.warning("row_skipped row_number=%s reason=%s", 18, "missing label")
 ```
 
-Use `%s` placeholders rather than eagerly building strings. Logging can avoid formatting a disabled lower-level message.
+Expected output includes an `INFO` record for the dataset and a `WARNING`
+record for row 18. `basicConfig()` belongs in an executable entry point, not in
+an imported library module.
 
 ```python
 import logging
@@ -85,7 +103,8 @@ def load_score(raw_score: str) -> float:
     return score
 ```
 
-`logger.exception` is appropriate inside an exception handler and includes the traceback. Do not log the raw input if it might contain sensitive text.
+`logger.exception` is appropriate inside an exception handler and includes the
+traceback. Do not log the raw input if it might contain sensitive text.
 
 ```python
 import logging
@@ -99,7 +118,30 @@ def classify_batch(record_count: int) -> None:
     # Call application logic here.
     elapsed_ms = (perf_counter() - started) * 1000
     logger.info("batch_complete records=%s elapsed_ms=%.1f", record_count, elapsed_ms)
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    classify_batch(25)
 ```
+
+This produces a single completion record with a record count and elapsed time.
+It shows the useful shape of an operational event without exposing any record
+contents.
+
+## Real-World Example
+
+A document-processing service gives every run a safe `run_id`. It logs
+`document_started`, `document_completed`, and `document_failed` with document
+IDs, chunk counts, duration, and outcome. When a document fails, an operator
+can find its run and traceback without the logs containing the document itself.
+
+## AI Engineering Relevance
+
+For an LLM pipeline, log the provider, model alias, request ID, retry count,
+safe token counts, latency, and outcome class. Keep prompt text, retrieved
+documents, API keys, and user data out of logs. Use metrics for aggregate error
+rate and latency percentiles; logs explain individual events.
 
 ## Did You Know
 
@@ -120,72 +162,20 @@ def classify_batch(record_count: int) -> None:
 - Attach request or run IDs at service boundaries.
 - Test that sensitive fields are absent from log output.
 
-## Production Insight
+## Mini Exercise
 
-For an LLM pipeline, record provider name, model alias, request ID, token counts when safe, latency, retry count, and outcome class. Avoid prompt text and secrets. Emit a metric for error rate and latency percentiles; logs alone are poor for alert thresholds.
+Write `process_scores(scores: list[str]) -> list[float]`. Configure logging at
+`INFO`, log the number of input values and successfully parsed scores, and emit
+a `WARNING` for each invalid value. Do not include the invalid value in the
+warning. Then add an `ERROR` record with `logger.exception` for an unexpected
+exception. Compare your events with the examples above: can an operator tell
+what happened without seeing private data?
 
-## Interview Tip
-
-Explain that logging is part of observability, not a replacement for error handling. State how you select level, add safe context, preserve tracebacks, and keep configuration at the application boundary.
-
-## Real-World Example
-
-A document processor logs `document_started`, `document_completed`, and `document_failed` with document IDs, chunk counts, and elapsed time. The original document content is stored only in its controlled data system, never copied into logs.
-
-## Mini Exercises
-
-1. Configure an `INFO` logger with timestamp, level, and message.
-2. Replace a debugging `print` with a log record containing a safe record ID.
-3. Log an exception with `logger.exception` inside an `except` block.
-
-## Mini Project
-
-Create `batch_logger.py`. Process a small list of records, log start and completion counts, log skipped invalid records at `WARNING`, and log unexpected exceptions with tracebacks. Add a run ID without logging the record text.
-
-## Quiz
-
-See [quiz.json](./quiz.json).
-
-<details><summary>Quiz answers</summary>
-
-1-B, 2-C, 3-A, 4-B, 5-C, 6-A, 7-B, 8-C, 9-A, 10-B.
-</details>
-
-## Interview Questions
-
-### Beginner
-
-What is the difference between `print()` and logging?
-
-### Intermediate
-
-When should you use `logger.exception`?
-
-### Advanced
-
-Which logs and metrics would you add to an AI batch-processing service?
-
-## Key Takeaways
+## Summary
 
 - Logging records safe operational evidence.
 - Levels, handlers, and formatters separate meaning, routing, and representation.
 - Configure logging once at the application edge and avoid sensitive content.
-
-## Flashcard Preview
-
-- **Logger:** creates log records.
-- **Handler:** routes records to a destination.
-- **`logger.exception`:** logs an active exception with traceback.
-
-See [flashcards.json](./flashcards.json).
-
-## Cheat Sheet
-
-See [cheatsheet.md](./cheatsheet.md).
-
-## Summary
-
-Useful logging makes systems diagnosable without leaking data. Emit consistent, contextual records; complement them with metrics; and keep logging configuration out of reusable domain modules.
 
 ## Next Lesson
 

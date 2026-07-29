@@ -1,34 +1,41 @@
 # Python Best Practices Cheat Sheet
 
-```python
-def average_score(scores: list[float]) -> float:
-    if not scores:
-        raise ValueError("scores must not be empty")
-    return sum(scores) / len(scores)
-```
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
 
 ```python
-import os
-endpoint = os.environ["SERVICE_ENDPOINT"]
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-| Practice | Reminder |
-|---|---|
-| Naming | `snake_case` functions, `PascalCase` classes |
-| Types | Document interfaces; validate external input |
-| Config | Keep settings and secrets out of source |
-| Tests | Automate behavior and error checks |
-| Logs | Record safe context and useful counts |
+## Examples
 
-## Best practices
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
+```
 
-- Small functions, clear contracts, explicit dependencies.
-- Format, lint, test, and review changes in CI.
-- Pin dependencies and keep environments reproducible.
+## Best Practices
 
-## Common mistakes
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
 
-- Vague names and hidden globals.
-- Hard-coded secrets or endpoints.
-- Broad swallowed exceptions.
-- Logging private data.
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

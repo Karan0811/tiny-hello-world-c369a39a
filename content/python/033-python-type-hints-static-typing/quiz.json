@@ -1,42 +1,112 @@
 [
   {
-    "id": 1,
-    "question": "What are type hints?",
-    "answer": "Optional annotations describing expected types."
+    "question": "What is the main purpose of this topic?",
+    "options": [
+      "Apply Python Type Hints and Static Typing safely in a tested program.",
+      "Avoid all dependencies.",
+      "Replace Python syntax.",
+      "Store secrets in source code."
+    ],
+    "answer": "Apply Python Type Hints and Static Typing safely in a tested program.",
+    "explanation": "Apply Python Type Hints and Static Typing safely in a tested program."
   },
   {
-    "id": 2,
-    "question": "Are type hints enforced at runtime?",
-    "answer": "No."
+    "question": "Which habit improves reliability most?",
+    "options": [
+      "Verify behavior with a focused, repeatable check.",
+      "Assume the happy path.",
+      "Skip errors during development.",
+      "Copy configuration into code."
+    ],
+    "answer": "Verify behavior with a focused, repeatable check.",
+    "explanation": "Verify behavior with a focused, repeatable check."
   },
   {
-    "id": 3,
-    "question": "What is Optional[str]?",
-    "answer": "A value that can be str or None."
+    "question": "What should production code prefer?",
+    "options": [
+      "Clear boundaries, explicit inputs, and observable outcomes.",
+      "Hidden global state.",
+      "Undocumented side effects.",
+      "Unbounded retries."
+    ],
+    "answer": "Clear boundaries, explicit inputs, and observable outcomes.",
+    "explanation": "Clear boundaries, explicit inputs, and observable outcomes."
   },
   {
-    "id": 4,
-    "question": "What is Union?",
-    "answer": "Allows multiple possible types."
+    "question": "What is the safest response to an unexpected failure?",
+    "options": [
+      "Preserve useful context and handle or re-raise it deliberately.",
+      "Silence it.",
+      "Print secrets.",
+      "Continue with corrupted data."
+    ],
+    "answer": "Preserve useful context and handle or re-raise it deliberately.",
+    "explanation": "Preserve useful context and handle or re-raise it deliberately."
   },
   {
-    "id": 5,
-    "question": "What is Any?",
-    "answer": "A type accepting any value."
+    "question": "Why keep examples small?",
+    "options": [
+      "They isolate one idea and make behavior easy to verify.",
+      "They remove the need for tests.",
+      "They make type hints invalid.",
+      "They are always faster."
+    ],
+    "answer": "They isolate one idea and make behavior easy to verify.",
+    "explanation": "They isolate one idea and make behavior easy to verify."
   },
   {
-    "id": 6,
-    "question": "What is TypedDict?",
-    "answer": "A typed dictionary structure."
+    "question": "What should documentation explain first?",
+    "options": [
+      "Why the technique is needed and its trade-offs.",
+      "Only every implementation detail.",
+      "Private credentials.",
+      "Unrelated history."
+    ],
+    "answer": "Why the technique is needed and its trade-offs.",
+    "explanation": "Why the technique is needed and its trade-offs."
   },
   {
-    "id": 7,
-    "question": "What is MyPy?",
-    "answer": "A static type checker for Python."
+    "question": "Which input boundary needs validation?",
+    "options": [
+      "Any external configuration, file, request, or user value.",
+      "Only integers.",
+      "Only values from tests.",
+      "No inputs."
+    ],
+    "answer": "Any external configuration, file, request, or user value.",
+    "explanation": "Any external configuration, file, request, or user value."
   },
   {
-    "id": 8,
-    "question": "Why use type hints?",
-    "answer": "Improve readability and catch errors earlier."
+    "question": "What is a useful operational signal?",
+    "options": [
+      "A safe identifier, count, duration, or outcome.",
+      "A raw password.",
+      "A complete private document.",
+      "An unexplained message."
+    ],
+    "answer": "A safe identifier, count, duration, or outcome.",
+    "explanation": "A safe identifier, count, duration, or outcome."
+  },
+  {
+    "question": "What makes a change easier to maintain?",
+    "options": [
+      "A focused responsibility and a testable interface.",
+      "Duplicated logic.",
+      "Implicit side effects.",
+      "A larger function."
+    ],
+    "answer": "A focused responsibility and a testable interface.",
+    "explanation": "A focused responsibility and a testable interface."
+  },
+  {
+    "question": "What should you do after changing behavior?",
+    "options": [
+      "Run the relevant example or automated check.",
+      "Delete the documentation.",
+      "Disable errors globally.",
+      "Assume it works."
+    ],
+    "answer": "Run the relevant example or automated check.",
+    "explanation": "Run the relevant example or automated check."
   }
 ]

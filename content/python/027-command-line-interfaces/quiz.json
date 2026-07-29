@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 1?",
+    "options": [
+      "Validate external input.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Validate external input.",
+    "explanation": "Validate external input."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 2?",
+    "options": [
+      "Use explicit configuration.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Use explicit configuration.",
+    "explanation": "Use explicit configuration."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 3?",
+    "options": [
+      "Verify behavior with a focused check.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Verify behavior with a focused check.",
+    "explanation": "Verify behavior with a focused check."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 4?",
+    "options": [
+      "Keep secrets out of source code.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Keep secrets out of source code.",
+    "explanation": "Keep secrets out of source code."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 5?",
+    "options": [
+      "Handle failures deliberately.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Handle failures deliberately.",
+    "explanation": "Handle failures deliberately."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 6?",
+    "options": [
+      "Validate external input.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Validate external input.",
+    "explanation": "Validate external input."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 7?",
+    "options": [
+      "Use explicit configuration.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Use explicit configuration.",
+    "explanation": "Use explicit configuration."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 8?",
+    "options": [
+      "Verify behavior with a focused check.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Verify behavior with a focused check.",
+    "explanation": "Verify behavior with a focused check."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 9?",
+    "options": [
+      "Keep secrets out of source code.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Keep secrets out of source code.",
+    "explanation": "Keep secrets out of source code."
+  },
+  {
+    "question": "Command-Line Interfaces: which practice is most reliable for scenario 10?",
+    "options": [
+      "Handle failures deliberately.",
+      "Trust hidden defaults.",
+      "Ignore failures.",
+      "Store secrets in logs."
+    ],
+    "answer": "Handle failures deliberately.",
+    "explanation": "Handle failures deliberately."
+  }
+]

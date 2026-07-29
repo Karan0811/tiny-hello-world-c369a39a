@@ -1,12 +1,112 @@
 [
-  {"id": 1, "question": "Which mode opens an existing file for reading?", "options": ["r", "w", "a", "x"], "answer": "r", "explanation": "Read mode opens a file for reading and fails if the file is absent."},
-  {"id": 2, "question": "What does w mode do when the target file exists?", "options": ["Appends", "Replaces contents", "Reads only", "Raises automatically"], "answer": "Replaces contents", "explanation": "Write mode truncates an existing file before writing."},
-  {"id": 3, "question": "Why use a with block for a file?", "options": ["It compresses data", "It closes the file reliably", "It changes paths", "It encrypts text"], "answer": "It closes the file reliably", "explanation": "A context manager cleans up the file even if an exception occurs."},
-  {"id": 4, "question": "Which module represents portable filesystem paths?", "options": ["pathlib", "random", "typing", "time"], "answer": "pathlib", "explanation": "pathlib.Path builds and inspects paths without manual separators."},
-  {"id": 5, "question": "Which encoding is a reliable default for text files?", "options": ["UTF-8", "Binary only", "ASCII always", "No encoding"], "answer": "UTF-8", "explanation": "Explicit UTF-8 makes text handling predictable across systems."},
-  {"id": 6, "question": "Which module should parse JSON?", "options": ["json", "csv", "math", "os"], "answer": "json", "explanation": "json.load and json.dump preserve JSON structure."},
-  {"id": 7, "question": "Why is csv.DictReader useful?", "options": ["It encrypts rows", "It maps values by header name", "It loads images", "It removes commas"], "answer": "It maps values by header name", "explanation": "Named columns are clearer and safer than position-only access."},
-  {"id": 8, "question": "What is a risk of a relative path?", "options": ["It cannot be read", "It depends on the current working directory", "It is always absolute", "It changes encoding"], "answer": "It depends on the current working directory", "explanation": "The same relative path can resolve differently when a script is launched elsewhere."},
-  {"id": 9, "question": "What is usually better for a very large text file?", "options": ["Read every byte first", "Iterate one line at a time", "Split with commas", "Use w mode"], "answer": "Iterate one line at a time", "explanation": "Streaming lines avoids retaining the entire file in memory."},
-  {"id": 10, "question": "What should happen before trusting input rows?", "options": ["Validate expected fields and types", "Delete the file", "Convert all values to text", "Ignore headers"], "answer": "Validate expected fields and types", "explanation": "Validation prevents malformed external data from silently entering later steps."}
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "File Handling: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  }
 ]

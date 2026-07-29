@@ -1,17 +1,28 @@
 {
+  "id": "python-030-logging-debugging-python",
   "lessonNumber": 30,
-  "title": "Logging & Debugging in Python",
+  "title": "Logging and Debugging in Python",
   "slug": "logging-debugging-python",
-  "module": "Python Fundamentals",
-  "difficulty": "Intermediate",
-  "estimatedTime": "90 Minutes",
-  "status": "draft",
+  "module": "Python Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-029"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Logging and Debugging in Python.",
+    "Apply Logging and Debugging in Python with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "logging",
-    "debugging",
-    "diagnostics",
-    "production",
-    "monitoring"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-029",
+  "nextLesson": "python-031"
 }

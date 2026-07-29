@@ -1,9 +1,28 @@
 {
+  "id": "python-009-loops",
   "lessonNumber": 9,
-  "title": "Loops (for and while)",
+  "title": "Loops",
   "slug": "loops",
   "module": "Python Fundamentals",
   "difficulty": "Beginner",
-  "estimatedTime": "60 minutes",
-  "status": "draft"
+  "estimatedTime": "45 minutes",
+  "prerequisites": [
+    "python-008"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Loops.",
+    "Apply Loops with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-008",
+  "nextLesson": "python-010"
 }

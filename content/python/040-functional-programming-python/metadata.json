@@ -1,21 +1,28 @@
 {
+  "id": "python-040-functional-programming-python",
   "lessonNumber": 40,
   "title": "Functional Programming in Python",
   "slug": "functional-programming-python",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "140 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-039"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Functional Programming in Python.",
+    "Apply Functional Programming in Python with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "functional-programming",
-    "lambda",
-    "map",
-    "filter",
-    "reduce",
-    "zip",
-    "enumerate",
-    "ai",
-    "data-engineering"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-039",
+  "nextLesson": "python-041"
 }

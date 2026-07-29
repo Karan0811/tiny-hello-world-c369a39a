@@ -1,17 +1,28 @@
 {
+  "id": "python-034-virtual-environments-dependency-management",
   "lessonNumber": 34,
-  "title": "Virtual Environments & Dependency Management",
+  "title": "Virtual Environments and Dependency Management",
   "slug": "virtual-environments-dependency-management",
-  "module": "Python Fundamentals",
-  "difficulty": "Intermediate",
-  "estimatedTime": "95 Minutes",
-  "status": "draft",
+  "module": "Python Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-033"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Virtual Environments and Dependency Management.",
+    "Apply Virtual Environments and Dependency Management with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "virtualenv",
-    "venv",
-    "pip",
-    "requirements",
-    "dependency-management"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-033",
+  "nextLesson": "python-035"
 }

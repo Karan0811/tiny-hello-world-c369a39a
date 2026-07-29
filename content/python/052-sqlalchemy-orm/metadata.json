@@ -1,17 +1,28 @@
 {
+  "id": "python-052-sqlalchemy-orm",
   "lessonNumber": 52,
-  "title": "Object Relational Mapping (ORM) with SQLAlchemy",
+  "title": "Object Relational Mapping with SQLAlchemy",
   "slug": "sqlalchemy-orm",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "180 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-051"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Object Relational Mapping with SQLAlchemy.",
+    "Apply Object Relational Mapping with SQLAlchemy with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "sqlalchemy",
-    "orm",
-    "sqlite",
-    "database",
-    "alembic"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-051",
+  "nextLesson": "python-053"
 }

@@ -1,19 +1,28 @@
 {
+  "id": "python-045-regular-expressions-regex-mastery",
   "lessonNumber": 45,
-  "title": "Regular Expressions (Regex) Mastery",
+  "title": "Regular Expressions",
   "slug": "regular-expressions-regex-mastery",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "170 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-044"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Regular Expressions.",
+    "Apply Regular Expressions with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "regex",
-    "regular-expressions",
-    "pattern-matching",
-    "text-processing",
-    "data-cleaning",
-    "nlp",
-    "ai"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-044",
+  "nextLesson": "python-046"
 }

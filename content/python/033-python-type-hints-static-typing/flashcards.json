@@ -1,26 +1,77 @@
 [
   {
-    "q": "Type Hints",
-    "a": "Optional annotations for expected types."
+    "front": "Purpose: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Optional",
-    "a": "Represents a value or None."
+    "front": "Input boundary: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Union",
-    "a": "Multiple accepted types."
+    "front": "Safe default: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "TypedDict",
-    "a": "Typed dictionary structure."
+    "front": "Validation: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Protocol",
-    "a": "Structural typing based on behavior."
+    "front": "Small example: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "MyPy",
-    "a": "Static type checker."
+    "front": "Testable behavior: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Error handling: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Observability: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Maintainability: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Documentation: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Configuration: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Dependencies: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Trade-off: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Production check: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Key takeaway: Python Type Hints and Static Typing",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   }
 ]

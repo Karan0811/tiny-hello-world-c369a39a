@@ -1,26 +1,77 @@
 [
   {
-    "q": "Pytest",
-    "a": "Popular Python testing framework."
+    "front": "Purpose: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Fixture",
-    "a": "Reusable setup for tests."
+    "front": "Input boundary: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Assertion",
-    "a": "Checks expected behavior."
+    "front": "Safe default: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Parametrize",
-    "a": "Run one test with many inputs."
+    "front": "Validation: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "pytest.raises",
-    "a": "Test expected exceptions."
+    "front": "Small example: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Test discovery",
-    "a": "Finds test_*.py and test_* functions automatically."
+    "front": "Testable behavior: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Error handling: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Observability: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Maintainability: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Documentation: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Configuration: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Dependencies: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Trade-off: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Production check: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Key takeaway: Python Testing with Pytest",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   }
 ]

@@ -1,34 +1,77 @@
 [
   {
-    "q": "BeautifulSoup",
-    "a": "HTML parsing library."
+    "front": "Web Scraping with Python: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "select()",
-    "a": "Find elements using CSS selectors."
+    "front": "Web Scraping with Python: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "find_all()",
-    "a": "Return all matching elements."
+    "front": "Web Scraping with Python: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Pagination",
-    "a": "Multiple pages of content."
+    "front": "Web Scraping with Python: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "robots.txt",
-    "a": "Crawler guidelines."
+    "front": "Web Scraping with Python: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "time.sleep()",
-    "a": "Rate limiting between requests."
+    "front": "Web Scraping with Python: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Dynamic Website",
-    "a": "Loads content with JavaScript."
+    "front": "Web Scraping with Python: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Requests",
-    "a": "Download web pages via HTTP."
+    "front": "Web Scraping with Python: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Web Scraping with Python: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Web Scraping with Python: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Web Scraping with Python: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Web Scraping with Python: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Web Scraping with Python: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Web Scraping with Python: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Web Scraping with Python: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

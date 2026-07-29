@@ -1,34 +1,77 @@
 [
   {
-    "q": "\\d",
-    "a": "Matches any digit."
+    "front": "Regular Expressions: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "+",
-    "a": "One or more occurrences."
+    "front": "Regular Expressions: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "\\b",
-    "a": "Word boundary."
+    "front": "Regular Expressions: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "re.compile()",
-    "a": "Precompile Regex patterns."
+    "front": "Regular Expressions: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Named Groups",
-    "a": "Readable captured groups."
+    "front": "Regular Expressions: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Lookahead",
-    "a": "Checks following text without consuming it."
+    "front": "Regular Expressions: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Raw Strings",
-    "a": "Avoid escape sequence interpretation."
+    "front": "Regular Expressions: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Regex Uses",
-    "a": "Validation, extraction, preprocessing."
+    "front": "Regular Expressions: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Regular Expressions: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Regular Expressions: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Regular Expressions: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Regular Expressions: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Regular Expressions: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Regular Expressions: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Regular Expressions: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

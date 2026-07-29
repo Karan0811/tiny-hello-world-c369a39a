@@ -1,32 +1,41 @@
 # Virtual Environments and Packages Cheat Sheet
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python -m pip show requests
-python -m pip freeze
-deactivate
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
+
+```python
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-PowerShell activation: `.venv\Scripts\Activate.ps1`
+## Examples
 
-```text
-# requirements.txt
-requests==2.32.3
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
 ```
 
-## Best practices
+## Best Practices
 
-- Use `.venv`; do not commit it.
-- Use `python -m pip`.
-- Pin and review production dependencies.
-- Build and test from a clean environment.
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
 
-## Common mistakes
+## Common Mistakes
 
-- Global installation by accident.
-- Mismatched `pip` and `python`.
-- Credentials in dependency files.
-- Unreviewed latest-version upgrades.
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

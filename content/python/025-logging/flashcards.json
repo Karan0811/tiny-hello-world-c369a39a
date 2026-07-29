@@ -1,0 +1,20 @@
+[
+  {"front": "What is a logger?", "back": "An object that creates named log records.", "category": "core concepts"},
+  {"front": "What is a handler?", "back": "A component that sends log records to a destination.", "category": "core concepts"},
+  {"front": "What is a formatter?", "back": "A component that defines how a log record is rendered.", "category": "core concepts"},
+  {"front": "What does DEBUG mean?", "back": "Detailed diagnostic information, usually enabled during development.", "category": "levels"},
+  {"front": "What does INFO mean?", "back": "A normal lifecycle or business event worth recording.", "category": "levels"},
+  {"front": "What does WARNING mean?", "back": "An unexpected but recoverable condition.", "category": "levels"},
+  {"front": "What does ERROR mean?", "back": "An operation failed or could not complete.", "category": "levels"},
+  {"front": "When should logger.exception be used?", "back": "Inside an except block when a traceback should be logged.", "category": "exceptions"},
+  {"front": "Why use logging.getLogger(__name__)?", "back": "It gives records a module-based name and avoids configuring logging there.", "category": "configuration"},
+  {"front": "Where should logging be configured?", "back": "Once at the application's executable entry point.", "category": "configuration"},
+  {"front": "Why use %s arguments in a log call?", "back": "Logging can defer formatting when that level is disabled.", "category": "syntax"},
+  {"front": "What safe context is useful in a log?", "back": "Stable IDs, event names, counts, durations, and outcome reasons.", "category": "context"},
+  {"front": "What should never be logged?", "back": "Secrets, passwords, API keys, or unnecessary personal and prompt data.", "category": "safety"},
+  {"front": "Logs versus metrics?", "back": "Logs explain individual events; metrics summarize trends and support alerts.", "category": "observability"},
+  {"front": "What is a request or run ID for?", "back": "Correlating records that belong to the same operation.", "category": "context"},
+  {"front": "Does logging replace exception handling?", "back": "No. Logging records evidence; exceptions still control failure behavior.", "category": "exceptions"},
+  {"front": "Why avoid root configuration in a library?", "back": "It can unexpectedly change the host application's output and log level.", "category": "configuration"},
+  {"front": "Why not use ERROR for normal control flow?", "back": "It creates noisy, misleading alerts and hides genuine failures.", "category": "levels"}
+]

@@ -1,3 +1,77 @@
 [
-{"q":"Function naming style?","a":"snake_case."},{"q":"Class naming style?","a":"PascalCase."},{"q":"Constant naming style?","a":"UPPER_SNAKE_CASE."},{"q":"Type hint?","a":"Documentation of expected interface."},{"q":"Do type hints validate runtime input?","a":"No."},{"q":"Pure function?","a":"Function without side effects whose result depends on inputs."},{"q":"Configuration?","a":"Environment-specific settings outside core code."},{"q":"Secret?","a":"Sensitive value kept out of source and logs."},{"q":"Dependency pin?","a":"Explicit approved package version."},{"q":"Linting?","a":"Automated static style and issue checks."},{"q":"Formatting?","a":"Automated consistent code layout."},{"q":"CI?","a":"Automated checks on changes."},{"q":"Observability?","a":"Evidence about runtime behavior."},{"q":"Safe log?","a":"Diagnostic record without secrets or private content."},{"q":"Validation boundary?","a":"Place untrusted input is checked."},{"q":"Focused function?","a":"Function with one clear responsibility."},{"q":"Hidden global risk?","a":"Behavior depends on unseen mutable state."},{"q":"Actionable error?","a":"Message that states failure and next action."},{"q":"Code review purpose?","a":"Catch defects and share context."},{"q":"Production quality?","a":"Ability to operate and change code safely."}
+  {
+    "front": "Python Best Practices: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Python Best Practices: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  }
 ]

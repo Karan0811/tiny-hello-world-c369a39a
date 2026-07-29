@@ -1,26 +1,77 @@
 [
   {
-    "q": "What is logging?",
-    "a": "Recording application events during execution."
+    "front": "Purpose: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "What is a logger?",
-    "a": "An object that creates log messages."
+    "front": "Input boundary: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "What is a handler?",
-    "a": "Sends logs to a destination."
+    "front": "Safe default: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "What is a formatter?",
-    "a": "Defines the format of log messages."
+    "front": "Validation: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "What method logs exceptions?",
-    "a": "logging.exception()"
+    "front": "Small example: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Why rotate log files?",
-    "a": "To keep log sizes manageable."
+    "front": "Testable behavior: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Error handling: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Observability: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Maintainability: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Documentation: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Configuration: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Dependencies: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Trade-off: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Production check: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Key takeaway: Logging and Debugging in Python",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   }
 ]

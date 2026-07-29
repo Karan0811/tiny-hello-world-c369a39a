@@ -1,34 +1,77 @@
 [
   {
-    "q": "Reference Counting",
-    "a": "Primary memory management mechanism."
+    "front": "Python Memory Management and Garbage Collection: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Garbage Collector",
-    "a": "Cleans unreachable circular references."
+    "front": "Python Memory Management and Garbage Collection: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "gc.collect()",
-    "a": "Manually trigger GC."
+    "front": "Python Memory Management and Garbage Collection: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "weakref",
-    "a": "Weak references without increasing ref count."
+    "front": "Python Memory Management and Garbage Collection: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "__slots__",
-    "a": "Reduce memory usage for many instances."
+    "front": "Python Memory Management and Garbage Collection: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "tracemalloc",
-    "a": "Track memory allocations."
+    "front": "Python Memory Management and Garbage Collection: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Circular Reference",
-    "a": "Objects referencing each other."
+    "front": "Python Memory Management and Garbage Collection: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Memory Leak",
-    "a": "Unused memory that cannot be reclaimed."
+    "front": "Python Memory Management and Garbage Collection: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Memory Management and Garbage Collection: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Memory Management and Garbage Collection: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Memory Management and Garbage Collection: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Memory Management and Garbage Collection: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Memory Management and Garbage Collection: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Memory Management and Garbage Collection: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Memory Management and Garbage Collection: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

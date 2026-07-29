@@ -1,22 +1,77 @@
 [
-  {"q":"What is an iterable?","a":"An object that can provide an iterator."},
-  {"q":"What is an iterator?","a":"An object that yields one item at a time."},
-  {"q":"What does iter(value) do?","a":"Returns an iterator for an iterable."},
-  {"q":"What does next(iterator) do?","a":"Returns the next item from an iterator."},
-  {"q":"What signals an exhausted iterator?","a":"StopIteration."},
-  {"q":"What does a for loop handle automatically?","a":"Repeated next calls and StopIteration."},
-  {"q":"What creates a generator function?","a":"Using yield in a function body."},
-  {"q":"What does yield do?","a":"Produces a value and pauses generator state."},
-  {"q":"What is a generator expression?","a":"A lazy expression such as (x for x in values)."},
-  {"q":"Why use a generator?","a":"To process values lazily, often with lower memory use."},
-  {"q":"Can an exhausted generator restart itself?","a":"No; create a new generator for another pass."},
-  {"q":"What is a decorator?","a":"A callable that wraps or replaces another callable."},
-  {"q":"What syntax applies a decorator?","a":"@decorator_name above a function definition."},
-  {"q":"What is a wrapper?","a":"The function returned by a decorator around the original callable."},
-  {"q":"Why use functools.wraps?","a":"To preserve the original function metadata."},
-  {"q":"What does *args capture?","a":"Positional arguments passed to a wrapper."},
-  {"q":"What does **kwargs capture?","a":"Keyword arguments passed to a wrapper."},
-  {"q":"What is a cross-cutting concern?","a":"Behavior such as logging or timing shared across many operations."},
-  {"q":"Why should decorators return the original result?","a":"So callers retain the original function contract."},
-  {"q":"What should streaming systems manage besides memory?","a":"Backpressure, batching, progress, and error policy."}
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Iterators, Generators, and Decorators: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  }
 ]

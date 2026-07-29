@@ -1,19 +1,28 @@
 {
+  "id": "python-060-python-course-capstone-ai-utility-suite",
   "lessonNumber": 60,
   "title": "Python Course Capstone: Production AI Utility Suite",
   "slug": "python-course-capstone-ai-utility-suite",
-  "module": "Advanced Python for AI & Data Engineering",
-  "difficulty": "Expert",
-  "estimatedTime": "420 Minutes",
-  "status": "draft",
+  "module": "Python Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-059"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Course Capstone: Production AI Utility Suite.",
+    "Apply Python Course Capstone: Production AI Utility Suite with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "capstone",
-    "cli",
-    "ai",
-    "mlops",
-    "plugins",
-    "architecture",
-    "production"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-059",
+  "nextLesson": null
 }

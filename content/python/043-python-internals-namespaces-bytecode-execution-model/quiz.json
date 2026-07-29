@@ -1,42 +1,112 @@
 [
   {
-    "id": 1,
-    "question": "What does the global keyword do?",
-    "answer": "Allows modification of a variable in the global namespace."
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 1?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "id": 2,
-    "question": "What does nonlocal modify?",
-    "answer": "A variable in the nearest enclosing namespace."
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 2?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "id": 3,
-    "question": "What is variable shadowing?",
-    "answer": "A local variable hides an outer variable with the same name."
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 3?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
   },
   {
-    "id": 4,
-    "question": "What is Python bytecode?",
-    "answer": "Platform-independent intermediate instructions executed by the PVM."
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 4?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
   },
   {
-    "id": 5,
-    "question": "Which module displays bytecode?",
-    "answer": "dis"
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 5?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   },
   {
-    "id": 6,
-    "question": "What is the Python Virtual Machine?",
-    "answer": "The component that executes Python bytecode."
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 6?",
+    "options": [
+      "Use an explicit, testable contract.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Use an explicit, testable contract.",
+    "explanation": "Use an explicit, testable contract."
   },
   {
-    "id": 7,
-    "question": "What is an execution frame?",
-    "answer": "Runtime state for a function call."
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 7?",
+    "options": [
+      "Validate external input at the boundary.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Validate external input at the boundary.",
+    "explanation": "Validate external input at the boundary."
   },
   {
-    "id": 8,
-    "question": "What does LEGB stand for?",
-    "answer": "Local, Enclosing, Global, Built-in."
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 8?",
+    "options": [
+      "Preserve safe operational context.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Preserve safe operational context.",
+    "explanation": "Preserve safe operational context."
+  },
+  {
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 9?",
+    "options": [
+      "Verify normal and failure behavior.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Verify normal and failure behavior.",
+    "explanation": "Verify normal and failure behavior."
+  },
+  {
+    "question": "Python Internals: Namespaces, Bytecode, and Execution Model: which practice is most reliable for case 10?",
+    "options": [
+      "Keep dependencies visible.",
+      "Hide failures.",
+      "Trust unvalidated input.",
+      "Use global state."
+    ],
+    "answer": "Keep dependencies visible.",
+    "explanation": "Keep dependencies visible."
   }
 ]

@@ -1,34 +1,77 @@
 [
   {
-    "q": "Serialization",
-    "a": "Convert objects into a storable format."
+    "front": "Advanced File Handling and Serialization: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Deserialization",
-    "a": "Restore stored data into Python objects."
+    "front": "Advanced File Handling and Serialization: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "JSON",
-    "a": "Human-readable data interchange format."
+    "front": "Advanced File Handling and Serialization: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Pickle",
-    "a": "Python binary serialization format."
+    "front": "Advanced File Handling and Serialization: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Shelve",
-    "a": "Persistent dictionary-like storage."
+    "front": "Advanced File Handling and Serialization: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "gzip",
-    "a": "Compress and decompress GZIP files."
+    "front": "Advanced File Handling and Serialization: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "zipfile",
-    "a": "Create and extract ZIP archives."
+    "front": "Advanced File Handling and Serialization: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Streaming",
-    "a": "Process large files incrementally."
+    "front": "Advanced File Handling and Serialization: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced File Handling and Serialization: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced File Handling and Serialization: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced File Handling and Serialization: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced File Handling and Serialization: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced File Handling and Serialization: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced File Handling and Serialization: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced File Handling and Serialization: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

@@ -1,27 +1,41 @@
 # Comprehensions Cheat Sheet
 
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
+
 ```python
-values = [x * 2 for x in items if x > 0]
-unique = {tag.lower() for tag in tags}
-mapping = {row["id"]: row["score"] for row in rows}
-stream = (row for row in rows if row["valid"])
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-| Form | Result |
-|---|---|
-| `[]` | list |
-| `{}` | set or dictionary |
-| `()` | generator |
+## Examples
 
-## Best practices
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
+```
 
-- Keep one transformation per comprehension.
-- Use a loop or helper function for complex rules.
-- Choose list, set, dict, or generator by data semantics.
+## Best Practices
 
-## Common mistakes
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
 
-- Unreadable nested comprehensions.
-- Assuming a generator is reusable.
-- Losing duplicate data by using a set.
-- Silent dictionary-key overwrites.
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

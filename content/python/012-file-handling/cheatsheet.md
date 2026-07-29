@@ -1,57 +1,41 @@
 # File Handling Cheat Sheet
 
-## Paths and text
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
 
 ```python
-from pathlib import Path
-
-path = Path("data") / "records.txt"
-path.parent.mkdir(parents=True, exist_ok=True)
-path.write_text("hello\n", encoding="utf-8")
-text = path.read_text(encoding="utf-8")
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-| Mode | Meaning | Existing file |
-|---|---|---|
-| `r` | Read | Required |
-| `w` | Write | Replaced |
-| `a` | Append | Preserved |
-| `x` | Create | Causes error |
-
-## Safe open pattern
+## Examples
 
 ```python
-with path.open("r", encoding="utf-8") as file:
-    for line in file:
-        print(line.rstrip())
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
 ```
 
-## JSON
+## Best Practices
 
-```python
-import json
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
 
-with Path("config.json").open(encoding="utf-8") as file:
-    config = json.load(file)
+## Common Mistakes
 
-with Path("output.json").open("w", encoding="utf-8") as file:
-    json.dump(config, file, indent=2)
-```
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
 
-## CSV
+## Interview Tips
 
-```python
-import csv
-
-with Path("data.csv").open(newline="", encoding="utf-8") as file:
-    for row in csv.DictReader(file):
-        print(row["name"])
-```
-
-## Checklist
-
-- Use `Path`, UTF-8, and `with`.
-- Validate headers, fields, and conversions.
-- Stream large files line by line.
-- Keep input and generated output separate.
-- Do not overwrite important data without an explicit plan.
+Explain the contract, validation boundary, trade-off, and test strategy.

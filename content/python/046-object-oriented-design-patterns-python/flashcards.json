@@ -1,34 +1,77 @@
 [
   {
-    "q": "Singleton",
-    "a": "Ensures one shared instance."
+    "front": "Object-Oriented Design Patterns: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Factory Method",
-    "a": "Centralized object creation."
+    "front": "Object-Oriented Design Patterns: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Strategy",
-    "a": "Runtime algorithm selection."
+    "front": "Object-Oriented Design Patterns: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Observer",
-    "a": "State-change notification."
+    "front": "Object-Oriented Design Patterns: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Dependency Injection",
-    "a": "Inject dependencies externally."
+    "front": "Object-Oriented Design Patterns: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "SRP",
-    "a": "Single Responsibility Principle."
+    "front": "Object-Oriented Design Patterns: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Composition",
-    "a": "Preferred over inheritance for flexibility."
+    "front": "Object-Oriented Design Patterns: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "GoF Categories",
-    "a": "Creational, Structural, Behavioral."
+    "front": "Object-Oriented Design Patterns: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Object-Oriented Design Patterns: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Object-Oriented Design Patterns: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Object-Oriented Design Patterns: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Object-Oriented Design Patterns: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Object-Oriented Design Patterns: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Object-Oriented Design Patterns: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Object-Oriented Design Patterns: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

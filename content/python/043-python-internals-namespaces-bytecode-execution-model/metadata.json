@@ -1,20 +1,28 @@
 {
+  "id": "python-043-python-internals-namespaces-bytecode-execution-model",
   "lessonNumber": 43,
-  "title": "Python Internals: Namespaces, Bytecode & Execution Model",
+  "title": "Python Internals: Namespaces, Bytecode, and Execution Model",
   "slug": "python-internals-namespaces-bytecode-execution-model",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "160 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-042"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Internals: Namespaces, Bytecode, and Execution Model.",
+    "Apply Python Internals: Namespaces, Bytecode, and Execution Model with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "internals",
-    "namespaces",
-    "scope",
-    "legb",
-    "bytecode",
-    "dis",
-    "pvm",
-    "execution"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-042",
+  "nextLesson": "python-044"
 }

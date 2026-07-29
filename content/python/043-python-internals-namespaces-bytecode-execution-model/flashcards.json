@@ -1,34 +1,77 @@
 [
   {
-    "q": "LEGB",
-    "a": "Local, Enclosing, Global, Built-in."
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "global",
-    "a": "Modify global namespace variable."
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "nonlocal",
-    "a": "Modify enclosing namespace variable."
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Bytecode",
-    "a": "Intermediate compiled instructions."
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "PVM",
-    "a": "Executes Python bytecode."
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "dis",
-    "a": "Disassembles Python bytecode."
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Execution Frame",
-    "a": "Stores runtime state for function execution."
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Namespace",
-    "a": "Mapping of names to objects."
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Python Internals: Namespaces, Bytecode, and Execution Model: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

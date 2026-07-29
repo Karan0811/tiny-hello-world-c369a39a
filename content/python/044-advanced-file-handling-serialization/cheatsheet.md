@@ -1,12 +1,41 @@
-# Advanced File Handling & Serialization Cheat Sheet
+# Advanced File Handling and Serialization Cheat Sheet
 
-| Concept | Description |
-|---------|-------------|
-| Serialization | Convert objects to a storable format |
-| Deserialization | Restore stored data into objects |
-| json | Human-readable serialization |
-| pickle | Python binary serialization |
-| shelve | Persistent object storage |
-| gzip | GZIP compression |
-| zipfile | ZIP archive creation |
-| Streaming | Incremental file processing |
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
+
+```python
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
+```
+
+## Examples
+
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
+```
+
+## Best Practices
+
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
+
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

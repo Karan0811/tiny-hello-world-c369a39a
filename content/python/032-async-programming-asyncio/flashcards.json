@@ -1,26 +1,77 @@
 [
   {
-    "q": "Coroutine",
-    "a": "Function declared with async."
+    "front": "Purpose: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Event Loop",
-    "a": "Schedules async tasks."
+    "front": "Input boundary: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "await",
-    "a": "Pauses current coroutine."
+    "front": "Safe default: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Task",
-    "a": "Scheduled coroutine."
+    "front": "Validation: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "asyncio.gather",
-    "a": "Runs multiple coroutines concurrently."
+    "front": "Small example: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "AsyncIO",
-    "a": "Framework for asynchronous programming."
+    "front": "Testable behavior: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Error handling: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Observability: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Maintainability: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Documentation: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Configuration: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Dependencies: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Trade-off: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Production check: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Key takeaway: Asynchronous Programming with Asyncio",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   }
 ]

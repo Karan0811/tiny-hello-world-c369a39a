@@ -1,9 +1,28 @@
 {
+  "id": "python-012-file-handling",
   "lessonNumber": 12,
   "title": "File Handling",
   "slug": "file-handling",
   "module": "Python Fundamentals",
   "difficulty": "Intermediate",
-  "duration": "80 minutes",
-  "status": "draft"
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-011"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of File Handling.",
+    "Apply File Handling with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-011",
+  "nextLesson": "python-013"
 }

@@ -1,12 +1,112 @@
 [
-  {"id": 1, "question": "What is an exception?", "options": ["A runtime signal of an abnormal condition", "A loop type", "A file extension", "A package"], "answer": "A runtime signal of an abnormal condition", "explanation": "Exceptions interrupt normal flow and can be handled by matching except blocks."},
-  {"id": 2, "question": "Which handler is best for a missing file?", "options": ["except FileNotFoundError", "except: pass", "except KeyError", "except StopIteration"], "answer": "except FileNotFoundError", "explanation": "Specific handlers communicate and safely address the expected condition."},
-  {"id": 3, "question": "When does an else block after try run?", "options": ["Only when no exception occurs", "Only after an exception", "Before try", "Never"], "answer": "Only when no exception occurs", "explanation": "else separates success-only work from the risky operation."},
-  {"id": 4, "question": "When does finally run?", "options": ["Only on success", "Only on failure", "In both outcomes", "Only after return"], "answer": "In both outcomes", "explanation": "finally is used for work that must happen regardless of outcome."},
-  {"id": 5, "question": "Why is except Exception: pass dangerous?", "options": ["It hides unexpected bugs", "It makes code faster", "It validates input", "It opens files"], "answer": "It hides unexpected bugs", "explanation": "Silently discarding errors removes evidence needed to fix failures."},
-  {"id": 6, "question": "What usually causes ValueError?", "options": ["An unacceptable value", "A missing module", "A closed socket only", "A syntax comment"], "answer": "An unacceptable value", "explanation": "For example, converting invalid text to a number can raise ValueError."},
-  {"id": 7, "question": "What does raise do?", "options": ["Signals an exception", "Writes a file", "Repeats a loop", "Imports a module"], "answer": "Signals an exception", "explanation": "raise tells callers that a rule or condition prevents normal work."},
-  {"id": 8, "question": "What is the best size for a try block?", "options": ["Only the operation expected to fail", "The whole application", "No code", "Every function in a module"], "answer": "Only the operation expected to fail", "explanation": "Narrow try blocks make the source and meaning of failures clear."},
-  {"id": 9, "question": "What does raise NewError from error preserve?", "options": ["The original cause", "A global variable", "A file handle", "A list iterator"], "answer": "The original cause", "explanation": "Exception chaining retains diagnostic context while giving a clearer message."},
-  {"id": 10, "question": "What should user-facing errors avoid?", "options": ["Sensitive internal details", "Clear action", "A request ID", "A short message"], "answer": "Sensitive internal details", "explanation": "Internal paths, secrets, and tracebacks belong in secure operator logs, not user responses."}
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Exception Handling: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  }
 ]

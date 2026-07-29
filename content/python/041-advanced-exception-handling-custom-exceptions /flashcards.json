@@ -1,34 +1,77 @@
 [
   {
-    "q": "raise",
-    "a": "Explicitly raise an exception."
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Custom Exception",
-    "a": "Domain-specific exception class."
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Exception Chaining",
-    "a": "Use raise ... from ..."
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Re-raising",
-    "a": "Raise the original exception again."
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Assertion",
-    "a": "Debugging validation using assert."
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "logging.exception()",
-    "a": "Logs exception with traceback."
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "finally",
-    "a": "Always executes cleanup."
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Exception Hierarchy",
-    "a": "Organized tree of related exceptions."
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Advanced Exception Handling and Custom Exceptions: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

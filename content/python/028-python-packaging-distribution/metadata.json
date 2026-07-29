@@ -1,17 +1,28 @@
 {
+  "id": "python-028-python-packaging-distribution",
   "lessonNumber": 28,
-  "title": "Python Packaging & Distribution",
+  "title": "Python Packaging and Distribution",
   "slug": "python-packaging-distribution",
-  "module": "Python Fundamentals",
-  "difficulty": "Intermediate",
-  "estimatedTime": "75 Minutes",
-  "status": "draft",
+  "module": "Python Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-027"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Packaging and Distribution.",
+    "Apply Python Packaging and Distribution with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "packaging",
-    "distribution",
-    "pyproject",
-    "pip",
-    "pypi"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-027",
+  "nextLesson": "python-029"
 }

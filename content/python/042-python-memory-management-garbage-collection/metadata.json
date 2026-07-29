@@ -1,19 +1,28 @@
 {
+  "id": "python-042-python-memory-management-garbage-collection",
   "lessonNumber": 42,
-  "title": "Python Memory Management & Garbage Collection",
+  "title": "Python Memory Management and Garbage Collection",
   "slug": "python-memory-management-garbage-collection",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "150 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-041"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Memory Management and Garbage Collection.",
+    "Apply Python Memory Management and Garbage Collection with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "memory",
-    "garbage-collection",
-    "reference-counting",
-    "weakref",
-    "optimization",
-    "performance",
-    "ai"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-041",
+  "nextLesson": "python-043"
 }

@@ -1,9 +1,28 @@
 {
+  "id": "python-011-modules-and-packages",
   "lessonNumber": 11,
   "title": "Modules and Packages",
   "slug": "modules-and-packages",
   "module": "Python Fundamentals",
   "difficulty": "Beginner",
-  "estimatedTime": "75 minutes",
-  "status": "draft"
+  "estimatedTime": "45 minutes",
+  "prerequisites": [
+    "python-010"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Modules and Packages.",
+    "Apply Modules and Packages with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-010",
+  "nextLesson": "python-012"
 }

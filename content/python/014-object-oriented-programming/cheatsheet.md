@@ -1,43 +1,41 @@
 # Object-Oriented Programming Cheat Sheet
 
-## Class pattern
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
 
 ```python
-class Prediction:
-    def __init__(self, label: str, score: float):
-        if not 0 <= score <= 1:
-            raise ValueError("score must be between 0 and 1")
-        self.label = label
-        self.score = score
-
-    def is_confident(self, threshold: float = 0.8) -> bool:
-        return self.score >= threshold
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-## Dataclass pattern
+## Examples
 
 ```python
-from dataclasses import dataclass
-
-@dataclass(frozen=True)
-class Chunk:
-    document_id: str
-    text: str
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
 ```
 
-| Term | Meaning |
-|---|---|
-| Class | Blueprint for objects |
-| Instance | Concrete object from a class |
-| Attribute | Object state |
-| Method | Object behavior |
-| `self` | Current instance |
-| Invariant | Rule for valid state |
+## Best Practices
 
-## Design rules
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
 
-- Keep each class focused on one cohesive responsibility.
-- Validate state in constructors or controlled methods.
-- Use `_name` for implementation details.
-- Prefer a function when no persistent state is needed.
-- Prefer composition for combining collaborators.
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

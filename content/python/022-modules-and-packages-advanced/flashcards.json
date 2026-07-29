@@ -1,3 +1,77 @@
 [
-{"q":"Module?","a":"One importable Python file."},{"q":"Package?","a":"Cohesive collection of modules."},{"q":"__init__.py?","a":"Package initialization and optional public exports."},{"q":"Absolute import?","a":"Import from package root."},{"q":"Relative import?","a":"Import relative to current package."},{"q":"Circular import?","a":"Mutually dependent module initialization."},{"q":"Best circular-import fix?","a":"Improve dependency boundaries."},{"q":"__all__?","a":"Documented intended public exports."},{"q":"sys.modules?","a":"Cache of imported modules."},{"q":"Import-time rule?","a":"Keep work lightweight and side-effect free."},{"q":"__main__ guard?","a":"Runs startup only when executed directly."},{"q":"Entry point?","a":"Thin code that assembles and starts application."},{"q":"Domain module?","a":"Business concepts and rules."},{"q":"Adapter module?","a":"External system implementation."},{"q":"Why avoid json.py?","a":"It can shadow the standard json module."},{"q":"Public API?","a":"Supported package interface for callers."},{"q":"Dependency direction?","a":"Flow toward stable domain concepts."},{"q":"Why test package boundary?","a":"It protects public behavior."},{"q":"Why inject adapters?","a":"Enables replacement and testing."},{"q":"Main package goal?","a":"Cohesive, navigable, maintainable code."}
+  {
+    "front": "Advanced Modules and Packages: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Advanced Modules and Packages: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  }
 ]

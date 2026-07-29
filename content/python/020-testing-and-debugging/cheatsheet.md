@@ -1,37 +1,41 @@
 # Testing and Debugging Cheat Sheet
 
-```python
-import unittest
+## Quick Reference
 
-class MetricTests(unittest.TestCase):
-    def test_value(self):
-        self.assertEqual(metric(8, 2), 0.8)
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
 
-    def test_invalid_raises(self):
-        with self.assertRaises(ValueError):
-            metric(0, 0)
-```
-
-```bash
-python -m unittest
-python -m unittest test_metrics.py
-```
+## Syntax
 
 ```python
-import logging
-logger = logging.getLogger(__name__)
-logger.info("processed=%s", count)
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-## Best practices
+## Examples
 
-- Test happy, boundary, and error paths.
-- Use fixed inputs and temporary resources.
-- Reproduce minimally, inspect traceback, add regression test.
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
+```
 
-## Common mistakes
+## Best Practices
 
-- Live services in unit tests.
-- Sensitive data in logs.
-- Leaving `breakpoint()` in production.
-- Making a test pass without understanding the failure.
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
+
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

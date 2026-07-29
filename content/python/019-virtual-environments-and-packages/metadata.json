@@ -1,1 +1,28 @@
-{"lessonNumber":19,"title":"Virtual Environments and Packages","slug":"virtual-environments-and-packages","module":"Python Fundamentals","difficulty":"Advanced","duration":"90 minutes","status":"draft"}
+{
+  "id": "python-019-virtual-environments-and-packages",
+  "lessonNumber": 19,
+  "title": "Virtual Environments and Packages",
+  "slug": "virtual-environments-and-packages",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-018"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Virtual Environments and Packages.",
+    "Apply Virtual Environments and Packages with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-018",
+  "nextLesson": "python-020"
+}

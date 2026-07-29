@@ -1,12 +1,112 @@
 [
-  {"id": 1, "question": "What can an iterable provide?", "options": ["An iterator", "Only a class", "Only an exception", "A required file"], "answer": "An iterator", "explanation": "iterable objects can produce an iterator for one-at-a-time traversal."},
-  {"id": 2, "question": "What does next(iterator) do?", "options": ["Returns the next item", "Sorts every item", "Writes a file", "Decorates a function"], "answer": "Returns the next item", "explanation": "An exhausted iterator raises StopIteration."},
-  {"id": 3, "question": "Which keyword creates a generator function?", "options": ["yield", "return", "raise", "import"], "answer": "yield", "explanation": "yield pauses the generator and supplies a value to its consumer."},
-  {"id": 4, "question": "Why use a generator for a large stream?", "options": ["It can avoid storing all values", "It always makes network calls faster", "It makes values reusable", "It removes validation"], "answer": "It can avoid storing all values", "explanation": "Generators produce values lazily as requested."},
-  {"id": 5, "question": "What happens after a generator is consumed?", "options": ["It is exhausted", "It automatically restarts", "It becomes a list", "It raises ValueError always"], "answer": "It is exhausted", "explanation": "Create a new generator if another pass is required."},
-  {"id": 6, "question": "What does a decorator receive and return?", "options": ["A function and a replacement callable", "A CSV and JSON", "A class and a file", "A loop and a path"], "answer": "A function and a replacement callable", "explanation": "Decorators wrap or replace behavior around a callable."},
-  {"id": 7, "question": "Why use functools.wraps?", "options": ["To preserve function metadata", "To speed all functions", "To create an iterator", "To catch every error"], "answer": "To preserve function metadata", "explanation": "wraps keeps names, documentation, and related metadata available."},
-  {"id": 8, "question": "Which is a good decorator use?", "options": ["Timing a function", "Hiding core business rules", "Replacing all tests", "Storing every list"], "answer": "Timing a function", "explanation": "Timing is cross-cutting behavior that can wrap many functions."},
-  {"id": 9, "question": "What does a for loop handle internally?", "options": ["StopIteration", "All ValueErrors", "Network retries", "File encryption"], "answer": "StopIteration", "explanation": "for repeatedly calls next until the iterator is exhausted."},
-  {"id": 10, "question": "What should be measured before claiming a generator is faster?", "options": ["Memory and throughput", "Only line count", "Class names", "File extension"], "answer": "Memory and throughput", "explanation": "Laziness helps some workloads but should be validated with relevant measurements."}
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Iterators, Generators, and Decorators: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  }
 ]

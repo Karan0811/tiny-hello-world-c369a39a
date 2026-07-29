@@ -1,3 +1,28 @@
 {
-  "status":"draft"
+  "id": "python-005-data-types",
+  "lessonNumber": 5,
+  "title": "Data Types",
+  "slug": "data-types",
+  "module": "Python Fundamentals",
+  "difficulty": "Beginner",
+  "estimatedTime": "45 minutes",
+  "prerequisites": [
+    "python-004"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Data Types.",
+    "Apply Data Types with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-004",
+  "nextLesson": "python-006"
 }

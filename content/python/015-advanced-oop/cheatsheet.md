@@ -1,47 +1,41 @@
 # Advanced OOP Cheat Sheet
 
-## Abstract interface and composition
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
 
 ```python
-from abc import ABC, abstractmethod
-
-class Loader(ABC):
-    @abstractmethod
-    def load(self) -> list[str]:
-        pass
-
-class Service:
-    def __init__(self, loader: Loader):
-        self.loader = loader
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-## Property
+## Examples
 
 ```python
-@property
-def timeout(self) -> int:
-    return self._timeout
-
-@timeout.setter
-def timeout(self, value: int) -> None:
-    if value < 1:
-        raise ValueError("timeout must be positive")
-    self._timeout = value
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
 ```
 
-| Concept | Reminder |
-|---|---|
-| Inheritance | Use for compatible is-a specialization |
-| Polymorphism | Different implementations, shared operation |
-| ABC | Explicit required behavior |
-| Composition | Object uses collaborators |
-| `super()` | Calls compatible parent behavior |
-| `__repr__` | Developer-facing representation |
+## Best Practices
 
-## Design rules
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
 
-- Prefer composition before inheritance.
-- Keep interfaces narrow and document their contract.
-- Inject collaborators through constructors for testing.
-- Test every implementation against the same behavior.
-- Do not hide cost, limits, or failure differences behind an interface.
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

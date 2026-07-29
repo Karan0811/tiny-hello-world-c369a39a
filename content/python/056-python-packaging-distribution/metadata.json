@@ -1,18 +1,28 @@
 {
+  "id": "python-056-python-packaging-distribution",
   "lessonNumber": 56,
   "title": "Packaging and Distributing Python Applications",
   "slug": "python-packaging-distribution",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "210 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-055"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Packaging and Distributing Python Applications.",
+    "Apply Packaging and Distributing Python Applications with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "packaging",
-    "pyproject.toml",
-    "pypi",
-    "twine",
-    "wheel",
-    "distribution"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-055",
+  "nextLesson": "python-057"
 }

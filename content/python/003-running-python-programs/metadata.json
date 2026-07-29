@@ -1,3 +1,28 @@
 {
-  "status":"draft"
+  "id": "python-003-running-python-programs",
+  "lessonNumber": 3,
+  "title": "Running Python Programs",
+  "slug": "running-python-programs",
+  "module": "Python Fundamentals",
+  "difficulty": "Beginner",
+  "estimatedTime": "45 minutes",
+  "prerequisites": [
+    "python-002"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Running Python Programs.",
+    "Apply Running Python Programs with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-002",
+  "nextLesson": "python-004"
 }

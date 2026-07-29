@@ -1,1 +1,28 @@
-{"lessonNumber":21,"title":"Python Best Practices","slug":"python-best-practices","module":"Python Fundamentals","difficulty":"Advanced","duration":"90 minutes","status":"draft"}
+{
+  "id": "python-021-python-best-practices",
+  "lessonNumber": 21,
+  "title": "Python Best Practices",
+  "slug": "python-best-practices",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-020"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Best Practices.",
+    "Apply Python Best Practices with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-020",
+  "nextLesson": "python-022"
+}

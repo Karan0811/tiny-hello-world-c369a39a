@@ -1,17 +1,28 @@
 {
+  "id": "python-033-python-type-hints-static-typing",
   "lessonNumber": 33,
-  "title": "Python Type Hints & Static Typing",
+  "title": "Python Type Hints and Static Typing",
   "slug": "python-type-hints-static-typing",
-  "module": "Python Fundamentals",
-  "difficulty": "Intermediate",
-  "estimatedTime": "90 Minutes",
-  "status": "draft",
+  "module": "Python Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-032"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Type Hints and Static Typing.",
+    "Apply Python Type Hints and Static Typing with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "type-hints",
-    "typing",
-    "mypy",
-    "static-typing",
-    "annotations"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-032",
+  "nextLesson": "python-034"
 }

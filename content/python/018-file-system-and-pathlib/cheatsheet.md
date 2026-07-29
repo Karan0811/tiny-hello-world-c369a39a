@@ -1,32 +1,41 @@
 # File System and pathlib Cheat Sheet
 
-```python
-from pathlib import Path
+## Quick Reference
 
-root = Path.cwd() / "data"
-root.mkdir(parents=True, exist_ok=True)
-for path in root.glob("*.json"):
-    if path.is_file():
-        print(path.name, path.stat().st_size)
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
+
+```python
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-| API | Use |
-|---|---|
-| `Path.cwd()` | current directory |
-| `path / "name"` | join paths |
-| `exists()` | check presence |
-| `is_file()` / `is_dir()` | check type |
-| `glob()` / `rglob()` | find matches |
-| `resolve()` | normalized absolute target |
+## Examples
 
-## Best practices
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
+```
 
-- Use `Path`, not manual separators.
-- Validate location, type, then content.
-- Separate inputs from generated artifacts.
+## Best Practices
 
-## Common mistakes
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
 
-- Unbounded recursive globbing.
-- Trusting extensions as file validation.
-- Unsafe overwrite or deletion targets.
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

@@ -1,3 +1,112 @@
 [
-{"id":1,"question":"What declares a coroutine function?","options":["def","async def","yield","class"],"answer":"async def","explanation":"Calling it returns a coroutine object."},{"id":2,"question":"What does await allow?","options":["Cooperative suspension","CPU parallelism always","File deletion","Package install"],"answer":"Cooperative suspension","explanation":"The event loop can advance other ready tasks."},{"id":3,"question":"What blocks an event loop?","options":["await sleep","time.sleep","Semaphore","gather"],"answer":"time.sleep","explanation":"It blocks the thread instead of yielding."},{"id":4,"question":"What does a semaphore limit?","options":["File names","Simultaneous operations","Python versions","Type hints"],"answer":"Simultaneous operations","explanation":"It bounds concurrent work."},{"id":5,"question":"Async is strongest for?","options":["I/O-bound waits","All CPU work","Formatting","Static typing"],"answer":"I/O-bound waits","explanation":"It overlaps waiting on external operations."},{"id":6,"question":"What coordinates awaitables?","options":["glob","asyncio.gather","Path","dataclass"],"answer":"asyncio.gather","explanation":"gather waits for multiple awaitables."},{"id":7,"question":"What should external calls have?","options":["No limit","Timeout policy","Global secrets","No errors"],"answer":"Timeout policy","explanation":"Timeouts prevent indefinite waits."},{"id":8,"question":"What does asyncio.run do?","options":["Starts top-level async program","Creates a package","Runs lint","Pins dependencies"],"answer":"Starts top-level async program","explanation":"It manages the event loop for a main coroutine."},{"id":9,"question":"What requires explicit policy?","options":["Task errors","Variable names","Comments","Indentation"],"answer":"Task errors","explanation":"Partial failures must not be silently lost."},{"id":10,"question":"Why cap API concurrency?","options":["To meet rate and capacity limits","To avoid imports","To create classes","To disable logs"],"answer":"To meet rate and capacity limits","explanation":"Unbounded calls can overload providers and local resources."}
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "asyncio and Concurrency: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  }
 ]

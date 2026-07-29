@@ -1,3 +1,77 @@
 [
-{"q":"Unit test?","a":"Isolated automated check of small behavior."},{"q":"Assertion?","a":"Statement comparing expected and actual behavior."},{"q":"assertEqual?","a":"Checks values are equal."},{"q":"assertRaises?","a":"Checks an expected exception."},{"q":"unittest?","a":"Python standard-library test framework."},{"q":"Deterministic test?","a":"Same controlled input gives same result."},{"q":"Happy path?","a":"Expected successful behavior."},{"q":"Boundary test?","a":"Check at a limit or edge value."},{"q":"Regression test?","a":"Test preventing a known bug from returning."},{"q":"Traceback?","a":"Call path and exception details."},{"q":"Minimal reproduction?","a":"Smallest input that shows failure."},{"q":"Logging?","a":"Configurable diagnostic event recording."},{"q":"INFO level?","a":"Normal operational event."},{"q":"WARNING level?","a":"Unexpected but recoverable condition."},{"q":"ERROR level?","a":"Failed operation needing attention."},{"q":"breakpoint()?","a":"Pauses execution for debugging."},{"q":"Why avoid live APIs in unit tests?","a":"They are slow, costly, and nondeterministic."},{"q":"Why use temporary directories?","a":"Isolate filesystem tests."},{"q":"What should tests target?","a":"Observable behavior and contracts."},{"q":"Final test step?","a":"Run targeted and full relevant suite."}
+  {
+    "front": "Testing and Debugging: key idea 1",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 2",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 3",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 4",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 5",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 6",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 7",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 8",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 9",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 10",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 11",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 12",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 13",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 14",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  },
+  {
+    "front": "Testing and Debugging: key idea 15",
+    "back": "Use clear inputs, focused behavior, validation, and repeatable verification.",
+    "category": "core concepts"
+  }
 ]

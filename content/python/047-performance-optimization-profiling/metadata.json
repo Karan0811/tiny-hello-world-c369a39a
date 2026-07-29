@@ -1,19 +1,28 @@
 {
+  "id": "python-047-performance-optimization-profiling",
   "lessonNumber": 47,
-  "title": "Performance Optimization & Profiling",
+  "title": "Performance Optimization and Profiling",
   "slug": "performance-optimization-profiling",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "180 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-046"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Performance Optimization and Profiling.",
+    "Apply Performance Optimization and Profiling with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "performance",
-    "profiling",
-    "optimization",
-    "benchmarking",
-    "cprofile",
-    "timeit",
-    "numpy"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-046",
+  "nextLesson": "python-048"
 }

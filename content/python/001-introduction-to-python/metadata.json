@@ -1,3 +1,26 @@
 {
-  "status":"draft"
+  "id": "python-001-introduction-to-python",
+  "lessonNumber": 1,
+  "title": "Introduction to Python",
+  "slug": "introduction-to-python",
+  "module": "Python Fundamentals",
+  "difficulty": "Beginner",
+  "estimatedTime": "45 minutes",
+  "prerequisites": [],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Introduction to Python.",
+    "Apply Introduction to Python with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": null,
+  "nextLesson": "python-002"
 }

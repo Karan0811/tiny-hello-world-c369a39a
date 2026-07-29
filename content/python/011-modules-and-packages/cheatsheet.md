@@ -1,13 +1,41 @@
 # Modules and Packages Cheat Sheet
 
-| Concept | Syntax |
-|---|---|
-| Import module | import math |
-| Import function | from math import sqrt |
-| Alias | import numpy as np |
-| Package import | from products.pricing import discount |
-| Install package | pip install package_name |
-| Upgrade package | pip install --upgrade package_name |
-| Uninstall package | pip uninstall package_name |
-| Install requirements | pip install -r requirements.txt |
-| Export requirements | pip freeze > requirements.txt |
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
+
+```python
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
+```
+
+## Examples
+
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
+```
+
+## Best Practices
+
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
+
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

@@ -1,18 +1,28 @@
 {
+  "id": "python-038-python-decorators",
   "lessonNumber": 38,
-  "title": "Decorators: Writing Reusable and Powerful Python Functions",
+  "title": "Python Decorators",
   "slug": "python-decorators",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "130 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-037"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Decorators.",
+    "Apply Python Decorators with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "decorators",
-    "higher-order-functions",
-    "closures",
-    "functional-programming",
-    "production",
-    "ai"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-037",
+  "nextLesson": "python-039"
 }

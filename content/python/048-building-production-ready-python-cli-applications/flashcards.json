@@ -1,34 +1,77 @@
 [
   {
-    "q": "argparse",
-    "a": "Parse CLI arguments."
+    "front": "Production-Ready Python CLI Applications: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Subcommands",
-    "a": "Multiple commands in one CLI."
+    "front": "Production-Ready Python CLI Applications: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Environment Variables",
-    "a": "Store secrets securely."
+    "front": "Production-Ready Python CLI Applications: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Logging",
-    "a": "Record application events."
+    "front": "Production-Ready Python CLI Applications: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Entry Point",
-    "a": "Executable CLI command."
+    "front": "Production-Ready Python CLI Applications: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "pyproject.toml",
-    "a": "Package configuration."
+    "front": "Production-Ready Python CLI Applications: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Positional Arguments",
-    "a": "Required ordered inputs."
+    "front": "Production-Ready Python CLI Applications: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Optional Arguments",
-    "a": "Named inputs prefixed with --."
+    "front": "Production-Ready Python CLI Applications: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Production-Ready Python CLI Applications: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Production-Ready Python CLI Applications: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Production-Ready Python CLI Applications: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Production-Ready Python CLI Applications: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Production-Ready Python CLI Applications: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Production-Ready Python CLI Applications: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Production-Ready Python CLI Applications: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

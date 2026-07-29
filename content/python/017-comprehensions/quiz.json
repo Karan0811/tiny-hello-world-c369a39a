@@ -1,3 +1,112 @@
 [
-{"id":1,"question":"What does a list comprehension create?","options":["A list","A file","A class","An exception"],"answer":"A list","explanation":"Square brackets create a list."},{"id":2,"question":"Which form is lazy?","options":["[]","{}","()","dict()"],"answer":"()","explanation":"A generator expression uses parentheses."},{"id":3,"question":"What does a set comprehension remove?","options":["Keys","Duplicates","Errors","Whitespace"],"answer":"Duplicates","explanation":"Sets retain unique values."},{"id":4,"question":"Where does an optional filter appear?","options":["After for","Before expression","Before iterable","Outside brackets"],"answer":"After for","explanation":"The if clause filters source items."},{"id":5,"question":"What can duplicate dictionary keys cause?","options":["A syntax error","Later values overwrite earlier ones","A list result","Automatic validation"],"answer":"Later values overwrite earlier ones","explanation":"A dictionary stores one value per key."},{"id":6,"question":"When is a loop clearer?","options":["For a simple map","For complex branching and side effects","For no data","Never"],"answer":"For complex branching and side effects","explanation":"Complex rules benefit from named steps."},{"id":7,"question":"What is a generator after consumption?","options":["Exhausted","Sorted","Reusable","A set"],"answer":"Exhausted","explanation":"A generator is normally one-pass."},{"id":8,"question":"What does {k: v for ...} create?","options":["A list","A dictionary","A tuple","A file"],"answer":"A dictionary","explanation":"Key-value expressions create a dictionary."},{"id":9,"question":"What should a comprehension prioritize?","options":["Fewest characters","Readability and correct semantics","Nested clauses","Global state"],"answer":"Readability and correct semantics","explanation":"Concise code is useful only when clear."},{"id":10,"question":"What avoids materializing a large stream?","options":["A generator expression","A list comprehension","A set literal","A class"],"answer":"A generator expression","explanation":"Generators produce values as needed."}
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Use explicit, meaningful code.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use explicit, meaningful code.",
+    "explanation": "Use explicit, meaningful code."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Validate inputs before using them.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Validate inputs before using them.",
+    "explanation": "Validate inputs before using them."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Test normal and failure paths.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Test normal and failure paths.",
+    "explanation": "Test normal and failure paths."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Keep sensitive data out of output.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Keep sensitive data out of output.",
+    "explanation": "Keep sensitive data out of output."
+  },
+  {
+    "question": "Comprehensions: which practice best improves reliability?",
+    "options": [
+      "Use the smallest suitable abstraction.",
+      "Rely on hidden state.",
+      "Ignore exceptions.",
+      "Duplicate logic."
+    ],
+    "answer": "Use the smallest suitable abstraction.",
+    "explanation": "Use the smallest suitable abstraction."
+  }
 ]

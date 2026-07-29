@@ -1,17 +1,28 @@
 {
+  "id": "python-035-python-project-structure-best-practices",
   "lessonNumber": 35,
-  "title": "Python Project Structure & Best Practices",
+  "title": "Python Project Structure and Best Practices",
   "slug": "python-project-structure-best-practices",
-  "module": "Python Fundamentals",
-  "difficulty": "Intermediate",
-  "estimatedTime": "95 Minutes",
-  "status": "draft",
+  "module": "Python Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-034"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Python Project Structure and Best Practices.",
+    "Apply Python Project Structure and Best Practices with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "project-structure",
-    "best-practices",
-    "architecture",
-    "clean-code",
     "software-engineering"
-  ]
+  ],
+  "previousLesson": "python-034",
+  "nextLesson": "python-036"
 }

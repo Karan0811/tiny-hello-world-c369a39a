@@ -1,9 +1,28 @@
 {
+  "id": "python-008-conditional-statements",
   "lessonNumber": 8,
-  "title": "Conditional Statements (if, elif, else)",
+  "title": "Conditional Statements",
   "slug": "conditional-statements",
-  "module": "Python",
+  "module": "Python Fundamentals",
   "difficulty": "Beginner",
-  "duration": "50 minutes",
-  "status": "draft"
+  "estimatedTime": "45 minutes",
+  "prerequisites": [
+    "python-007"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Conditional Statements.",
+    "Apply Conditional Statements with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-007",
+  "nextLesson": "python-009"
 }

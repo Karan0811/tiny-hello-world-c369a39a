@@ -1,3 +1,28 @@
 {
-  "status":"draft"
+  "id": "python-002-installing-python",
+  "lessonNumber": 2,
+  "title": "Installing Python",
+  "slug": "installing-python",
+  "module": "Python Fundamentals",
+  "difficulty": "Beginner",
+  "estimatedTime": "45 minutes",
+  "prerequisites": [
+    "python-001"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Installing Python.",
+    "Apply Installing Python with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-001",
+  "nextLesson": "python-003"
 }

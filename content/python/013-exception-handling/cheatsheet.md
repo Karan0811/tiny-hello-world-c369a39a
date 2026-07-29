@@ -1,40 +1,41 @@
 # Exception Handling Cheat Sheet
 
-## Specific handling
+## Quick Reference
+
+- Define explicit inputs, outputs, and failure behavior.
+- Validate values from users, files, requests, and configuration.
+- Keep operations focused and verify observable results.
+
+## Syntax
 
 ```python
-try:
-    value = int(raw_value)
-except (TypeError, ValueError) as error:
-    raise ValueError("value must be an integer") from error
-else:
-    print(value)
-finally:
-    print("attempt finished")
+def normalize(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
 ```
 
-| Construct | Use |
-|---|---|
-| `try` | Narrow risky operation |
-| `except Error` | Expected, recoverable condition |
-| `else` | Success-only work |
-| `finally` | Cleanup or final reporting |
-| `raise` | Signal an invalid state |
+## Examples
 
-## Common errors
+```python
+items = [" Ada ", "", "Lin"]
+valid_items = [item.strip() for item in items if item.strip()]
+print(valid_items)
+```
 
-| Error | Typical cause |
-|---|---|
-| `FileNotFoundError` | Missing path |
-| `ValueError` | Invalid value or conversion |
-| `KeyError` | Missing dictionary key |
-| `TypeError` | Wrong operation or argument type |
-| `JSONDecodeError` | Invalid JSON input |
+## Best Practices
 
-## Rules
+- Use meaningful names, explicit dependencies, and testable functions.
+- Test normal, boundary, and failure cases.
+- Record safe operational context; do not log secrets or private content.
 
-- Catch only errors you expect and can handle.
-- Never use `except: pass` in application logic.
-- Validate known rules before doing work.
-- Preserve causes with `raise NewError(...) from error`.
-- Log safe context; do not expose secrets or tracebacks to users.
+## Common Mistakes
+
+- Trusting unvalidated external input.
+- Combining unrelated responsibilities in one large function.
+- Silencing failures that should stop an unsafe operation.
+
+## Interview Tips
+
+Explain the contract, validation boundary, trade-off, and test strategy.

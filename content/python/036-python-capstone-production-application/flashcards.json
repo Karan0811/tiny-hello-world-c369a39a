@@ -1,26 +1,77 @@
 [
   {
-    "q": "Service Layer",
-    "a": "Contains business logic."
+    "front": "Purpose: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Storage Layer",
-    "a": "Handles data persistence."
+    "front": "Input boundary: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Logging",
-    "a": "Supports monitoring and debugging."
+    "front": "Safe default: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Environment Variables",
-    "a": "Store configuration outside code."
+    "front": "Validation: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Deployment Checklist",
-    "a": "Verification before release."
+    "front": "Small example: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   },
   {
-    "q": "Production Ready",
-    "a": "Maintainable, testable, documented, scalable."
+    "front": "Testable behavior: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Error handling: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Observability: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Maintainability: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Documentation: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Configuration: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Dependencies: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Trade-off: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Production check: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
+  },
+  {
+    "front": "Key takeaway: Python Capstone: Production-Ready Application",
+    "back": "Use clear, explicit behavior; validate inputs; and verify the outcome.",
+    "category": "practice"
   }
 ]

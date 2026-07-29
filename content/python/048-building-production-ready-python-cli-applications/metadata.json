@@ -1,18 +1,28 @@
 {
+  "id": "python-048-building-production-ready-python-cli-applications",
   "lessonNumber": 48,
-  "title": "Building Production-Ready Python CLI Applications",
+  "title": "Production-Ready Python CLI Applications",
   "slug": "building-production-ready-python-cli-applications",
-  "module": "Advanced Python for AI & Data Engineering",
+  "module": "Python Engineering",
   "difficulty": "Advanced",
-  "estimatedTime": "180 Minutes",
-  "status": "draft",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-047"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Production-Ready Python CLI Applications.",
+    "Apply Production-Ready Python CLI Applications with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
   "tags": [
     "python",
-    "cli",
-    "argparse",
-    "automation",
-    "devtools",
-    "packaging",
-    "production"
-  ]
+    "software-engineering"
+  ],
+  "previousLesson": "python-047",
+  "nextLesson": "python-049"
 }

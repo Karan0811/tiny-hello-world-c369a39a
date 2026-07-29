@@ -1,9 +1,28 @@
 {
+  "id": "python-015-advanced-oop",
   "lessonNumber": 15,
   "title": "Advanced OOP",
   "slug": "advanced-oop",
   "module": "Python Fundamentals",
-  "difficulty": "Advanced",
-  "duration": "95 minutes",
-  "status": "draft"
+  "difficulty": "Intermediate",
+  "estimatedTime": "60 minutes",
+  "prerequisites": [
+    "python-014"
+  ],
+  "learningObjectives": [
+    "Explain the purpose and trade-offs of Advanced OOP.",
+    "Apply Advanced OOP with explicit inputs and outputs.",
+    "Verify normal and failure behavior."
+  ],
+  "skills": [
+    "Python engineering",
+    "input validation",
+    "testing"
+  ],
+  "tags": [
+    "python",
+    "software-engineering"
+  ],
+  "previousLesson": "python-014",
+  "nextLesson": "python-016"
 }

@@ -1,34 +1,77 @@
 [
   {
-    "q": "timeit",
-    "a": "Benchmark code execution."
+    "front": "Performance Optimization and Profiling: practice 1",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "cProfile",
-    "a": "Profile function performance."
+    "front": "Performance Optimization and Profiling: practice 2",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "lru_cache",
-    "a": "Cache expensive function results."
+    "front": "Performance Optimization and Profiling: practice 3",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Vectorization",
-    "a": "Operate on arrays without Python loops."
+    "front": "Performance Optimization and Profiling: practice 4",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "CPU-bound",
-    "a": "Limited by computation."
+    "front": "Performance Optimization and Profiling: practice 5",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "I/O-bound",
-    "a": "Limited by external resource waits."
+    "front": "Performance Optimization and Profiling: practice 6",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Big-O",
-    "a": "Algorithm complexity."
+    "front": "Performance Optimization and Profiling: practice 7",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   },
   {
-    "q": "Optimization",
-    "a": "Measure, profile, improve, validate."
+    "front": "Performance Optimization and Profiling: practice 8",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Performance Optimization and Profiling: practice 9",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Performance Optimization and Profiling: practice 10",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Performance Optimization and Profiling: practice 11",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Performance Optimization and Profiling: practice 12",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Performance Optimization and Profiling: practice 13",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Performance Optimization and Profiling: practice 14",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
+  },
+  {
+    "front": "Performance Optimization and Profiling: practice 15",
+    "back": "Use explicit inputs, focused behavior, validation, and verification.",
+    "category": "practice"
   }
 ]

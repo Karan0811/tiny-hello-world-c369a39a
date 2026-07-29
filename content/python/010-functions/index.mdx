@@ -4,11 +4,92 @@ lessonNumber: 10
 module: Python Fundamentals
 slug: functions
 difficulty: Beginner
-duration: 75 minutes
+estimatedTime: 45 minutes
 ---
 
 # Lesson 010 – Functions
 
-This file represents the merged lesson generated in this chat (Part 1 + Part 2).
+## Overview
 
-> Paste the complete Part 1 followed by Part 2 from this conversation into this file to preserve all formatting, Mermaid diagrams, examples, exercises, quizzes, interview questions, and summary.
+Functions package a named operation behind an input/output contract. They reduce duplication and give tests a focused unit of behavior.
+
+## Learning Objectives
+
+- Explain the purpose of functions.
+- Apply the core syntax in a small program.
+- Recognize a common error and verify the result.
+
+## Prerequisites
+
+Complete the preceding lesson and have Python 3.12 available.
+
+## Why This Matters
+
+A program is easier to change when each idea has a clear contract. Start with a small, executable example, then use the same pattern in a larger script or service.
+
+## Core Concepts
+
+Identify the value or operation at the boundary, give it a meaningful name, and make the expected outcome explicit. Validate external input before relying on it. When a failure is unsafe to ignore, raise or report it rather than continuing with incorrect state.
+
+## Mental Model
+
+Think in terms of input, transformation, and output. This makes code traceable: you can inspect what entered, which rule ran, and what result was produced.
+
+## Syntax
+
+```python
+def format_name(name: str) -> str:
+    return name.strip().title()
+
+
+print(format_name(" ada lovelace "))
+```
+
+## Executable Examples
+
+```python
+def require_text(value: str) -> str:
+    cleaned = value.strip()
+    if not cleaned:
+        raise ValueError("value is required")
+    return cleaned
+
+
+print(require_text(" Python "))
+```
+
+```python
+def summarize(values: list[int]) -> int:
+    return sum(values)
+
+
+print(summarize([2, 3, 5]))
+```
+
+## Real-World Example
+
+A production application parses an external value at its boundary, validates it, performs one focused operation, and returns a result that a test can verify. It records safe IDs and outcomes instead of private data.
+
+## Common Mistakes
+
+- Using unclear names or hidden global state.
+- Trusting external values without validation.
+- Mixing unrelated responsibilities in one function.
+
+## Best Practices
+
+- Prefer explicit inputs and return values.
+- Keep examples and functions small enough to test directly.
+- Check normal, boundary, and failure behavior.
+
+## Mini Exercise
+
+Write one function related to this lesson. Give it one input, validate one invalid case, and call it with two representative values.
+
+## Summary
+
+Use clear contracts, meaningful names, safe validation, and executable checks to make Python programs dependable.
+
+## Next Lesson
+
+Continue to the next lesson in the curriculum.
