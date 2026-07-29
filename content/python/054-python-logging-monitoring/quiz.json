@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which handler writes logs to a file?",
+    "answer": "FileHandler"
+  },
+  {
+    "question": "Which handler rotates logs by file size?",
+    "answer": "RotatingFileHandler"
+  },
+  {
+    "question": "Which handler rotates logs by time?",
+    "answer": "TimedRotatingFileHandler"
+  },
+  {
+    "question": "What is structured logging?",
+    "answer": "Logging data in a structured format such as JSON"
+  },
+  {
+    "question": "What should never be logged?",
+    "answer": "Passwords, API keys, secrets, and sensitive credentials"
+  }
+]

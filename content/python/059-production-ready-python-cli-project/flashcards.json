@@ -1,0 +1,22 @@
+[
+  {
+    "front": "Business logic layer",
+    "back": "Service Layer"
+  },
+  {
+    "front": "Data access pattern",
+    "back": "Repository Pattern"
+  },
+  {
+    "front": "Initial storage format",
+    "back": "JSON"
+  },
+  {
+    "front": "CLI entry point section",
+    "back": "[project.scripts]"
+  },
+  {
+    "front": "One responsibility per class",
+    "back": "SRP"
+  }
+]

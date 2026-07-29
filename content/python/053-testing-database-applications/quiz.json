@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which pytest feature provides reusable setup code?",
+    "answer": "Fixture"
+  },
+  {
+    "question": "Which file stores shared fixtures?",
+    "answer": "conftest.py"
+  },
+  {
+    "question": "Which command restores uncommitted database changes?",
+    "answer": "rollback()"
+  },
+  {
+    "question": "Which package measures test coverage?",
+    "answer": "pytest-cov"
+  },
+  {
+    "question": "Why use a separate test database?",
+    "answer": "To isolate tests from production data"
+  }
+]

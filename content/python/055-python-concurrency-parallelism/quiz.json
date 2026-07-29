@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which module is preferred for CPU-bound tasks?",
+    "answer": "multiprocessing"
+  },
+  {
+    "question": "Which executor is best for I/O-bound workloads?",
+    "answer": "ThreadPoolExecutor"
+  },
+  {
+    "question": "Which keyword defines a coroutine?",
+    "answer": "async def"
+  },
+  {
+    "question": "What coordinates coroutine execution?",
+    "answer": "Event Loop"
+  },
+  {
+    "question": "What does the GIL affect?",
+    "answer": "CPU-bound multithreading in CPython"
+  }
+]

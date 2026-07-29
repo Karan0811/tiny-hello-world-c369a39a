@@ -1,0 +1,22 @@
+[
+  {
+    "front": "Official Python package repository",
+    "back": "PyPI"
+  },
+  {
+    "front": "Upload tool",
+    "back": "Twine"
+  },
+  {
+    "front": "Modern package config",
+    "back": "pyproject.toml"
+  },
+  {
+    "front": "Build command",
+    "back": "python -m build"
+  },
+  {
+    "front": "Editable install",
+    "back": "pip install -e ."
+  }
+]

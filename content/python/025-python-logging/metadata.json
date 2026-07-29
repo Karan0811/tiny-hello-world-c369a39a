@@ -1,0 +1,11 @@
+{
+  "lessonNumber": 25,
+  "title": "Logging",
+  "slug": "python-logging",
+  "module": "Python for AI & Data Engineering",
+  "status": "draft",
+  "tags": [
+    "python",
+    "logging"
+  ]
+}

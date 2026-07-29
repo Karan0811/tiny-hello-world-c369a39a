@@ -1,0 +1,22 @@
+[
+  {
+    "front": "Layer performing file operations",
+    "back": "Utility Layer"
+  },
+  {
+    "front": "Pattern for multiple export formats",
+    "back": "Strategy Pattern"
+  },
+  {
+    "front": "Extensible architecture component",
+    "back": "Plugin Architecture"
+  },
+  {
+    "front": "CI/CD automation tool",
+    "back": "GitHub Actions"
+  },
+  {
+    "front": "Reason for independent utility modules",
+    "back": "Modularity, reusability, maintainability"
+  }
+]

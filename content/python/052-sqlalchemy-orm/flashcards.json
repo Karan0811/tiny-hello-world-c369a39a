@@ -1,0 +1,22 @@
+[
+  {
+    "front": "ORM",
+    "back": "Object Relational Mapping"
+  },
+  {
+    "front": "Engine",
+    "back": "Database connection manager"
+  },
+  {
+    "front": "Session",
+    "back": "Tracks ORM operations"
+  },
+  {
+    "front": "Create tables",
+    "back": "Base.metadata.create_all()"
+  },
+  {
+    "front": "Migration tool",
+    "back": "Alembic"
+  }
+]

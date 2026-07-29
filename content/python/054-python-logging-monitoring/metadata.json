@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 54,
+  "title": "Python Logging and Monitoring",
+  "slug": "python-logging-monitoring",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "180 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "logging",
+    "monitoring",
+    "observability",
+    "mlops",
+    "debugging"
+  ]
+}

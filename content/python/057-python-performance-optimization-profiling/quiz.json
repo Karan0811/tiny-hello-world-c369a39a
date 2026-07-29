@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which module is best for benchmarking?",
+    "answer": "timeit"
+  },
+  {
+    "question": "Which built-in profiler measures function execution?",
+    "answer": "cProfile"
+  },
+  {
+    "question": "Which module tracks memory allocations?",
+    "answer": "tracemalloc"
+  },
+  {
+    "question": "Which keyword creates a generator?",
+    "answer": "yield"
+  },
+  {
+    "question": "Which decorator caches function results?",
+    "answer": "functools.lru_cache"
+  }
+]

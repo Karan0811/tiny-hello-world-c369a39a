@@ -1,0 +1,22 @@
+[
+  {
+    "front": "Benchmarking",
+    "back": "timeit"
+  },
+  {
+    "front": "CPU profiling",
+    "back": "cProfile"
+  },
+  {
+    "front": "Memory profiling",
+    "back": "tracemalloc"
+  },
+  {
+    "front": "Generator keyword",
+    "back": "yield"
+  },
+  {
+    "front": "Caching decorator",
+    "back": "@lru_cache"
+  }
+]

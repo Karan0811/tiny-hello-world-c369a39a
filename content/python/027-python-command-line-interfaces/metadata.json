@@ -1,0 +1,12 @@
+{
+  "lessonNumber": 27,
+  "title": "Command Line Interfaces",
+  "slug": "python-command-line-interfaces",
+  "module": "Python for AI & Data Engineering",
+  "status": "draft",
+  "tags": [
+    "python",
+    "cli",
+    "argparse"
+  ]
+}

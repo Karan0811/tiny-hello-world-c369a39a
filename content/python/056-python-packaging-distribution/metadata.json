@@ -1,0 +1,18 @@
+{
+  "lessonNumber": 56,
+  "title": "Packaging and Distributing Python Applications",
+  "slug": "python-packaging-distribution",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "210 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "packaging",
+    "pyproject.toml",
+    "pypi",
+    "twine",
+    "wheel",
+    "distribution"
+  ]
+}

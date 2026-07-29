@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which layer should interact directly with the file system?",
+    "answer": "Utility Layer"
+  },
+  {
+    "question": "Which pattern enables multiple export formats?",
+    "answer": "Strategy Pattern"
+  },
+  {
+    "question": "What extends the application without modifying the core?",
+    "answer": "Plugin Architecture"
+  },
+  {
+    "question": "Which tool commonly automates testing and builds?",
+    "answer": "GitHub Actions"
+  },
+  {
+    "question": "Why keep utility modules independent?",
+    "answer": "To maximize modularity, reuse, and maintainability"
+  }
+]

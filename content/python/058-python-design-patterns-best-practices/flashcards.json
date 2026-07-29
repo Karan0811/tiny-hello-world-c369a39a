@@ -1,0 +1,22 @@
+[
+  {
+    "front": "Single instance pattern",
+    "back": "Singleton"
+  },
+  {
+    "front": "Runtime algorithm selection",
+    "back": "Strategy"
+  },
+  {
+    "front": "Simplified subsystem interface",
+    "back": "Facade"
+  },
+  {
+    "front": "One reason to change",
+    "back": "SRP"
+  },
+  {
+    "front": "Official Python style guide",
+    "back": "PEP 8"
+  }
+]

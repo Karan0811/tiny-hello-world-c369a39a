@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which layer contains business logic?",
+    "answer": "Service Layer"
+  },
+  {
+    "question": "Which pattern isolates data access?",
+    "answer": "Repository Pattern"
+  },
+  {
+    "question": "Which file format is used for persistence in the initial project?",
+    "answer": "JSON"
+  },
+  {
+    "question": "Which pyproject.toml section defines CLI commands?",
+    "answer": "[project.scripts]"
+  },
+  {
+    "question": "Which SOLID principle promotes one responsibility per class?",
+    "answer": "Single Responsibility Principle (SRP)"
+  }
+]

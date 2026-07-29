@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which Python module provides SQLite support?",
+    "answer": "sqlite3"
+  },
+  {
+    "question": "Which method saves changes?",
+    "answer": "commit()"
+  },
+  {
+    "question": "Which method undoes uncommitted changes?",
+    "answer": "rollback()"
+  },
+  {
+    "question": "Which query modifies existing rows?",
+    "answer": "UPDATE"
+  },
+  {
+    "question": "Which query removes rows?",
+    "answer": "DELETE"
+  }
+]

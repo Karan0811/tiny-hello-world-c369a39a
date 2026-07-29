@@ -1,0 +1,22 @@
+[
+  {
+    "front": "CPU-bound tasks",
+    "back": "multiprocessing"
+  },
+  {
+    "front": "I/O-bound thread pool",
+    "back": "ThreadPoolExecutor"
+  },
+  {
+    "front": "Coroutine definition",
+    "back": "async def"
+  },
+  {
+    "front": "Runs coroutines",
+    "back": "Event Loop"
+  },
+  {
+    "front": "Protect shared data",
+    "back": "threading.Lock"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 58,
+  "title": "Python Design Patterns and Best Practices",
+  "slug": "python-design-patterns-best-practices",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "230 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "design patterns",
+    "solid",
+    "pep8",
+    "best practices",
+    "architecture"
+  ]
+}

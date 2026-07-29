@@ -1,0 +1,12 @@
+{
+  "lessonNumber": 26,
+  "title": "Configuration and Environment Variables",
+  "slug": "python-configuration-environment-variables",
+  "module": "Python for AI & Data Engineering",
+  "status": "draft",
+  "tags": [
+    "python",
+    "configuration",
+    "environment"
+  ]
+}

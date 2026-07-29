@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is Python's official package repository?",
+    "answer": "PyPI"
+  },
+  {
+    "question": "Which tool uploads packages to PyPI?",
+    "answer": "Twine"
+  },
+  {
+    "question": "Which file defines modern package metadata?",
+    "answer": "pyproject.toml"
+  },
+  {
+    "question": "Which command builds a package?",
+    "answer": "python -m build"
+  },
+  {
+    "question": "What is TestPyPI used for?",
+    "answer": "Testing package publishing before public release"
+  }
+]

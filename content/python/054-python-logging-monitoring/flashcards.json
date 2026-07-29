@@ -1,0 +1,22 @@
+[
+  {
+    "front": "Console logging",
+    "back": "StreamHandler"
+  },
+  {
+    "front": "File logging",
+    "back": "FileHandler"
+  },
+  {
+    "front": "Rotate by size",
+    "back": "RotatingFileHandler"
+  },
+  {
+    "front": "Rotate by time",
+    "back": "TimedRotatingFileHandler"
+  },
+  {
+    "front": "Structured logs",
+    "back": "JSON or other machine-readable formats"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "front": "Built-in SQLite module",
+    "back": "sqlite3"
+  },
+  {
+    "front": "Save changes",
+    "back": "commit()"
+  },
+  {
+    "front": "Undo changes",
+    "back": "rollback()"
+  },
+  {
+    "front": "Retrieve all rows",
+    "back": "fetchall()"
+  },
+  {
+    "front": "Prevent SQL Injection",
+    "back": "Parameterized queries"
+  }
+]

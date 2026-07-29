@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 52,
+  "title": "Object Relational Mapping (ORM) with SQLAlchemy",
+  "slug": "sqlalchemy-orm",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "180 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "sqlalchemy",
+    "orm",
+    "sqlite",
+    "database",
+    "alembic"
+  ]
+}

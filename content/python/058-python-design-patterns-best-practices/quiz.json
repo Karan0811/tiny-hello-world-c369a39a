@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which pattern ensures only one instance exists?",
+    "answer": "Singleton"
+  },
+  {
+    "question": "Which pattern allows algorithms to change at runtime?",
+    "answer": "Strategy"
+  },
+  {
+    "question": "Which pattern simplifies access to complex subsystems?",
+    "answer": "Facade"
+  },
+  {
+    "question": "What does SRP stand for?",
+    "answer": "Single Responsibility Principle"
+  },
+  {
+    "question": "What is Python's official style guide?",
+    "answer": "PEP 8"
+  }
+]

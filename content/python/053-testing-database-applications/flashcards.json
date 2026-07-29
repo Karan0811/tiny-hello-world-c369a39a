@@ -1,0 +1,22 @@
+[
+  {
+    "front": "Reusable test setup",
+    "back": "pytest fixture"
+  },
+  {
+    "front": "Shared fixture file",
+    "back": "conftest.py"
+  },
+  {
+    "front": "Undo DB changes",
+    "back": "rollback()"
+  },
+  {
+    "front": "Coverage tool",
+    "back": "pytest-cov"
+  },
+  {
+    "front": "Mock objects",
+    "back": "unittest.mock.MagicMock"
+  }
+]

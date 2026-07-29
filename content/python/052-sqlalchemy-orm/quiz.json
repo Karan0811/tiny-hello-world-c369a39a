@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What does ORM stand for?",
+    "answer": "Object Relational Mapping"
+  },
+  {
+    "question": "Which object manages DB communication?",
+    "answer": "Engine"
+  },
+  {
+    "question": "Which object tracks DB operations?",
+    "answer": "Session"
+  },
+  {
+    "question": "Which method creates tables?",
+    "answer": "Base.metadata.create_all()"
+  },
+  {
+    "question": "Which tool manages migrations?",
+    "answer": "Alembic"
+  }
+]

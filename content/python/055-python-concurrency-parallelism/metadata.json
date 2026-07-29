@@ -1,0 +1,18 @@
+{
+  "lessonNumber": 55,
+  "title": "Python Concurrency and Parallelism",
+  "slug": "python-concurrency-parallelism",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "210 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "threading",
+    "multiprocessing",
+    "asyncio",
+    "concurrency",
+    "parallelism",
+    "gil"
+  ]
+}
