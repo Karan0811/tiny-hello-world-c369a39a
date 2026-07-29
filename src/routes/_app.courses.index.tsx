@@ -24,7 +24,7 @@ export const Route = createFileRoute("/_app/courses/")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
-  loader: () =>
+  loader: (): CourseCardData[] =>
     listCourses().map((c) => ({
       id: c.id,
       title: c.title,
