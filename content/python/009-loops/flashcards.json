@@ -1,0 +1,26 @@
+[
+  {
+    "q": "What is a loop?",
+    "a": "A construct that repeats a block of code."
+  },
+  {
+    "q": "When should you use a for loop?",
+    "a": "When iterating over a sequence or fixed range."
+  },
+  {
+    "q": "When should you use a while loop?",
+    "a": "When repetition depends on a condition."
+  },
+  {
+    "q": "What does break do?",
+    "a": "Immediately exits the current loop."
+  },
+  {
+    "q": "What does continue do?",
+    "a": "Skips the current iteration and continues with the next."
+  },
+  {
+    "q": "What does pass do?",
+    "a": "Acts as a placeholder statement."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Which loop is best for iterating over a list?",
+    "answer": "for"
+  },
+  {
+    "id": 2,
+    "question": "Which statement exits a loop immediately?",
+    "answer": "break"
+  },
+  {
+    "id": 3,
+    "question": "Which statement skips the current iteration?",
+    "answer": "continue"
+  },
+  {
+    "id": 4,
+    "question": "Which keyword acts as a placeholder?",
+    "answer": "pass"
+  },
+  {
+    "id": 5,
+    "question": "Which loop may become infinite if its condition never changes?",
+    "answer": "while"
+  }
+]

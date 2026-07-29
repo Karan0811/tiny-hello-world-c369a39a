@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword defines a function?",
+    "answer": "def"
+  },
+  {
+    "id": 2,
+    "question": "Which keyword sends a value back to the caller?",
+    "answer": "return"
+  },
+  {
+    "id": 3,
+    "question": "What is a parameter?",
+    "answer": "Variable in a function definition"
+  },
+  {
+    "id": 4,
+    "question": "Which keyword modifies a global variable?",
+    "answer": "global"
+  },
+  {
+    "id": 5,
+    "question": "What is recursion?",
+    "answer": "A function calling itself"
+  }
+]

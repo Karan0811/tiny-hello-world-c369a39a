@@ -1,0 +1,22 @@
+[
+  {
+    "q": "Difference between == and is?",
+    "a": "== compares values; is compares object identity."
+  },
+  {
+    "q": "Which operator returns remainder?",
+    "a": "%"
+  },
+  {
+    "q": "Which operator checks equality?",
+    "a": "=="
+  },
+  {
+    "q": "Which operator checks membership?",
+    "a": "in"
+  },
+  {
+    "q": "Which logical operator means both conditions?",
+    "a": "and"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "lessonNumber": 8,
+  "title": "Conditional Statements (if, elif, else)",
+  "slug": "conditional-statements",
+  "module": "Python",
+  "difficulty": "Beginner",
+  "duration": "50 minutes",
+  "status": "draft"
+}

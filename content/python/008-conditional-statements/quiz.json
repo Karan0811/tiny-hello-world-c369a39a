@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword checks another condition?",
+    "answer": "elif"
+  },
+  {
+    "id": 2,
+    "question": "Which block executes if no condition is true?",
+    "answer": "else"
+  },
+  {
+    "id": 3,
+    "question": "Which operator requires both conditions?",
+    "answer": "and"
+  },
+  {
+    "id": 4,
+    "question": "Which statement introduced in Python 3.10 supports pattern matching?",
+    "answer": "match"
+  },
+  {
+    "id": 5,
+    "question": "Which error occurs due to incorrect indentation?",
+    "answer": "IndentationError"
+  }
+]

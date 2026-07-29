@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What is a module?",
+    "answer": "A reusable Python (.py) file containing code."
+  },
+  {
+    "id": 2,
+    "question": "What is a package?",
+    "answer": "A directory containing related Python modules."
+  },
+  {
+    "id": 3,
+    "question": "Which command installs a package?",
+    "answer": "pip install package_name"
+  },
+  {
+    "id": 4,
+    "question": "Which file stores project dependencies?",
+    "answer": "requirements.txt"
+  },
+  {
+    "id": 5,
+    "question": "Why are virtual environments useful?",
+    "answer": "They isolate project dependencies and avoid version conflicts."
+  }
+]

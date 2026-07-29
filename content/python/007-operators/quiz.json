@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Which operator checks equality?",
+    "answer": "=="
+  },
+  {
+    "id": 2,
+    "question": "Which operator returns the remainder?",
+    "answer": "%"
+  },
+  {
+    "id": 3,
+    "question": "Which logical operator requires both conditions?",
+    "answer": "and"
+  },
+  {
+    "id": 4,
+    "question": "Which operator checks membership?",
+    "answer": "in"
+  },
+  {
+    "id": 5,
+    "question": "Which operator compares object identity?",
+    "answer": "is"
+  }
+]

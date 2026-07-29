@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Define a function",
+    "a": "Use the def keyword."
+  },
+  {
+    "q": "What does return do?",
+    "a": "Sends a value back to the caller."
+  },
+  {
+    "q": "Parameter vs argument",
+    "a": "Parameter is defined in the function; argument is passed during the call."
+  },
+  {
+    "q": "Local variable",
+    "a": "Exists only inside a function."
+  },
+  {
+    "q": "Global variable",
+    "a": "Defined outside functions and accessible globally."
+  },
+  {
+    "q": "Lambda",
+    "a": "A small anonymous function."
+  }
+]

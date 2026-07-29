@@ -1,0 +1,22 @@
+[
+  {
+    "q": "Purpose of if?",
+    "a": "Execute code when condition is true."
+  },
+  {
+    "q": "Purpose of elif?",
+    "a": "Check additional conditions."
+  },
+  {
+    "q": "Purpose of else?",
+    "a": "Run when previous conditions are false."
+  },
+  {
+    "q": "Logical operator for both conditions?",
+    "a": "and"
+  },
+  {
+    "q": "Why is indentation important?",
+    "a": "It defines Python code blocks."
+  }
+]

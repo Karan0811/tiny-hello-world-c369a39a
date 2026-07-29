@@ -1,0 +1,26 @@
+[
+  {
+    "q": "What is a module?",
+    "a": "A reusable Python file (.py)."
+  },
+  {
+    "q": "What is a package?",
+    "a": "A directory containing related modules."
+  },
+  {
+    "q": "Which keyword imports modules?",
+    "a": "import"
+  },
+  {
+    "q": "What does pip do?",
+    "a": "Installs Python packages."
+  },
+  {
+    "q": "What is PyPI?",
+    "a": "The Python Package Index."
+  },
+  {
+    "q": "Why use virtual environments?",
+    "a": "To isolate dependencies for each project."
+  }
+]
