@@ -1,11 +1,15 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="AI University API", version="0.1.0")
+from app.core.config import get_settings
+
+settings = get_settings()
+
+app = FastAPI(title=settings.app_name, version="0.1.0")
 
 
 @app.get("/")
 def root() -> dict[str, str]:
-    return {"message": "AI University API"}
+    return {"message": settings.app_name}
 
 
 @app.get("/health")
