@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Virtual Environment",
+    "a": "An isolated Python environment."
+  },
+  {
+    "q": "pip",
+    "a": "Python's package manager."
+  },
+  {
+    "q": "requirements.txt",
+    "a": "Dependency list for a project."
+  },
+  {
+    "q": "pyproject.toml",
+    "a": "Modern Python project configuration."
+  },
+  {
+    "q": "pip freeze",
+    "a": "Lists installed packages with versions."
+  },
+  {
+    "q": "Version Pinning",
+    "a": "Locking dependency versions."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "lessonNumber": 46,
+  "title": "Object-Oriented Design Patterns in Python",
+  "slug": "object-oriented-design-patterns-python",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "180 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "oop",
+    "design-patterns",
+    "solid",
+    "architecture",
+    "software-design",
+    "dependency-injection",
+    "production"
+  ]
+}

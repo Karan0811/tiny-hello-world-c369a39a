@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Which library is commonly used to parse HTML?",
+    "answer": "BeautifulSoup"
+  },
+  {
+    "id": 2,
+    "question": "What does select() use?",
+    "answer": "CSS selectors."
+  },
+  {
+    "id": 3,
+    "question": "Why are CSS selectors useful?",
+    "answer": "They provide concise ways to locate HTML elements."
+  },
+  {
+    "id": 4,
+    "question": "What is pagination?",
+    "answer": "Splitting content across multiple pages."
+  },
+  {
+    "id": 5,
+    "question": "Why are dynamic websites harder to scrape?",
+    "answer": "They often load content with JavaScript."
+  },
+  {
+    "id": 6,
+    "question": "What is robots.txt?",
+    "answer": "A file containing crawling guidelines."
+  },
+  {
+    "id": 7,
+    "question": "Why prefer APIs over scraping?",
+    "answer": "They are more stable and intended for programmatic access."
+  },
+  {
+    "id": 8,
+    "question": "Why add delays between requests?",
+    "answer": "To respect rate limits and reduce server load."
+  }
+]

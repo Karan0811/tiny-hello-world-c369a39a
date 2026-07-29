@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What does the global keyword do?",
+    "answer": "Allows modification of a variable in the global namespace."
+  },
+  {
+    "id": 2,
+    "question": "What does nonlocal modify?",
+    "answer": "A variable in the nearest enclosing namespace."
+  },
+  {
+    "id": 3,
+    "question": "What is variable shadowing?",
+    "answer": "A local variable hides an outer variable with the same name."
+  },
+  {
+    "id": 4,
+    "question": "What is Python bytecode?",
+    "answer": "Platform-independent intermediate instructions executed by the PVM."
+  },
+  {
+    "id": 5,
+    "question": "Which module displays bytecode?",
+    "answer": "dis"
+  },
+  {
+    "id": 6,
+    "question": "What is the Python Virtual Machine?",
+    "answer": "The component that executes Python bytecode."
+  },
+  {
+    "id": 7,
+    "question": "What is an execution frame?",
+    "answer": "Runtime state for a function call."
+  },
+  {
+    "id": 8,
+    "question": "What does LEGB stand for?",
+    "answer": "Local, Enclosing, Global, Built-in."
+  }
+]

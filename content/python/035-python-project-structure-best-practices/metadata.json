@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 35,
+  "title": "Python Project Structure & Best Practices",
+  "slug": "python-project-structure-best-practices",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "95 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "project-structure",
+    "best-practices",
+    "architecture",
+    "clean-code",
+    "software-engineering"
+  ]
+}

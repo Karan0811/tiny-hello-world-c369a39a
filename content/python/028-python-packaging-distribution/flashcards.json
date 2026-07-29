@@ -1,0 +1,22 @@
+[
+  {
+    "q": "pyproject.toml",
+    "a": "Modern package config"
+  },
+  {
+    "q": "Wheel",
+    "a": "Pre-built package"
+  },
+  {
+    "q": "Editable install",
+    "a": "pip install -e ."
+  },
+  {
+    "q": "PyPI",
+    "a": "Official Python package index"
+  },
+  {
+    "q": "SemVer",
+    "a": "Major.Minor.Patch"
+  }
+]

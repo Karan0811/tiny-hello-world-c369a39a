@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 30,
+  "title": "Logging & Debugging in Python",
+  "slug": "logging-debugging-python",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "90 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "logging",
+    "debugging",
+    "diagnostics",
+    "production",
+    "monitoring"
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "q": "What is logging?",
+    "a": "Recording application events during execution."
+  },
+  {
+    "q": "What is a logger?",
+    "a": "An object that creates log messages."
+  },
+  {
+    "q": "What is a handler?",
+    "a": "Sends logs to a destination."
+  },
+  {
+    "q": "What is a formatter?",
+    "a": "Defines the format of log messages."
+  },
+  {
+    "q": "What method logs exceptions?",
+    "a": "logging.exception()"
+  },
+  {
+    "q": "Why rotate log files?",
+    "a": "To keep log sizes manageable."
+  }
+]

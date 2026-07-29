@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Why is project structure important?",
+    "answer": "It improves organization, maintainability, scalability, and collaboration."
+  },
+  {
+    "id": 2,
+    "question": "Which naming convention is used for functions?",
+    "answer": "snake_case"
+  },
+  {
+    "id": 3,
+    "question": "Which naming convention is used for classes?",
+    "answer": "PascalCase"
+  },
+  {
+    "id": 4,
+    "question": "Why use environment variables?",
+    "answer": "To securely store secrets and configuration."
+  },
+  {
+    "id": 5,
+    "question": "What is a .env file?",
+    "answer": "A file storing environment-specific configuration values."
+  },
+  {
+    "id": 6,
+    "question": "What is separation of concerns?",
+    "answer": "Dividing an application into focused responsibilities."
+  },
+  {
+    "id": 7,
+    "question": "What belongs in the tests directory?",
+    "answer": "Automated tests."
+  },
+  {
+    "id": 8,
+    "question": "What is layered architecture?",
+    "answer": "Separating presentation, business logic, and data access into layers."
+  }
+]

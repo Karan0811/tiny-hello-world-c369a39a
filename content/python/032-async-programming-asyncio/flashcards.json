@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Coroutine",
+    "a": "Function declared with async."
+  },
+  {
+    "q": "Event Loop",
+    "a": "Schedules async tasks."
+  },
+  {
+    "q": "await",
+    "a": "Pauses current coroutine."
+  },
+  {
+    "q": "Task",
+    "a": "Scheduled coroutine."
+  },
+  {
+    "q": "asyncio.gather",
+    "a": "Runs multiple coroutines concurrently."
+  },
+  {
+    "q": "AsyncIO",
+    "a": "Framework for asynchronous programming."
+  }
+]

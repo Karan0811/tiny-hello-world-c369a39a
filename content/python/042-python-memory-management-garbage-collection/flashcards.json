@@ -1,0 +1,34 @@
+[
+  {
+    "q": "Reference Counting",
+    "a": "Primary memory management mechanism."
+  },
+  {
+    "q": "Garbage Collector",
+    "a": "Cleans unreachable circular references."
+  },
+  {
+    "q": "gc.collect()",
+    "a": "Manually trigger GC."
+  },
+  {
+    "q": "weakref",
+    "a": "Weak references without increasing ref count."
+  },
+  {
+    "q": "__slots__",
+    "a": "Reduce memory usage for many instances."
+  },
+  {
+    "q": "tracemalloc",
+    "a": "Track memory allocations."
+  },
+  {
+    "q": "Circular Reference",
+    "a": "Objects referencing each other."
+  },
+  {
+    "q": "Memory Leak",
+    "a": "Unused memory that cannot be reclaimed."
+  }
+]

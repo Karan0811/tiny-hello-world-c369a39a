@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 28,
+  "title": "Python Packaging & Distribution",
+  "slug": "python-packaging-distribution",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "75 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "packaging",
+    "distribution",
+    "pyproject",
+    "pip",
+    "pypi"
+  ]
+}

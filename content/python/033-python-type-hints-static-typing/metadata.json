@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 33,
+  "title": "Python Type Hints & Static Typing",
+  "slug": "python-type-hints-static-typing",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "90 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "type-hints",
+    "typing",
+    "mypy",
+    "static-typing",
+    "annotations"
+  ]
+}

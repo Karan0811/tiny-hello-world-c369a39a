@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Why is logging preferred over print()?",
+    "answer": "It provides structured, configurable, persistent logs suitable for production."
+  },
+  {
+    "id": 2,
+    "question": "Which module provides logging support?",
+    "answer": "logging"
+  },
+  {
+    "id": 3,
+    "question": "What does a handler do?",
+    "answer": "Determines where log messages are written."
+  },
+  {
+    "id": 4,
+    "question": "What is a formatter?",
+    "answer": "It controls the appearance of log messages."
+  },
+  {
+    "id": 5,
+    "question": "Which method logs exceptions with traceback?",
+    "answer": "logging.exception()"
+  },
+  {
+    "id": 6,
+    "question": "Why use rotating log files?",
+    "answer": "To prevent logs from growing indefinitely."
+  },
+  {
+    "id": 7,
+    "question": "Which log level is used for detailed diagnostics?",
+    "answer": "DEBUG"
+  },
+  {
+    "id": 8,
+    "question": "What should never be logged?",
+    "answer": "Passwords, API keys, tokens, or sensitive information."
+  }
+]

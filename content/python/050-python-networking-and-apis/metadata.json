@@ -1,0 +1,19 @@
+{
+  "lessonNumber": 49,
+  "title": "Python Networking & APIs",
+  "slug": "python-networking-and-apis",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "180 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "networking",
+    "api",
+    "http",
+    "requests",
+    "rest",
+    "json",
+    "authentication"
+  ]
+}

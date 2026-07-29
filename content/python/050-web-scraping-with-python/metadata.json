@@ -1,0 +1,19 @@
+{
+  "lessonNumber": 50,
+  "title": "Web Scraping with Python",
+  "slug": "web-scraping-with-python",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "180 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "web-scraping",
+    "beautifulsoup",
+    "html",
+    "requests",
+    "css-selectors",
+    "data-engineering",
+    "ai"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 36,
+  "title": "Python Capstone Project: Building a Production-Ready Application",
+  "slug": "python-capstone-production-application",
+  "module": "Python Fundamentals",
+  "difficulty": "Advanced",
+  "estimatedTime": "180 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "capstone",
+    "architecture",
+    "production",
+    "software-engineering",
+    "project"
+  ]
+}

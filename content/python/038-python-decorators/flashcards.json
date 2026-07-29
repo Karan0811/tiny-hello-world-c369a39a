@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Decorator",
+    "a": "Wraps and extends another function."
+  },
+  {
+    "q": "functools.wraps",
+    "a": "Preserves function metadata."
+  },
+  {
+    "q": "*args",
+    "a": "Variable positional arguments."
+  },
+  {
+    "q": "**kwargs",
+    "a": "Variable keyword arguments."
+  },
+  {
+    "q": "@property",
+    "a": "Access a method like an attribute."
+  },
+  {
+    "q": "Parameterized Decorator",
+    "a": "Decorator that accepts arguments."
+  }
+]

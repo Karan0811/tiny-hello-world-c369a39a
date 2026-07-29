@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Iterator",
+    "a": "Produces one value at a time."
+  },
+  {
+    "q": "Generator",
+    "a": "A special iterator created with yield."
+  },
+  {
+    "q": "yield",
+    "a": "Returns a value and pauses execution."
+  },
+  {
+    "q": "Lazy Evaluation",
+    "a": "Compute values only when needed."
+  },
+  {
+    "q": "Generator Expression",
+    "a": "(x for x in iterable)"
+  },
+  {
+    "q": "StopIteration",
+    "a": "Raised when an iterator is exhausted."
+  }
+]

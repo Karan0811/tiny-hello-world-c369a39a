@@ -1,0 +1,34 @@
+[
+  {
+    "q": "argparse",
+    "a": "Parse CLI arguments."
+  },
+  {
+    "q": "Subcommands",
+    "a": "Multiple commands in one CLI."
+  },
+  {
+    "q": "Environment Variables",
+    "a": "Store secrets securely."
+  },
+  {
+    "q": "Logging",
+    "a": "Record application events."
+  },
+  {
+    "q": "Entry Point",
+    "a": "Executable CLI command."
+  },
+  {
+    "q": "pyproject.toml",
+    "a": "Package configuration."
+  },
+  {
+    "q": "Positional Arguments",
+    "a": "Required ordered inputs."
+  },
+  {
+    "q": "Optional Arguments",
+    "a": "Named inputs prefixed with --."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "q": "Serialization",
+    "a": "Convert objects into a storable format."
+  },
+  {
+    "q": "Deserialization",
+    "a": "Restore stored data into Python objects."
+  },
+  {
+    "q": "JSON",
+    "a": "Human-readable data interchange format."
+  },
+  {
+    "q": "Pickle",
+    "a": "Python binary serialization format."
+  },
+  {
+    "q": "Shelve",
+    "a": "Persistent dictionary-like storage."
+  },
+  {
+    "q": "gzip",
+    "a": "Compress and decompress GZIP files."
+  },
+  {
+    "q": "zipfile",
+    "a": "Create and extract ZIP archives."
+  },
+  {
+    "q": "Streaming",
+    "a": "Process large files incrementally."
+  }
+]

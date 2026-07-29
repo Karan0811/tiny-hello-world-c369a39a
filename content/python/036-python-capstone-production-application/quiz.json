@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is the purpose of the service layer?",
+    "answer": "To contain business logic independent of storage or presentation."
+  },
+  {
+    "id": 2,
+    "question": "Why use a storage layer?",
+    "answer": "To isolate data persistence from application logic."
+  },
+  {
+    "id": 3,
+    "question": "Why are logs important?",
+    "answer": "For monitoring, debugging, and auditing."
+  },
+  {
+    "id": 4,
+    "question": "Where should sensitive configuration be stored?",
+    "answer": "In environment variables or .env files."
+  },
+  {
+    "id": 5,
+    "question": "Why write automated tests?",
+    "answer": "To verify correctness and prevent regressions."
+  },
+  {
+    "id": 6,
+    "question": "What describes project dependencies?",
+    "answer": "requirements.txt or pyproject.toml."
+  },
+  {
+    "id": 7,
+    "question": "Why separate application layers?",
+    "answer": "To improve maintainability and scalability."
+  },
+  {
+    "id": 8,
+    "question": "What is the goal of the capstone?",
+    "answer": "To integrate all Python concepts into a production-ready application."
+  }
+]

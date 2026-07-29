@@ -1,0 +1,26 @@
+[
+  {
+    "q": "snake_case",
+    "a": "Naming convention for functions and variables."
+  },
+  {
+    "q": "PascalCase",
+    "a": "Naming convention for classes."
+  },
+  {
+    "q": "Separation of Concerns",
+    "a": "Each component has a single responsibility."
+  },
+  {
+    "q": ".env",
+    "a": "Stores environment-specific configuration."
+  },
+  {
+    "q": "Layered Architecture",
+    "a": "Presentation, business logic, and data layers."
+  },
+  {
+    "q": "tests/",
+    "a": "Directory containing automated tests."
+  }
+]

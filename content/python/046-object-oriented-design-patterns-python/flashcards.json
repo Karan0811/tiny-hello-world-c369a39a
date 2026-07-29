@@ -1,0 +1,34 @@
+[
+  {
+    "q": "Singleton",
+    "a": "Ensures one shared instance."
+  },
+  {
+    "q": "Factory Method",
+    "a": "Centralized object creation."
+  },
+  {
+    "q": "Strategy",
+    "a": "Runtime algorithm selection."
+  },
+  {
+    "q": "Observer",
+    "a": "State-change notification."
+  },
+  {
+    "q": "Dependency Injection",
+    "a": "Inject dependencies externally."
+  },
+  {
+    "q": "SRP",
+    "a": "Single Responsibility Principle."
+  },
+  {
+    "q": "Composition",
+    "a": "Preferred over inheritance for flexibility."
+  },
+  {
+    "q": "GoF Categories",
+    "a": "Creational, Structural, Behavioral."
+  }
+]

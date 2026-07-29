@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is concurrency?",
+    "answer": "Multiple tasks making progress during the same period."
+  },
+  {
+    "id": 2,
+    "question": "What is parallelism?",
+    "answer": "Multiple tasks executing simultaneously."
+  },
+  {
+    "id": 3,
+    "question": "What is the GIL?",
+    "answer": "Global Interpreter Lock allowing one thread to execute Python bytecode at a time."
+  },
+  {
+    "id": 4,
+    "question": "When should threading be used?",
+    "answer": "For I/O-bound workloads."
+  },
+  {
+    "id": 5,
+    "question": "When should multiprocessing be used?",
+    "answer": "For CPU-bound workloads."
+  },
+  {
+    "id": 6,
+    "question": "What is a race condition?",
+    "answer": "Concurrent access causing unpredictable results."
+  },
+  {
+    "id": 7,
+    "question": "What does a lock do?",
+    "answer": "Protects shared resources."
+  },
+  {
+    "id": 8,
+    "question": "Which module provides thread and process pools?",
+    "answer": "concurrent.futures"
+  }
+]

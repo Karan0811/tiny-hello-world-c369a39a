@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What does raise do?",
+    "answer": "Explicitly raises an exception."
+  },
+  {
+    "id": 2,
+    "question": "Why create custom exceptions?",
+    "answer": "To represent meaningful domain-specific errors."
+  },
+  {
+    "id": 3,
+    "question": "What is re-raising?",
+    "answer": "Raising the same exception again after handling."
+  },
+  {
+    "id": 4,
+    "question": "What is exception chaining?",
+    "answer": "Linking exceptions using raise ... from ..."
+  },
+  {
+    "id": 5,
+    "question": "What is an assertion?",
+    "answer": "A debugging check that raises AssertionError when false."
+  },
+  {
+    "id": 6,
+    "question": "Which logging function records a traceback?",
+    "answer": "logging.exception()"
+  },
+  {
+    "id": 7,
+    "question": "Why avoid bare except blocks?",
+    "answer": "They hide unexpected errors and complicate debugging."
+  },
+  {
+    "id": 8,
+    "question": "Why is exception handling important in AI pipelines?",
+    "answer": "It improves reliability and graceful recovery."
+  }
+]

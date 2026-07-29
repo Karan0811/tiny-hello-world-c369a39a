@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is the first step in performance optimization?",
+    "answer": "Measure and profile the application."
+  },
+  {
+    "id": 2,
+    "question": "Which module is commonly used for benchmarking?",
+    "answer": "timeit"
+  },
+  {
+    "id": 3,
+    "question": "Which module profiles Python programs?",
+    "answer": "cProfile"
+  },
+  {
+    "id": 4,
+    "question": "What is a CPU-bound task?",
+    "answer": "A task limited by computation."
+  },
+  {
+    "id": 5,
+    "question": "Why are sets faster than lists for membership checks?",
+    "answer": "Average O(1) hash table lookups."
+  },
+  {
+    "id": 6,
+    "question": "What does lru_cache do?",
+    "answer": "Caches function results."
+  },
+  {
+    "id": 7,
+    "question": "Why is NumPy vectorization faster?",
+    "answer": "Uses optimized compiled code."
+  },
+  {
+    "id": 8,
+    "question": "What does Big-O notation describe?",
+    "answer": "Algorithm time or space complexity."
+  }
+]

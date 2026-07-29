@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 34,
+  "title": "Virtual Environments & Dependency Management",
+  "slug": "virtual-environments-dependency-management",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "95 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "virtualenv",
+    "venv",
+    "pip",
+    "requirements",
+    "dependency-management"
+  ]
+}

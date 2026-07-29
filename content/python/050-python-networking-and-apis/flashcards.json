@@ -1,0 +1,34 @@
+[
+  {
+    "q": "requests",
+    "a": "Python HTTP client library."
+  },
+  {
+    "q": "GET",
+    "a": "Retrieve data."
+  },
+  {
+    "q": "POST",
+    "a": "Create/send data."
+  },
+  {
+    "q": "JSON",
+    "a": "Standard API data format."
+  },
+  {
+    "q": "Headers",
+    "a": "Request metadata."
+  },
+  {
+    "q": "Session",
+    "a": "Reusable HTTP connection."
+  },
+  {
+    "q": "Timeout",
+    "a": "Limit request waiting time."
+  },
+  {
+    "q": "API Key",
+    "a": "Credential for API authentication."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is a pure function?",
+    "answer": "A function with no side effects that always returns the same output for the same input."
+  },
+  {
+    "id": 2,
+    "question": "What does map() do?",
+    "answer": "Applies a function to every element in an iterable."
+  },
+  {
+    "id": 3,
+    "question": "What does filter() do?",
+    "answer": "Keeps only elements that satisfy a condition."
+  },
+  {
+    "id": 4,
+    "question": "What does reduce() return?",
+    "answer": "A single aggregated value."
+  },
+  {
+    "id": 5,
+    "question": "Which module contains reduce()?",
+    "answer": "functools"
+  },
+  {
+    "id": 6,
+    "question": "What does zip() do?",
+    "answer": "Combines multiple iterables element by element."
+  },
+  {
+    "id": 7,
+    "question": "What does enumerate() return?",
+    "answer": "Index-value pairs."
+  },
+  {
+    "id": 8,
+    "question": "Where is functional programming commonly used?",
+    "answer": "AI, machine learning, data engineering, and big data processing."
+  }
+]

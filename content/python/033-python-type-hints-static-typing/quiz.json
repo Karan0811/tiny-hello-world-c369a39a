@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What are type hints?",
+    "answer": "Optional annotations describing expected types."
+  },
+  {
+    "id": 2,
+    "question": "Are type hints enforced at runtime?",
+    "answer": "No."
+  },
+  {
+    "id": 3,
+    "question": "What is Optional[str]?",
+    "answer": "A value that can be str or None."
+  },
+  {
+    "id": 4,
+    "question": "What is Union?",
+    "answer": "Allows multiple possible types."
+  },
+  {
+    "id": 5,
+    "question": "What is Any?",
+    "answer": "A type accepting any value."
+  },
+  {
+    "id": 6,
+    "question": "What is TypedDict?",
+    "answer": "A typed dictionary structure."
+  },
+  {
+    "id": 7,
+    "question": "What is MyPy?",
+    "answer": "A static type checker for Python."
+  },
+  {
+    "id": 8,
+    "question": "Why use type hints?",
+    "answer": "Improve readability and catch errors earlier."
+  }
+]

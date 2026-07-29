@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is a virtual environment?",
+    "answer": "An isolated Python environment for a project."
+  },
+  {
+    "id": 2,
+    "question": "What does pip do?",
+    "answer": "Installs and manages Python packages."
+  },
+  {
+    "id": 3,
+    "question": "What does pip freeze generate?",
+    "answer": "A list of installed packages with versions."
+  },
+  {
+    "id": 4,
+    "question": "What is requirements.txt?",
+    "answer": "A file listing project dependencies."
+  },
+  {
+    "id": 5,
+    "question": "How do you install from requirements.txt?",
+    "answer": "pip install -r requirements.txt"
+  },
+  {
+    "id": 6,
+    "question": "What is pyproject.toml?",
+    "answer": "A modern Python project configuration file."
+  },
+  {
+    "id": 7,
+    "question": "Why use version pinning?",
+    "answer": "To ensure reproducible builds."
+  },
+  {
+    "id": 8,
+    "question": "Why exclude .venv from Git?",
+    "answer": "It is machine-specific and can be recreated."
+  }
+]

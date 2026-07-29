@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Type Hints",
+    "a": "Optional annotations for expected types."
+  },
+  {
+    "q": "Optional",
+    "a": "Represents a value or None."
+  },
+  {
+    "q": "Union",
+    "a": "Multiple accepted types."
+  },
+  {
+    "q": "TypedDict",
+    "a": "Typed dictionary structure."
+  },
+  {
+    "q": "Protocol",
+    "a": "Structural typing based on behavior."
+  },
+  {
+    "q": "MyPy",
+    "a": "Static type checker."
+  }
+]

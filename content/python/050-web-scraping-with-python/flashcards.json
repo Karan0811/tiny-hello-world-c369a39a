@@ -1,0 +1,34 @@
+[
+  {
+    "q": "BeautifulSoup",
+    "a": "HTML parsing library."
+  },
+  {
+    "q": "select()",
+    "a": "Find elements using CSS selectors."
+  },
+  {
+    "q": "find_all()",
+    "a": "Return all matching elements."
+  },
+  {
+    "q": "Pagination",
+    "a": "Multiple pages of content."
+  },
+  {
+    "q": "robots.txt",
+    "a": "Crawler guidelines."
+  },
+  {
+    "q": "time.sleep()",
+    "a": "Rate limiting between requests."
+  },
+  {
+    "q": "Dynamic Website",
+    "a": "Loads content with JavaScript."
+  },
+  {
+    "q": "Requests",
+    "a": "Download web pages via HTTP."
+  }
+]

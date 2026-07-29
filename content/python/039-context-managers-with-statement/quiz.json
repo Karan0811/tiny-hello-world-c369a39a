@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is a context manager?",
+    "answer": "An object that manages resource acquisition and cleanup."
+  },
+  {
+    "id": 2,
+    "question": "Which statement uses a context manager?",
+    "answer": "with"
+  },
+  {
+    "id": 3,
+    "question": "What does __enter__() do?",
+    "answer": "Acquires and prepares the resource."
+  },
+  {
+    "id": 4,
+    "question": "What does __exit__() do?",
+    "answer": "Releases and cleans up the resource."
+  },
+  {
+    "id": 5,
+    "question": "Which module provides @contextmanager?",
+    "answer": "contextlib"
+  },
+  {
+    "id": 6,
+    "question": "What does yield represent?",
+    "answer": "The boundary between setup and cleanup."
+  },
+  {
+    "id": 7,
+    "question": "Why use context managers?",
+    "answer": "To guarantee cleanup even on exceptions."
+  },
+  {
+    "id": 8,
+    "question": "Where are they commonly used?",
+    "answer": "Files, databases, locks, sessions, AI pipelines."
+  }
+]

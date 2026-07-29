@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 31,
+  "title": "Python Concurrency: Threading & Multiprocessing",
+  "slug": "python-concurrency-threading-multiprocessing",
+  "module": "Python Fundamentals",
+  "difficulty": "Advanced",
+  "estimatedTime": "95 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "concurrency",
+    "threading",
+    "multiprocessing",
+    "parallelism",
+    "performance"
+  ]
+}

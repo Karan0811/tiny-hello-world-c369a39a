@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is Python's primary memory management mechanism?",
+    "answer": "Reference counting."
+  },
+  {
+    "id": 2,
+    "question": "Why is the Garbage Collector needed?",
+    "answer": "To clean unreachable circular references."
+  },
+  {
+    "id": 3,
+    "question": "Which module controls garbage collection?",
+    "answer": "gc"
+  },
+  {
+    "id": 4,
+    "question": "What does gc.collect() do?",
+    "answer": "Triggers garbage collection manually."
+  },
+  {
+    "id": 5,
+    "question": "What is a weak reference?",
+    "answer": "A reference that doesn't increase reference count."
+  },
+  {
+    "id": 6,
+    "question": "Which module provides weak references?",
+    "answer": "weakref"
+  },
+  {
+    "id": 7,
+    "question": "What is __slots__ used for?",
+    "answer": "Reducing per-object memory usage."
+  },
+  {
+    "id": 8,
+    "question": "Name one memory profiling tool.",
+    "answer": "tracemalloc"
+  }
+]

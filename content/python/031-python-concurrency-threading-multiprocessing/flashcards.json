@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Concurrency",
+    "a": "Multiple tasks making progress together."
+  },
+  {
+    "q": "Parallelism",
+    "a": "Tasks executing simultaneously."
+  },
+  {
+    "q": "GIL",
+    "a": "Global Interpreter Lock."
+  },
+  {
+    "q": "Thread",
+    "a": "Lightweight execution unit sharing memory."
+  },
+  {
+    "q": "Process",
+    "a": "Independent program with its own memory."
+  },
+  {
+    "q": "Lock",
+    "a": "Synchronization mechanism."
+  }
+]

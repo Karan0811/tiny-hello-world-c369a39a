@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Which library is commonly used for HTTP requests in Python?",
+    "answer": "requests"
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of HTTP headers?",
+    "answer": "Provide metadata about requests and responses."
+  },
+  {
+    "id": 3,
+    "question": "Which HTTP method retrieves data?",
+    "answer": "GET"
+  },
+  {
+    "id": 4,
+    "question": "What are query parameters used for?",
+    "answer": "Filtering or customizing requests."
+  },
+  {
+    "id": 5,
+    "question": "Why use environment variables for API keys?",
+    "answer": "To keep credentials out of source code."
+  },
+  {
+    "id": 6,
+    "question": "What does status code 404 mean?",
+    "answer": "Resource not found."
+  },
+  {
+    "id": 7,
+    "question": "Why are request timeouts important?",
+    "answer": "Prevent indefinite waiting."
+  },
+  {
+    "id": 8,
+    "question": "What is the benefit of requests.Session()?",
+    "answer": "Reuses connections and shared configuration."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "lessonNumber": 38,
+  "title": "Decorators: Writing Reusable and Powerful Python Functions",
+  "slug": "python-decorators",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "130 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "decorators",
+    "higher-order-functions",
+    "closures",
+    "functional-programming",
+    "production",
+    "ai"
+  ]
+}

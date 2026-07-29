@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Pytest",
+    "a": "Popular Python testing framework."
+  },
+  {
+    "q": "Fixture",
+    "a": "Reusable setup for tests."
+  },
+  {
+    "q": "Assertion",
+    "a": "Checks expected behavior."
+  },
+  {
+    "q": "Parametrize",
+    "a": "Run one test with many inputs."
+  },
+  {
+    "q": "pytest.raises",
+    "a": "Test expected exceptions."
+  },
+  {
+    "q": "Test discovery",
+    "a": "Finds test_*.py and test_* functions automatically."
+  }
+]

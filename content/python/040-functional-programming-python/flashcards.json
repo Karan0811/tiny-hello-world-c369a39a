@@ -1,0 +1,34 @@
+[
+  {
+    "q": "Pure Function",
+    "a": "Predictable function with no side effects."
+  },
+  {
+    "q": "Lambda",
+    "a": "Anonymous one-line function."
+  },
+  {
+    "q": "map()",
+    "a": "Transform every element."
+  },
+  {
+    "q": "filter()",
+    "a": "Keep matching elements."
+  },
+  {
+    "q": "reduce()",
+    "a": "Aggregate values into one."
+  },
+  {
+    "q": "zip()",
+    "a": "Combine iterables element by element."
+  },
+  {
+    "q": "enumerate()",
+    "a": "Return index-value pairs."
+  },
+  {
+    "q": "any()/all()",
+    "a": "Logical checks across iterables."
+  }
+]

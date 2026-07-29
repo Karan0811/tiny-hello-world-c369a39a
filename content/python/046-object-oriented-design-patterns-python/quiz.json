@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is the purpose of the Singleton pattern?",
+    "answer": "Ensure only one instance of a class exists."
+  },
+  {
+    "id": 2,
+    "question": "What does the Factory Method pattern solve?",
+    "answer": "Centralizes object creation and decouples clients."
+  },
+  {
+    "id": 3,
+    "question": "When should the Strategy pattern be used?",
+    "answer": "When algorithms should be interchangeable at runtime."
+  },
+  {
+    "id": 4,
+    "question": "What is the Observer pattern?",
+    "answer": "Notifies dependent objects when state changes."
+  },
+  {
+    "id": 5,
+    "question": "What is Dependency Injection?",
+    "answer": "Providing dependencies externally rather than creating them internally."
+  },
+  {
+    "id": 6,
+    "question": "What does SRP stand for?",
+    "answer": "Single Responsibility Principle."
+  },
+  {
+    "id": 7,
+    "question": "Why prefer composition over inheritance?",
+    "answer": "Greater flexibility and lower coupling."
+  },
+  {
+    "id": 8,
+    "question": "What are the three GoF pattern categories?",
+    "answer": "Creational, Structural, Behavioral."
+  }
+]

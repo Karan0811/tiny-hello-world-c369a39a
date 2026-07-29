@@ -1,0 +1,34 @@
+[
+  {
+    "q": "LEGB",
+    "a": "Local, Enclosing, Global, Built-in."
+  },
+  {
+    "q": "global",
+    "a": "Modify global namespace variable."
+  },
+  {
+    "q": "nonlocal",
+    "a": "Modify enclosing namespace variable."
+  },
+  {
+    "q": "Bytecode",
+    "a": "Intermediate compiled instructions."
+  },
+  {
+    "q": "PVM",
+    "a": "Executes Python bytecode."
+  },
+  {
+    "q": "dis",
+    "a": "Disassembles Python bytecode."
+  },
+  {
+    "q": "Execution Frame",
+    "a": "Stores runtime state for function execution."
+  },
+  {
+    "q": "Namespace",
+    "a": "Mapping of names to objects."
+  }
+]

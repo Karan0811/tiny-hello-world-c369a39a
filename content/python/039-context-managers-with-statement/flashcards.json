@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Context Manager",
+    "a": "Automatically manages setup and cleanup."
+  },
+  {
+    "q": "with",
+    "a": "Activates a context manager."
+  },
+  {
+    "q": "__enter__()",
+    "a": "Acquire resource."
+  },
+  {
+    "q": "__exit__()",
+    "a": "Release resource."
+  },
+  {
+    "q": "contextlib",
+    "a": "Utilities for context managers."
+  },
+  {
+    "q": "@contextmanager",
+    "a": "Generator-based context manager."
+  }
+]

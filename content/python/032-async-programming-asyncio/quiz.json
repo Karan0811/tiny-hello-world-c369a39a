@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is asynchronous programming?",
+    "answer": "Doing useful work while waiting for slow operations."
+  },
+  {
+    "id": 2,
+    "question": "What is the Event Loop?",
+    "answer": "It schedules and manages asynchronous tasks."
+  },
+  {
+    "id": 3,
+    "question": "What keyword defines a coroutine?",
+    "answer": "async"
+  },
+  {
+    "id": 4,
+    "question": "What does await do?",
+    "answer": "Pauses the current coroutine until an async operation completes."
+  },
+  {
+    "id": 5,
+    "question": "What does asyncio.create_task() do?",
+    "answer": "Schedules a coroutine to run independently."
+  },
+  {
+    "id": 6,
+    "question": "Why use asyncio.gather()?",
+    "answer": "Run multiple coroutines concurrently."
+  },
+  {
+    "id": 7,
+    "question": "When is AsyncIO most useful?",
+    "answer": "For I/O-bound workloads."
+  },
+  {
+    "id": 8,
+    "question": "Why avoid time.sleep() in async code?",
+    "answer": "It blocks the Event Loop."
+  }
+]

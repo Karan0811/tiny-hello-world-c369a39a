@@ -1,0 +1,34 @@
+[
+  {
+    "q": "timeit",
+    "a": "Benchmark code execution."
+  },
+  {
+    "q": "cProfile",
+    "a": "Profile function performance."
+  },
+  {
+    "q": "lru_cache",
+    "a": "Cache expensive function results."
+  },
+  {
+    "q": "Vectorization",
+    "a": "Operate on arrays without Python loops."
+  },
+  {
+    "q": "CPU-bound",
+    "a": "Limited by computation."
+  },
+  {
+    "q": "I/O-bound",
+    "a": "Limited by external resource waits."
+  },
+  {
+    "q": "Big-O",
+    "a": "Algorithm complexity."
+  },
+  {
+    "q": "Optimization",
+    "a": "Measure, profile, improve, validate."
+  }
+]

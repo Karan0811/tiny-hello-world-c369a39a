@@ -1,0 +1,18 @@
+{
+  "lessonNumber": 39,
+  "title": "Context Managers & the `with` Statement",
+  "slug": "context-managers-with-statement",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "120 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "context-managers",
+    "with",
+    "resource-management",
+    "contextlib",
+    "production",
+    "ai"
+  ]
+}

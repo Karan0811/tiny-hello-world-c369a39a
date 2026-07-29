@@ -1,0 +1,19 @@
+{
+  "lessonNumber": 44,
+  "title": "Advanced File Handling & Serialization",
+  "slug": "advanced-file-handling-serialization",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "160 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "file-handling",
+    "serialization",
+    "json",
+    "pickle",
+    "csv",
+    "gzip",
+    "zipfile"
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What does \\d represent?",
+    "answer": "Any digit."
+  },
+  {
+    "id": 2,
+    "question": "What does + mean in Regex?",
+    "answer": "One or more occurrences."
+  },
+  {
+    "id": 3,
+    "question": "What does ^ represent?",
+    "answer": "Beginning of the string."
+  },
+  {
+    "id": 4,
+    "question": "What does $ represent?",
+    "answer": "End of the string."
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of \\b?",
+    "answer": "Match a word boundary."
+  },
+  {
+    "id": 6,
+    "question": "Why use named groups?",
+    "answer": "Improve readability and easier field extraction."
+  },
+  {
+    "id": 7,
+    "question": "What does re.compile() do?",
+    "answer": "Precompiles a Regex pattern for reuse."
+  },
+  {
+    "id": 8,
+    "question": "Why are raw strings recommended?",
+    "answer": "They avoid escape-sequence issues."
+  }
+]

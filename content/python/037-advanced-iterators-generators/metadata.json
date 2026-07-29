@@ -1,0 +1,19 @@
+{
+  "lessonNumber": 37,
+  "title": "Advanced Iterators & Generators",
+  "slug": "advanced-iterators-generators",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "120 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "iterators",
+    "generators",
+    "yield",
+    "lazy-evaluation",
+    "memory",
+    "data-engineering",
+    "ai"
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is a decorator?",
+    "answer": "A function that wraps and extends another function."
+  },
+  {
+    "id": 2,
+    "question": "Why use *args and **kwargs?",
+    "answer": "To support arbitrary positional and keyword arguments."
+  },
+  {
+    "id": 3,
+    "question": "Why use functools.wraps?",
+    "answer": "To preserve the original function's metadata."
+  },
+  {
+    "id": 4,
+    "question": "What does @property do?",
+    "answer": "Allows a method to be accessed like an attribute."
+  },
+  {
+    "id": 5,
+    "question": "What is a parameterized decorator?",
+    "answer": "A decorator that accepts its own arguments."
+  },
+  {
+    "id": 6,
+    "question": "What is decorator chaining?",
+    "answer": "Applying multiple decorators to one function."
+  },
+  {
+    "id": 7,
+    "question": "Name three built-in decorators.",
+    "answer": "@staticmethod, @classmethod, @property."
+  },
+  {
+    "id": 8,
+    "question": "Where are decorators commonly used?",
+    "answer": "Frameworks, logging, authentication, caching, testing, and AI pipelines."
+  }
+]

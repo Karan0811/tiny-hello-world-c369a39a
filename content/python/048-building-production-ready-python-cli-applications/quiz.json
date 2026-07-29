@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Which module is commonly used to build CLI applications?",
+    "answer": "argparse"
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of subcommands?",
+    "answer": "Organize multiple operations under one CLI."
+  },
+  {
+    "id": 3,
+    "question": "Why use configuration files?",
+    "answer": "Avoid hardcoding values."
+  },
+  {
+    "id": 4,
+    "question": "Why use environment variables?",
+    "answer": "Securely store secrets."
+  },
+  {
+    "id": 5,
+    "question": "Why is logging important?",
+    "answer": "Monitoring and debugging."
+  },
+  {
+    "id": 6,
+    "question": "What is an entry point?",
+    "answer": "Executable command defined in pyproject.toml."
+  },
+  {
+    "id": 7,
+    "question": "Why separate CLI parsing from business logic?",
+    "answer": "Maintainability and testing."
+  },
+  {
+    "id": 8,
+    "question": "What does --help provide?",
+    "answer": "Usage and argument documentation."
+  }
+]

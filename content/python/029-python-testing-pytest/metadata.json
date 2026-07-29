@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 29,
+  "title": "Python Testing with Pytest",
+  "slug": "python-testing-pytest",
+  "module": "Python Fundamentals",
+  "difficulty": "Intermediate",
+  "estimatedTime": "90 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "testing",
+    "pytest",
+    "unit-testing",
+    "automation",
+    "quality-assurance"
+  ]
+}

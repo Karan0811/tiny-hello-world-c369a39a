@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is a generator?",
+    "answer": "A special iterator that yields values one at a time."
+  },
+  {
+    "id": 2,
+    "question": "Which keyword creates a generator?",
+    "answer": "yield"
+  },
+  {
+    "id": 3,
+    "question": "Why are generators memory efficient?",
+    "answer": "They generate values lazily instead of storing all values in memory."
+  },
+  {
+    "id": 4,
+    "question": "What is lazy evaluation?",
+    "answer": "Computing values only when requested."
+  },
+  {
+    "id": 5,
+    "question": "What is a generator expression?",
+    "answer": "A generator created using parentheses."
+  },
+  {
+    "id": 6,
+    "question": "What happens after a generator is exhausted?",
+    "answer": "It raises StopIteration."
+  },
+  {
+    "id": 7,
+    "question": "What does send() do?",
+    "answer": "Sends a value into a paused generator."
+  },
+  {
+    "id": 8,
+    "question": "Where are generators commonly used?",
+    "answer": "AI pipelines, ETL, streaming, and log processing."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Why is automated testing important?",
+    "answer": "It verifies software automatically and catches regressions."
+  },
+  {
+    "id": 2,
+    "question": "Which framework is most commonly used for Python testing?",
+    "answer": "Pytest."
+  },
+  {
+    "id": 3,
+    "question": "What keyword checks expected conditions?",
+    "answer": "assert"
+  },
+  {
+    "id": 4,
+    "question": "What is a fixture?",
+    "answer": "Reusable setup code for tests."
+  },
+  {
+    "id": 5,
+    "question": "What does pytest.raises() do?",
+    "answer": "Verifies expected exceptions."
+  },
+  {
+    "id": 6,
+    "question": "What does @pytest.mark.parametrize do?",
+    "answer": "Runs the same test with multiple inputs."
+  }
+]

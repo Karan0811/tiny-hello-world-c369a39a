@@ -1,0 +1,34 @@
+[
+  {
+    "q": "\\d",
+    "a": "Matches any digit."
+  },
+  {
+    "q": "+",
+    "a": "One or more occurrences."
+  },
+  {
+    "q": "\\b",
+    "a": "Word boundary."
+  },
+  {
+    "q": "re.compile()",
+    "a": "Precompile Regex patterns."
+  },
+  {
+    "q": "Named Groups",
+    "a": "Readable captured groups."
+  },
+  {
+    "q": "Lookahead",
+    "a": "Checks following text without consuming it."
+  },
+  {
+    "q": "Raw Strings",
+    "a": "Avoid escape sequence interpretation."
+  },
+  {
+    "q": "Regex Uses",
+    "a": "Validation, extraction, preprocessing."
+  }
+]

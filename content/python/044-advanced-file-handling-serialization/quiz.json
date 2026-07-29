@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is serialization?",
+    "answer": "Converting Python objects into a storable or transferable format."
+  },
+  {
+    "id": 2,
+    "question": "What is deserialization?",
+    "answer": "Restoring serialized data back into Python objects."
+  },
+  {
+    "id": 3,
+    "question": "Which module handles JSON?",
+    "answer": "json"
+  },
+  {
+    "id": 4,
+    "question": "Which module performs binary serialization?",
+    "answer": "pickle"
+  },
+  {
+    "id": 5,
+    "question": "Why is Pickle unsafe for untrusted data?",
+    "answer": "It can execute arbitrary code from malicious files."
+  },
+  {
+    "id": 6,
+    "question": "What does the shelve module provide?",
+    "answer": "Dictionary-like persistent object storage."
+  },
+  {
+    "id": 7,
+    "question": "Which module creates ZIP archives?",
+    "answer": "zipfile"
+  },
+  {
+    "id": 8,
+    "question": "Why stream large files?",
+    "answer": "To process data incrementally while minimizing memory usage."
+  }
+]

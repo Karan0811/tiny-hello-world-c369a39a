@@ -1,0 +1,17 @@
+{
+  "lessonNumber": 32,
+  "title": "Asynchronous Programming with Asyncio",
+  "slug": "async-programming-asyncio",
+  "module": "Python Fundamentals",
+  "difficulty": "Advanced",
+  "estimatedTime": "100 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "asyncio",
+    "async",
+    "await",
+    "concurrency",
+    "event-loop"
+  ]
+}

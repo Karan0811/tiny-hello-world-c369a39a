@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What is pyproject.toml?",
+    "answer": "Modern packaging configuration."
+  },
+  {
+    "id": 2,
+    "question": "Build command?",
+    "answer": "python -m build"
+  },
+  {
+    "id": 3,
+    "question": "What is a wheel?",
+    "answer": "A .whl package."
+  },
+  {
+    "id": 4,
+    "question": "Upload tool?",
+    "answer": "Twine"
+  },
+  {
+    "id": 5,
+    "question": "Editable install?",
+    "answer": "pip install -e ."
+  }
+]

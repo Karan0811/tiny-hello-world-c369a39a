@@ -1,0 +1,26 @@
+[
+  {
+    "q": "Service Layer",
+    "a": "Contains business logic."
+  },
+  {
+    "q": "Storage Layer",
+    "a": "Handles data persistence."
+  },
+  {
+    "q": "Logging",
+    "a": "Supports monitoring and debugging."
+  },
+  {
+    "q": "Environment Variables",
+    "a": "Store configuration outside code."
+  },
+  {
+    "q": "Deployment Checklist",
+    "a": "Verification before release."
+  },
+  {
+    "q": "Production Ready",
+    "a": "Maintainable, testable, documented, scalable."
+  }
+]
