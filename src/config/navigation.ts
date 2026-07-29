@@ -2,6 +2,7 @@ import {
   LayoutDashboard,
   Map,
   GraduationCap,
+  BookOpen,
   FolderKanban,
   Library,
   StickyNote,
@@ -35,6 +36,7 @@ export const navigation: NavSection[] = [
     label: "Study",
     items: [
       { label: "Learning", to: "/learning", icon: GraduationCap, description: "Modules & lessons" },
+      { label: "Courses", to: "/courses", icon: BookOpen, description: "Content-driven curriculum" },
       { label: "Projects", to: "/projects", icon: FolderKanban, description: "Build & deploy" },
       { label: "Resources", to: "/resources", icon: Library, description: "Curated library" },
       { label: "Notes", to: "/notes", icon: StickyNote, description: "Your knowledge base" },
