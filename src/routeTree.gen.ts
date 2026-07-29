@@ -19,15 +19,19 @@ import { Route as AppProgressRouteImport } from './routes/_app.progress'
 import { Route as AppNotesRouteImport } from './routes/_app.notes'
 import { Route as AppLearningRouteImport } from './routes/_app.learning'
 import { Route as AppInterviewRouteImport } from './routes/_app.interview'
+import { Route as AppCoursesRouteImport } from './routes/_app.courses'
 import { Route as AppRoadmapIndexRouteImport } from './routes/_app.roadmap.index'
 import { Route as AppProjectsIndexRouteImport } from './routes/_app.projects.index'
 import { Route as AppLearningIndexRouteImport } from './routes/_app.learning.index'
+import { Route as AppCoursesIndexRouteImport } from './routes/_app.courses.index'
 import { Route as AppRoadmapTrackRouteImport } from './routes/_app.roadmap.$track'
 import { Route as AppProjectsProjectRouteImport } from './routes/_app.projects.$project'
 import { Route as AppLearningPythonRouteImport } from './routes/_app.learning.python'
 import { Route as AppLearningCategoryRouteImport } from './routes/_app.learning.$category'
 import { Route as AppLearningPythonIndexRouteImport } from './routes/_app.learning.python.index'
+import { Route as AppCoursesCourseIndexRouteImport } from './routes/_app.courses.$course.index'
 import { Route as AppLearningCategoryModuleRouteImport } from './routes/_app.learning.$category.$module'
+import { Route as AppCoursesCourseLessonRouteImport } from './routes/_app.courses.$course.$lesson'
 import { Route as AppLearningPythonModule1IndexRouteImport } from './routes/_app.learning.python.module-1.index'
 import { Route as AppLearningPythonModule1CompleteRouteImport } from './routes/_app.learning.python.module-1.complete'
 import { Route as AppLearningPythonModule1LessonRouteImport } from './routes/_app.learning.python.module-1.$lesson'
@@ -82,6 +86,11 @@ const AppInterviewRoute = AppInterviewRouteImport.update({
   path: '/interview',
   getParentRoute: () => AppRoute,
 } as any)
+const AppCoursesRoute = AppCoursesRouteImport.update({
+  id: '/courses',
+  path: '/courses',
+  getParentRoute: () => AppRoute,
+} as any)
 const AppRoadmapIndexRoute = AppRoadmapIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -96,6 +105,11 @@ const AppLearningIndexRoute = AppLearningIndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => AppLearningRoute,
+} as any)
+const AppCoursesIndexRoute = AppCoursesIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AppCoursesRoute,
 } as any)
 const AppRoadmapTrackRoute = AppRoadmapTrackRouteImport.update({
   id: '/$track',
@@ -122,12 +136,22 @@ const AppLearningPythonIndexRoute = AppLearningPythonIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AppLearningPythonRoute,
 } as any)
+const AppCoursesCourseIndexRoute = AppCoursesCourseIndexRouteImport.update({
+  id: '/$course/',
+  path: '/$course/',
+  getParentRoute: () => AppCoursesRoute,
+} as any)
 const AppLearningCategoryModuleRoute =
   AppLearningCategoryModuleRouteImport.update({
     id: '/$module',
     path: '/$module',
     getParentRoute: () => AppLearningCategoryRoute,
   } as any)
+const AppCoursesCourseLessonRoute = AppCoursesCourseLessonRouteImport.update({
+  id: '/$course/$lesson',
+  path: '/$course/$lesson',
+  getParentRoute: () => AppCoursesRoute,
+} as any)
 const AppLearningPythonModule1IndexRoute =
   AppLearningPythonModule1IndexRouteImport.update({
     id: '/module-1/',
@@ -155,6 +179,7 @@ const AppLearningCategoryModuleLessonRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof AppIndexRoute
+  '/courses': typeof AppCoursesRouteWithChildren
   '/interview': typeof AppInterviewRoute
   '/learning': typeof AppLearningRouteWithChildren
   '/notes': typeof AppNotesRoute
@@ -167,10 +192,13 @@ export interface FileRoutesByFullPath {
   '/learning/python': typeof AppLearningPythonRouteWithChildren
   '/projects/$project': typeof AppProjectsProjectRoute
   '/roadmap/$track': typeof AppRoadmapTrackRoute
+  '/courses/': typeof AppCoursesIndexRoute
   '/learning/': typeof AppLearningIndexRoute
   '/projects/': typeof AppProjectsIndexRoute
   '/roadmap/': typeof AppRoadmapIndexRoute
+  '/courses/$course/$lesson': typeof AppCoursesCourseLessonRoute
   '/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/courses/$course/': typeof AppCoursesCourseIndexRoute
   '/learning/python/': typeof AppLearningPythonIndexRoute
   '/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
   '/learning/python/module-1/$lesson': typeof AppLearningPythonModule1LessonRoute
@@ -187,10 +215,13 @@ export interface FileRoutesByTo {
   '/learning/$category': typeof AppLearningCategoryRouteWithChildren
   '/projects/$project': typeof AppProjectsProjectRoute
   '/roadmap/$track': typeof AppRoadmapTrackRoute
+  '/courses': typeof AppCoursesIndexRoute
   '/learning': typeof AppLearningIndexRoute
   '/projects': typeof AppProjectsIndexRoute
   '/roadmap': typeof AppRoadmapIndexRoute
+  '/courses/$course/$lesson': typeof AppCoursesCourseLessonRoute
   '/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/courses/$course': typeof AppCoursesCourseIndexRoute
   '/learning/python': typeof AppLearningPythonIndexRoute
   '/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
   '/learning/python/module-1/$lesson': typeof AppLearningPythonModule1LessonRoute
@@ -200,6 +231,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_app': typeof AppRouteWithChildren
+  '/_app/courses': typeof AppCoursesRouteWithChildren
   '/_app/interview': typeof AppInterviewRoute
   '/_app/learning': typeof AppLearningRouteWithChildren
   '/_app/notes': typeof AppNotesRoute
@@ -213,10 +245,13 @@ export interface FileRoutesById {
   '/_app/learning/python': typeof AppLearningPythonRouteWithChildren
   '/_app/projects/$project': typeof AppProjectsProjectRoute
   '/_app/roadmap/$track': typeof AppRoadmapTrackRoute
+  '/_app/courses/': typeof AppCoursesIndexRoute
   '/_app/learning/': typeof AppLearningIndexRoute
   '/_app/projects/': typeof AppProjectsIndexRoute
   '/_app/roadmap/': typeof AppRoadmapIndexRoute
+  '/_app/courses/$course/$lesson': typeof AppCoursesCourseLessonRoute
   '/_app/learning/$category/$module': typeof AppLearningCategoryModuleRouteWithChildren
+  '/_app/courses/$course/': typeof AppCoursesCourseIndexRoute
   '/_app/learning/python/': typeof AppLearningPythonIndexRoute
   '/_app/learning/$category/$module/$lesson': typeof AppLearningCategoryModuleLessonRoute
   '/_app/learning/python/module-1/$lesson': typeof AppLearningPythonModule1LessonRoute
@@ -227,6 +262,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/courses'
     | '/interview'
     | '/learning'
     | '/notes'
@@ -239,10 +275,13 @@ export interface FileRouteTypes {
     | '/learning/python'
     | '/projects/$project'
     | '/roadmap/$track'
+    | '/courses/'
     | '/learning/'
     | '/projects/'
     | '/roadmap/'
+    | '/courses/$course/$lesson'
     | '/learning/$category/$module'
+    | '/courses/$course/'
     | '/learning/python/'
     | '/learning/$category/$module/$lesson'
     | '/learning/python/module-1/$lesson'
@@ -259,10 +298,13 @@ export interface FileRouteTypes {
     | '/learning/$category'
     | '/projects/$project'
     | '/roadmap/$track'
+    | '/courses'
     | '/learning'
     | '/projects'
     | '/roadmap'
+    | '/courses/$course/$lesson'
     | '/learning/$category/$module'
+    | '/courses/$course'
     | '/learning/python'
     | '/learning/$category/$module/$lesson'
     | '/learning/python/module-1/$lesson'
@@ -271,6 +313,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/_app'
+    | '/_app/courses'
     | '/_app/interview'
     | '/_app/learning'
     | '/_app/notes'
@@ -284,10 +327,13 @@ export interface FileRouteTypes {
     | '/_app/learning/python'
     | '/_app/projects/$project'
     | '/_app/roadmap/$track'
+    | '/_app/courses/'
     | '/_app/learning/'
     | '/_app/projects/'
     | '/_app/roadmap/'
+    | '/_app/courses/$course/$lesson'
     | '/_app/learning/$category/$module'
+    | '/_app/courses/$course/'
     | '/_app/learning/python/'
     | '/_app/learning/$category/$module/$lesson'
     | '/_app/learning/python/module-1/$lesson'
@@ -371,6 +417,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppInterviewRouteImport
       parentRoute: typeof AppRoute
     }
+    '/_app/courses': {
+      id: '/_app/courses'
+      path: '/courses'
+      fullPath: '/courses'
+      preLoaderRoute: typeof AppCoursesRouteImport
+      parentRoute: typeof AppRoute
+    }
     '/_app/roadmap/': {
       id: '/_app/roadmap/'
       path: '/'
@@ -391,6 +444,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/learning/'
       preLoaderRoute: typeof AppLearningIndexRouteImport
       parentRoute: typeof AppLearningRoute
+    }
+    '/_app/courses/': {
+      id: '/_app/courses/'
+      path: '/'
+      fullPath: '/courses/'
+      preLoaderRoute: typeof AppCoursesIndexRouteImport
+      parentRoute: typeof AppCoursesRoute
     }
     '/_app/roadmap/$track': {
       id: '/_app/roadmap/$track'
@@ -427,12 +487,26 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppLearningPythonIndexRouteImport
       parentRoute: typeof AppLearningPythonRoute
     }
+    '/_app/courses/$course/': {
+      id: '/_app/courses/$course/'
+      path: '/$course'
+      fullPath: '/courses/$course/'
+      preLoaderRoute: typeof AppCoursesCourseIndexRouteImport
+      parentRoute: typeof AppCoursesRoute
+    }
     '/_app/learning/$category/$module': {
       id: '/_app/learning/$category/$module'
       path: '/$module'
       fullPath: '/learning/$category/$module'
       preLoaderRoute: typeof AppLearningCategoryModuleRouteImport
       parentRoute: typeof AppLearningCategoryRoute
+    }
+    '/_app/courses/$course/$lesson': {
+      id: '/_app/courses/$course/$lesson'
+      path: '/$course/$lesson'
+      fullPath: '/courses/$course/$lesson'
+      preLoaderRoute: typeof AppCoursesCourseLessonRouteImport
+      parentRoute: typeof AppCoursesRoute
     }
     '/_app/learning/python/module-1/': {
       id: '/_app/learning/python/module-1/'
@@ -464,6 +538,22 @@ declare module '@tanstack/react-router' {
     }
   }
 }
+
+interface AppCoursesRouteChildren {
+  AppCoursesIndexRoute: typeof AppCoursesIndexRoute
+  AppCoursesCourseLessonRoute: typeof AppCoursesCourseLessonRoute
+  AppCoursesCourseIndexRoute: typeof AppCoursesCourseIndexRoute
+}
+
+const AppCoursesRouteChildren: AppCoursesRouteChildren = {
+  AppCoursesIndexRoute: AppCoursesIndexRoute,
+  AppCoursesCourseLessonRoute: AppCoursesCourseLessonRoute,
+  AppCoursesCourseIndexRoute: AppCoursesCourseIndexRoute,
+}
+
+const AppCoursesRouteWithChildren = AppCoursesRoute._addFileChildren(
+  AppCoursesRouteChildren,
+)
 
 interface AppLearningCategoryModuleRouteChildren {
   AppLearningCategoryModuleLessonRoute: typeof AppLearningCategoryModuleLessonRoute
@@ -552,6 +642,7 @@ const AppRoadmapRouteWithChildren = AppRoadmapRoute._addFileChildren(
 )
 
 interface AppRouteChildren {
+  AppCoursesRoute: typeof AppCoursesRouteWithChildren
   AppInterviewRoute: typeof AppInterviewRoute
   AppLearningRoute: typeof AppLearningRouteWithChildren
   AppNotesRoute: typeof AppNotesRoute
@@ -564,6 +655,7 @@ interface AppRouteChildren {
 }
 
 const AppRouteChildren: AppRouteChildren = {
+  AppCoursesRoute: AppCoursesRouteWithChildren,
   AppInterviewRoute: AppInterviewRoute,
   AppLearningRoute: AppLearningRouteWithChildren,
   AppNotesRoute: AppNotesRoute,
@@ -583,13 +675,3 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
