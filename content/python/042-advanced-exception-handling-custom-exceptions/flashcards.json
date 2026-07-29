@@ -1,0 +1,34 @@
+[
+  {
+    "q": "raise",
+    "a": "Explicitly raise an exception."
+  },
+  {
+    "q": "Custom Exception",
+    "a": "Domain-specific exception class."
+  },
+  {
+    "q": "Exception Chaining",
+    "a": "Use raise ... from ..."
+  },
+  {
+    "q": "Re-raising",
+    "a": "Raise the original exception again."
+  },
+  {
+    "q": "Assertion",
+    "a": "Debugging validation using assert."
+  },
+  {
+    "q": "logging.exception()",
+    "a": "Logs exception with traceback."
+  },
+  {
+    "q": "finally",
+    "a": "Always executes cleanup."
+  },
+  {
+    "q": "Exception Hierarchy",
+    "a": "Organized tree of related exceptions."
+  }
+]

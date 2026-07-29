@@ -1,0 +1,19 @@
+{
+  "lessonNumber": 41,
+  "title": "Advanced Exception Handling & Custom Exceptions",
+  "slug": "advanced-exception-handling-custom-exceptions",
+  "module": "Advanced Python for AI & Data Engineering",
+  "difficulty": "Advanced",
+  "estimatedTime": "140 Minutes",
+  "status": "draft",
+  "tags": [
+    "python",
+    "exceptions",
+    "error-handling",
+    "custom-exceptions",
+    "logging",
+    "debugging",
+    "production",
+    "ai"
+  ]
+}
