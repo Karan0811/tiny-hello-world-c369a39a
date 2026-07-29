@@ -1,0 +1,9 @@
+{
+  "lessonNumber": 16,
+  "title": "Iterators, Generators & Decorators",
+  "slug": "iterators-generators-decorators",
+  "module": "Python Fundamentals",
+  "difficulty": "Advanced",
+  "duration": "100 minutes",
+  "status": "draft"
+}

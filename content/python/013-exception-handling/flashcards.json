@@ -1,0 +1,22 @@
+[
+  {"q":"What is an exception?","a":"A runtime signal that normal execution cannot continue normally."},
+  {"q":"What starts a guarded operation?","a":"The try block."},
+  {"q":"What catches an expected error?","a":"A matching except block."},
+  {"q":"When does else run after try?","a":"Only when no exception occurred."},
+  {"q":"When does finally run?","a":"Whether the try block succeeds or fails."},
+  {"q":"What does raise do?","a":"Signals an exception to the caller."},
+  {"q":"What often raises ValueError?","a":"An unacceptable value, such as invalid numeric text."},
+  {"q":"What raises FileNotFoundError?","a":"Opening a file that does not exist."},
+  {"q":"What raises KeyError?","a":"Accessing a missing dictionary key with brackets."},
+  {"q":"Why keep try blocks narrow?","a":"It makes the operation that failed clear."},
+  {"q":"Why avoid bare except?","a":"It hides unexpected errors and control-flow signals."},
+  {"q":"Why avoid except Exception: pass?","a":"It silently removes evidence of bugs."},
+  {"q":"What is exception chaining?","a":"Raising a clearer error while retaining its original cause."},
+  {"q":"How is chaining written?","a":"raise NewError(...) from error."},
+  {"q":"What should validation handle?","a":"Known, predictable input rules."},
+  {"q":"What should logs include?","a":"Safe context, error type, and diagnostic detail for operators."},
+  {"q":"What should user errors avoid?","a":"Secrets, paths, and raw tracebacks."},
+  {"q":"What should a retry policy target?","a":"Transient failures that may succeed later."},
+  {"q":"When should an unexpected error propagate?","a":"When code cannot safely recover and it needs fixing."},
+  {"q":"Why test error paths?","a":"Reliability requires verifying expected failures as well as success."}
+]

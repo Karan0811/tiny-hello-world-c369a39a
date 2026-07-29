@@ -1,0 +1,22 @@
+[
+  {"q":"What is a file path?","a":"A location that identifies a file or folder."},
+  {"q":"What does pathlib.Path represent?","a":"A portable filesystem path object."},
+  {"q":"What does r mode do?","a":"Opens an existing file for reading."},
+  {"q":"What does w mode do?","a":"Writes and replaces existing file contents."},
+  {"q":"What does a mode do?","a":"Appends new content to the end of a file."},
+  {"q":"What does x mode do?","a":"Creates a new file and fails if it already exists."},
+  {"q":"Why use with open(...)?","a":"It closes the file reliably after the block."},
+  {"q":"Why specify UTF-8?","a":"It makes text encoding predictable across systems."},
+  {"q":"What does Path.read_text do?","a":"Reads a complete text file into a string."},
+  {"q":"What does Path.write_text do?","a":"Writes a complete string to a text file."},
+  {"q":"Which module parses JSON?","a":"The json module."},
+  {"q":"What does json.load return?","a":"Python values parsed from a JSON file."},
+  {"q":"What does json.dump do?","a":"Writes Python values as JSON to a file."},
+  {"q":"Which module handles CSV safely?","a":"The csv module."},
+  {"q":"Why use csv.DictReader?","a":"It accesses row values by named header."},
+  {"q":"Why use newline='' with CSV files?","a":"It lets the csv module manage line endings."},
+  {"q":"What is a relative path based on?","a":"The process current working directory."},
+  {"q":"Why validate file input?","a":"External data can be missing, malformed, or unexpected."},
+  {"q":"How should large text files often be read?","a":"Iterate one line at a time."},
+  {"q":"What is atomic output writing for?","a":"Avoiding a final target that contains partial data."}
+]
