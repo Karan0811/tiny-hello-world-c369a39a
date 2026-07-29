@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-019"
+    "python-019-virtual-environments-and-packages"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Testing and Debugging.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-019",
-  "nextLesson": "python-021"
+  "previousLesson": "python-019-virtual-environments-and-packages",
+  "nextLesson": "python-021-python-best-practices"
 }

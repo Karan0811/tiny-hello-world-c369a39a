@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-026"
+    "python-026-configuration-and-environment-variables"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Command-Line Interfaces.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-026",
-  "nextLesson": "python-028"
+  "previousLesson": "python-026-configuration-and-environment-variables",
+  "nextLesson": "python-028-python-packaging-distribution"
 }

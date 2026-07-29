@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-042"
+    "python-042-python-memory-management-garbage-collection"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Internals: Namespaces, Bytecode, and Execution Model.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-042",
-  "nextLesson": "python-044"
+  "previousLesson": "python-042-python-memory-management-garbage-collection",
+  "nextLesson": "python-044-advanced-file-handling-serialization"
 }

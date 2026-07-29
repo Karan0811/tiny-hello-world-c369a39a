@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-039"
+    "python-039-context-managers-with-statement"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Functional Programming in Python.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-039",
-  "nextLesson": "python-041"
+  "previousLesson": "python-039-context-managers-with-statement",
+  "nextLesson": "python-041-advanced-exception-handling-custom-exceptions"
 }

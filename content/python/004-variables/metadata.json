@@ -7,7 +7,7 @@
   "difficulty": "Beginner",
   "estimatedTime": "45 minutes",
   "prerequisites": [
-    "python-003"
+    "python-003-running-python"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Variables.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-003",
-  "nextLesson": "python-005"
+  "previousLesson": "python-003-running-python",
+  "nextLesson": "python-005-data-types"
 }

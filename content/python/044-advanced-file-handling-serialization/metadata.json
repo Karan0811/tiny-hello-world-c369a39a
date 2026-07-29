@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-043"
+    "python-043-python-internals-namespaces-bytecode-execution-model"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Advanced File Handling and Serialization.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-043",
-  "nextLesson": "python-045"
+  "previousLesson": "python-043-python-internals-namespaces-bytecode-execution-model",
+  "nextLesson": "python-045-regular-expressions-regex-mastery"
 }

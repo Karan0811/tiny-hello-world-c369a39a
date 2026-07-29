@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-025"
+    "python-025-logging"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Configuration and Environment Variables.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-025",
-  "nextLesson": "python-027"
+  "previousLesson": "python-025-logging",
+  "nextLesson": "python-027-command-line-interfaces"
 }

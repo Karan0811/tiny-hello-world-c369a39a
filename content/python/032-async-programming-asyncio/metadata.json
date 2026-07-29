@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-031"
+    "python-031-python-concurrency-threading-multiprocessing"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Asynchronous Programming with Asyncio.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-031",
-  "nextLesson": "python-033"
+  "previousLesson": "python-031-python-concurrency-threading-multiprocessing",
+  "nextLesson": "python-033-python-type-hints-static-typing"
 }

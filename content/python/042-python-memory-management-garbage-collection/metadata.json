@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-041"
+    "python-041-advanced-exception-handling-custom-exceptions"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Memory Management and Garbage Collection.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-041",
-  "nextLesson": "python-043"
+  "previousLesson": "python-041-advanced-exception-handling-custom-exceptions",
+  "nextLesson": "python-043-python-internals-namespaces-bytecode-execution-model"
 }

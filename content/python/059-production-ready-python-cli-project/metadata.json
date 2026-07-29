@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-058"
+    "python-058-python-design-patterns-best-practices"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Production-Ready Python CLI Project.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-058",
-  "nextLesson": "python-060"
+  "previousLesson": "python-058-python-design-patterns-best-practices",
+  "nextLesson": "python-060-python-course-capstone-ai-utility-suite"
 }

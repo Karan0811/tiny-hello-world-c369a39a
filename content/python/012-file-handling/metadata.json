@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-011"
+    "python-011-modules-and-packages"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of File Handling.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-011",
-  "nextLesson": "python-013"
+  "previousLesson": "python-011-modules-and-packages",
+  "nextLesson": "python-013-exception-handling"
 }

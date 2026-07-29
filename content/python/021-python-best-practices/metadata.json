@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-020"
+    "python-020-testing-and-debugging"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Best Practices.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-020",
-  "nextLesson": "python-022"
+  "previousLesson": "python-020-testing-and-debugging",
+  "nextLesson": "python-022-modules-and-packages-advanced"
 }

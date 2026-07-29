@@ -7,7 +7,7 @@
   "difficulty": "Beginner",
   "estimatedTime": "45 minutes",
   "prerequisites": [
-    "python-006"
+    "python-006-type-conversion"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Operators.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-006",
-  "nextLesson": "python-008"
+  "previousLesson": "python-006-type-conversion",
+  "nextLesson": "python-008-conditional-statements"
 }

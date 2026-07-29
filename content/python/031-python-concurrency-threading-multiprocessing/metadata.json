@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-030"
+    "python-030-logging-debugging-python"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Concurrency: Threading and Multiprocessing.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-030",
-  "nextLesson": "python-032"
+  "previousLesson": "python-030-logging-debugging-python",
+  "nextLesson": "python-032-async-programming-asyncio"
 }

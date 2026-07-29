@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-033"
+    "python-033-python-type-hints-static-typing"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Virtual Environments and Dependency Management.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-033",
-  "nextLesson": "python-035"
+  "previousLesson": "python-033-python-type-hints-static-typing",
+  "nextLesson": "python-035-python-project-structure-best-practices"
 }

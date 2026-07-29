@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-034"
+    "python-034-virtual-environments-dependency-management"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Project Structure and Best Practices.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-034",
-  "nextLesson": "python-036"
+  "previousLesson": "python-034-virtual-environments-dependency-management",
+  "nextLesson": "python-036-python-capstone-production-application"
 }

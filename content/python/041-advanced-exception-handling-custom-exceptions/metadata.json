@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-040"
+    "python-040-functional-programming-python"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Advanced Exception Handling and Custom Exceptions.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-040",
-  "nextLesson": "python-042"
+  "previousLesson": "python-040-functional-programming-python",
+  "nextLesson": "python-042-python-memory-management-garbage-collection"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-056"
+    "python-056-python-packaging-distribution"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Performance Optimization and Profiling.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-056",
-  "nextLesson": "python-058"
+  "previousLesson": "python-056-python-packaging-distribution",
+  "nextLesson": "python-058-python-design-patterns-best-practices"
 }

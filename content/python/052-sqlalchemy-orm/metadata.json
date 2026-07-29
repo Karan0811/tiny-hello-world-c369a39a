@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-051"
+    "python-051-python-database-programming"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Object Relational Mapping with SQLAlchemy.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-051",
-  "nextLesson": "python-053"
+  "previousLesson": "python-051-python-database-programming",
+  "nextLesson": "python-053-testing-database-applications"
 }

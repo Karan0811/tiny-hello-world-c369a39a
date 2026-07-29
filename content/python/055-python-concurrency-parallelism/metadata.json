@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-054"
+    "python-054-python-logging-monitoring"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Concurrency and Parallelism.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-054",
-  "nextLesson": "python-056"
+  "previousLesson": "python-054-python-logging-monitoring",
+  "nextLesson": "python-056-python-packaging-distribution"
 }

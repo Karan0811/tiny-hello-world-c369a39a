@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-055"
+    "python-055-python-concurrency-parallelism"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Packaging and Distributing Python Applications.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-055",
-  "nextLesson": "python-057"
+  "previousLesson": "python-055-python-concurrency-parallelism",
+  "nextLesson": "python-057-python-performance-optimization-profiling"
 }

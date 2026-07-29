@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-029"
+    "python-029-python-testing-pytest"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Logging and Debugging in Python.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-029",
-  "nextLesson": "python-031"
+  "previousLesson": "python-029-python-testing-pytest",
+  "nextLesson": "python-031-python-concurrency-threading-multiprocessing"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-046"
+    "python-046-object-oriented-design-patterns-python"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Performance Optimization and Profiling.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-046",
-  "nextLesson": "python-048"
+  "previousLesson": "python-046-object-oriented-design-patterns-python",
+  "nextLesson": "python-048-building-production-ready-python-cli-applications"
 }

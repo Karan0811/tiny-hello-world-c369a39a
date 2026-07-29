@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-057"
+    "python-057-python-performance-optimization-profiling"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Design Patterns and Best Practices.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-057",
-  "nextLesson": "python-059"
+  "previousLesson": "python-057-python-performance-optimization-profiling",
+  "nextLesson": "python-059-production-ready-python-cli-project"
 }

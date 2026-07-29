@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-050"
+    "python-050-web-scraping-with-python"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Database Programming.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-050",
-  "nextLesson": "python-052"
+  "previousLesson": "python-050-web-scraping-with-python",
+  "nextLesson": "python-052-sqlalchemy-orm"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-035"
+    "python-035-python-project-structure-best-practices"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Capstone: Production-Ready Application.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-035",
-  "nextLesson": "python-037"
+  "previousLesson": "python-035-python-project-structure-best-practices",
+  "nextLesson": "python-037-advanced-iterators-generators"
 }

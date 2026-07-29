@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-047"
+    "python-047-performance-optimization-profiling"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Production-Ready Python CLI Applications.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-047",
-  "nextLesson": "python-049"
+  "previousLesson": "python-047-performance-optimization-profiling",
+  "nextLesson": "python-049-python-networking-and-apis"
 }

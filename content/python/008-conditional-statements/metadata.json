@@ -7,7 +7,7 @@
   "difficulty": "Beginner",
   "estimatedTime": "45 minutes",
   "prerequisites": [
-    "python-007"
+    "python-007-operators"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Conditional Statements.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-007",
-  "nextLesson": "python-009"
+  "previousLesson": "python-007-operators",
+  "nextLesson": "python-009-loops"
 }

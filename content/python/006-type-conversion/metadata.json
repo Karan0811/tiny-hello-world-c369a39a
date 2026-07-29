@@ -7,7 +7,7 @@
   "difficulty": "Beginner",
   "estimatedTime": "45 minutes",
   "prerequisites": [
-    "python-005"
+    "python-005-data-types"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Type Conversion.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-005",
-  "nextLesson": "python-007"
+  "previousLesson": "python-005-data-types",
+  "nextLesson": "python-007-operators"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-013"
+    "python-013-exception-handling"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Object-Oriented Programming.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-013",
-  "nextLesson": "python-015"
+  "previousLesson": "python-013-exception-handling",
+  "nextLesson": "python-015-advanced-oop"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-017"
+    "python-017-comprehensions"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of File System and pathlib.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-017",
-  "nextLesson": "python-019"
+  "previousLesson": "python-017-comprehensions",
+  "nextLesson": "python-019-virtual-environments-and-packages"
 }

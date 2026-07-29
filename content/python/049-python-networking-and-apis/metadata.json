@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-048"
+    "python-048-building-production-ready-python-cli-applications"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Networking and APIs.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-048",
-  "nextLesson": "python-050"
+  "previousLesson": "python-048-building-production-ready-python-cli-applications",
+  "nextLesson": "python-050-web-scraping-with-python"
 }

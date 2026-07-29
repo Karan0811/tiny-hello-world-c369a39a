@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-059"
+    "python-059-production-ready-python-cli-project"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Course Capstone: Production AI Utility Suite.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-059",
+  "previousLesson": "python-059-production-ready-python-cli-project",
   "nextLesson": null
 }

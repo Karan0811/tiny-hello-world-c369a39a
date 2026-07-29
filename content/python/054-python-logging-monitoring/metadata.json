@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-053"
+    "python-053-testing-database-applications"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Logging and Monitoring.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-053",
-  "nextLesson": "python-055"
+  "previousLesson": "python-053-testing-database-applications",
+  "nextLesson": "python-055-python-concurrency-parallelism"
 }

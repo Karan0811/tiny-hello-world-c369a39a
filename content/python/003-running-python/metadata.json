@@ -7,7 +7,7 @@
   "difficulty": "Beginner",
   "estimatedTime": "45 minutes",
   "prerequisites": [
-    "python-002"
+    "python-002-installing-python"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Running Python.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-002",
-  "nextLesson": "python-004"
+  "previousLesson": "python-002-installing-python",
+  "nextLesson": "python-004-variables"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-016"
+    "python-016-iterators-generators-decorators"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Comprehensions.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-016",
-  "nextLesson": "python-018"
+  "previousLesson": "python-016-iterators-generators-decorators",
+  "nextLesson": "python-018-file-system-and-pathlib"
 }

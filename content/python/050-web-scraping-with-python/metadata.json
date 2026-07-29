@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-049"
+    "python-049-python-networking-and-apis"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Web Scraping with Python.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-049",
-  "nextLesson": "python-051"
+  "previousLesson": "python-049-python-networking-and-apis",
+  "nextLesson": "python-051-python-database-programming"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-037"
+    "python-037-advanced-iterators-generators"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Decorators.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-037",
-  "nextLesson": "python-039"
+  "previousLesson": "python-037-advanced-iterators-generators",
+  "nextLesson": "python-039-context-managers-with-statement"
 }

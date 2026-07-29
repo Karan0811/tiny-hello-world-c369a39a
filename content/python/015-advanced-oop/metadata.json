@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-014"
+    "python-014-object-oriented-programming"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Advanced OOP.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-014",
-  "nextLesson": "python-016"
+  "previousLesson": "python-014-object-oriented-programming",
+  "nextLesson": "python-016-iterators-generators-decorators"
 }

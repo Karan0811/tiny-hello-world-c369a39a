@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-027"
+    "python-027-command-line-interfaces"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Packaging and Distribution.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-027",
-  "nextLesson": "python-029"
+  "previousLesson": "python-027-command-line-interfaces",
+  "nextLesson": "python-029-python-testing-pytest"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Beginner",
   "estimatedTime": "45 minutes",
   "prerequisites": [
-    "python-008"
+    "python-008-conditional-statements"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Loops.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-008",
-  "nextLesson": "python-010"
+  "previousLesson": "python-008-conditional-statements",
+  "nextLesson": "python-010-functions"
 }

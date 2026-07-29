@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-022"
+    "python-022-modules-and-packages-advanced"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of asyncio and Concurrency.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-022",
-  "nextLesson": "python-024"
+  "previousLesson": "python-022-modules-and-packages-advanced",
+  "nextLesson": "python-024-python-project-structure"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Beginner",
   "estimatedTime": "45 minutes",
   "prerequisites": [
-    "python-004"
+    "python-004-variables"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Data Types.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-004",
-  "nextLesson": "python-006"
+  "previousLesson": "python-004-variables",
+  "nextLesson": "python-006-type-conversion"
 }

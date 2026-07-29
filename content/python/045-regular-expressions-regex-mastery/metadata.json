@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-044"
+    "python-044-advanced-file-handling-serialization"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Regular Expressions.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-044",
-  "nextLesson": "python-046"
+  "previousLesson": "python-044-advanced-file-handling-serialization",
+  "nextLesson": "python-046-object-oriented-design-patterns-python"
 }

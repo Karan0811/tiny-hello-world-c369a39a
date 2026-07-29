@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-032"
+    "python-032-async-programming-asyncio"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Type Hints and Static Typing.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-032",
-  "nextLesson": "python-034"
+  "previousLesson": "python-032-async-programming-asyncio",
+  "nextLesson": "python-034-virtual-environments-dependency-management"
 }

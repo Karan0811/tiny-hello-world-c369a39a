@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-012"
+    "python-012-file-handling"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Exception Handling.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-012",
-  "nextLesson": "python-014"
+  "previousLesson": "python-012-file-handling",
+  "nextLesson": "python-014-object-oriented-programming"
 }

@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-023"
+    "python-023-asyncio-and-concurrency"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Project Structure.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-023",
-  "nextLesson": "python-025"
+  "previousLesson": "python-023-asyncio-and-concurrency",
+  "nextLesson": "python-025-logging"
 }

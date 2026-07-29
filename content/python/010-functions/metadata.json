@@ -7,7 +7,7 @@
   "difficulty": "Beginner",
   "estimatedTime": "45 minutes",
   "prerequisites": [
-    "python-009"
+    "python-009-loops"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Functions.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-009",
-  "nextLesson": "python-011"
+  "previousLesson": "python-009-loops",
+  "nextLesson": "python-011-modules-and-packages"
 }

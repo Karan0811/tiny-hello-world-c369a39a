@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-015"
+    "python-015-advanced-oop"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Iterators, Generators & Decorators.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-015",
-  "nextLesson": "python-017"
+  "previousLesson": "python-015-advanced-oop",
+  "nextLesson": "python-017-comprehensions"
 }

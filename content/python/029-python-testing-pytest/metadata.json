@@ -7,7 +7,7 @@
   "difficulty": "Advanced",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-028"
+    "python-028-python-packaging-distribution"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Python Testing with Pytest.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-028",
-  "nextLesson": "python-030"
+  "previousLesson": "python-028-python-packaging-distribution",
+  "nextLesson": "python-030-logging-debugging-python"
 }

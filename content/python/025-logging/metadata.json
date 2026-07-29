@@ -7,7 +7,7 @@
   "difficulty": "Intermediate",
   "estimatedTime": "60 minutes",
   "prerequisites": [
-    "python-024"
+    "python-024-python-project-structure"
   ],
   "learningObjectives": [
     "Explain the purpose and trade-offs of Logging.",
@@ -23,6 +23,6 @@
     "python",
     "software-engineering"
   ],
-  "previousLesson": "python-024",
-  "nextLesson": "python-026"
+  "previousLesson": "python-024-python-project-structure",
+  "nextLesson": "python-026-configuration-and-environment-variables"
 }
